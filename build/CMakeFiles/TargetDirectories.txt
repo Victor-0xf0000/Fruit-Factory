@@ -1,0 +1,3 @@
+C:/Users/victo/Documents/programacao/c++/Fruit factory/build/CMakeFiles/FruitFactory.dir
+C:/Users/victo/Documents/programacao/c++/Fruit factory/build/CMakeFiles/edit_cache.dir
+C:/Users/victo/Documents/programacao/c++/Fruit factory/build/CMakeFiles/rebuild_cache.dir
