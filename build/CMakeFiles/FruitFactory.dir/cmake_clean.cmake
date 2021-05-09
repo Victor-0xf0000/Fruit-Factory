@@ -1,5 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/FruitFactory.dir/src/Game.cpp.obj"
+  "CMakeFiles/FruitFactory.dir/src/Game.cpp.obj.d"
+  "CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.obj"
+  "CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.obj.d"
   "CMakeFiles/FruitFactory.dir/src/main.cpp.obj"
+  "CMakeFiles/FruitFactory.dir/src/main.cpp.obj.d"
   "FruitFactory.exe"
   "FruitFactory.exe.manifest"
   "FruitFactory.lib"
