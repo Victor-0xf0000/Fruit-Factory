@@ -1,0 +1,27 @@
+-States []
+	-MainMenuState []
+	-GameState []
+	-PauseState []
+
+-Core []
+	-WindowManager [x]
+	-StateManager []
+	-Input controller []
+		-Keyboard []
+		-Mouse []
+	-Sprites []
+
+-Game []
+	-Fruit box []
+	-inputs []
+	-Conveyor belt []
+	-Slicer Machine []
+	-Separator Machine []
+
+////////////////////////
+OBSCURE AREA
+-Core []
+	-Sounds????? []
+-Game []
+	-Music????????????????????? []
+////////////////////////
