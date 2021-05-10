@@ -4,6 +4,11 @@ project(FruitFactory)
 
 include_directories("src/include")
 
-add_executable(FruitFactory "src/main.cpp" "src/Game.cpp" "src/WindowManager.cpp")
+add_executable(FruitFactory "src/main.cpp" 
+	"src/Game.cpp" 
+	"src/WindowManager.cpp"
+	"src/SceneManager.cpp"
+	"src/Scene.cpp"
+	"src/TestScene.cpp")
 
 target_link_libraries(FruitFactory "lib/SDL2" "lib/SDL2main" "lib/SDL2_image")

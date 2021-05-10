@@ -12,12 +12,15 @@ public:
   void run();
 private:
   bool initialize();
+	bool loadData();
 
   void inputHandler();
   void update();
   void render();
 
 	struct WindowManager* windowManager;
+	struct SceneManager* sceneManager;
+
 	bool isRunning;
 };
 

@@ -118,11 +118,74 @@ CMakeFiles\FruitFactory.dir\src\WindowManager.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\FruitFactory.dir\src\WindowManager.cpp.s /c C:\Users\Victor\Documents\programming\cpp\Fruit-Factory\src\WindowManager.cpp
 <<
 
+CMakeFiles\FruitFactory.dir\src\SceneManager.cpp.obj: CMakeFiles\FruitFactory.dir\flags.make
+CMakeFiles\FruitFactory.dir\src\SceneManager.cpp.obj: ..\src\SceneManager.cpp
+CMakeFiles\FruitFactory.dir\src\SceneManager.cpp.obj: CMakeFiles\FruitFactory.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Victor\Documents\programming\cpp\Fruit-Factory\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\FruitFactory.dir\src\SceneManager.cpp.obj.d --working-dir=C:\Users\Victor\Documents\programming\cpp\Fruit-Factory\build --filter-prefix="Observação: incluindo arquivo: " -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\FruitFactory.dir\src\SceneManager.cpp.obj /FdCMakeFiles\FruitFactory.dir\ /FS -c C:\Users\Victor\Documents\programming\cpp\Fruit-Factory\src\SceneManager.cpp
+<<
+
+CMakeFiles\FruitFactory.dir\src\SceneManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe > CMakeFiles\FruitFactory.dir\src\SceneManager.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Victor\Documents\programming\cpp\Fruit-Factory\src\SceneManager.cpp
+<<
+
+CMakeFiles\FruitFactory.dir\src\SceneManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\FruitFactory.dir\src\SceneManager.cpp.s /c C:\Users\Victor\Documents\programming\cpp\Fruit-Factory\src\SceneManager.cpp
+<<
+
+CMakeFiles\FruitFactory.dir\src\Scene.cpp.obj: CMakeFiles\FruitFactory.dir\flags.make
+CMakeFiles\FruitFactory.dir\src\Scene.cpp.obj: ..\src\Scene.cpp
+CMakeFiles\FruitFactory.dir\src\Scene.cpp.obj: CMakeFiles\FruitFactory.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Victor\Documents\programming\cpp\Fruit-Factory\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FruitFactory.dir/src/Scene.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\FruitFactory.dir\src\Scene.cpp.obj.d --working-dir=C:\Users\Victor\Documents\programming\cpp\Fruit-Factory\build --filter-prefix="Observação: incluindo arquivo: " -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\FruitFactory.dir\src\Scene.cpp.obj /FdCMakeFiles\FruitFactory.dir\ /FS -c C:\Users\Victor\Documents\programming\cpp\Fruit-Factory\src\Scene.cpp
+<<
+
+CMakeFiles\FruitFactory.dir\src\Scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/Scene.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe > CMakeFiles\FruitFactory.dir\src\Scene.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Victor\Documents\programming\cpp\Fruit-Factory\src\Scene.cpp
+<<
+
+CMakeFiles\FruitFactory.dir\src\Scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/Scene.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\FruitFactory.dir\src\Scene.cpp.s /c C:\Users\Victor\Documents\programming\cpp\Fruit-Factory\src\Scene.cpp
+<<
+
+CMakeFiles\FruitFactory.dir\src\TestScene.cpp.obj: CMakeFiles\FruitFactory.dir\flags.make
+CMakeFiles\FruitFactory.dir\src\TestScene.cpp.obj: ..\src\TestScene.cpp
+CMakeFiles\FruitFactory.dir\src\TestScene.cpp.obj: CMakeFiles\FruitFactory.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Victor\Documents\programming\cpp\Fruit-Factory\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FruitFactory.dir/src/TestScene.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\FruitFactory.dir\src\TestScene.cpp.obj.d --working-dir=C:\Users\Victor\Documents\programming\cpp\Fruit-Factory\build --filter-prefix="Observação: incluindo arquivo: " -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\FruitFactory.dir\src\TestScene.cpp.obj /FdCMakeFiles\FruitFactory.dir\ /FS -c C:\Users\Victor\Documents\programming\cpp\Fruit-Factory\src\TestScene.cpp
+<<
+
+CMakeFiles\FruitFactory.dir\src\TestScene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/TestScene.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe > CMakeFiles\FruitFactory.dir\src\TestScene.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Victor\Documents\programming\cpp\Fruit-Factory\src\TestScene.cpp
+<<
+
+CMakeFiles\FruitFactory.dir\src\TestScene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/TestScene.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\FruitFactory.dir\src\TestScene.cpp.s /c C:\Users\Victor\Documents\programming\cpp\Fruit-Factory\src\TestScene.cpp
+<<
+
 # Object files for target FruitFactory
 FruitFactory_OBJECTS = \
 "CMakeFiles\FruitFactory.dir\src\main.cpp.obj" \
 "CMakeFiles\FruitFactory.dir\src\Game.cpp.obj" \
-"CMakeFiles\FruitFactory.dir\src\WindowManager.cpp.obj"
+"CMakeFiles\FruitFactory.dir\src\WindowManager.cpp.obj" \
+"CMakeFiles\FruitFactory.dir\src\SceneManager.cpp.obj" \
+"CMakeFiles\FruitFactory.dir\src\Scene.cpp.obj" \
+"CMakeFiles\FruitFactory.dir\src\TestScene.cpp.obj"
 
 # External object files for target FruitFactory
 FruitFactory_EXTERNAL_OBJECTS =
@@ -130,9 +193,12 @@ FruitFactory_EXTERNAL_OBJECTS =
 FruitFactory.exe: CMakeFiles\FruitFactory.dir\src\main.cpp.obj
 FruitFactory.exe: CMakeFiles\FruitFactory.dir\src\Game.cpp.obj
 FruitFactory.exe: CMakeFiles\FruitFactory.dir\src\WindowManager.cpp.obj
+FruitFactory.exe: CMakeFiles\FruitFactory.dir\src\SceneManager.cpp.obj
+FruitFactory.exe: CMakeFiles\FruitFactory.dir\src\Scene.cpp.obj
+FruitFactory.exe: CMakeFiles\FruitFactory.dir\src\TestScene.cpp.obj
 FruitFactory.exe: CMakeFiles\FruitFactory.dir\build.make
 FruitFactory.exe: CMakeFiles\FruitFactory.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Victor\Documents\programming\cpp\Fruit-Factory\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable FruitFactory.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Victor\Documents\programming\cpp\Fruit-Factory\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable FruitFactory.exe"
 	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\FruitFactory.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\FruitFactory.dir\objects1.rsp @<<
  /out:FruitFactory.exe /implib:FruitFactory.lib /pdb:C:\Users\Victor\Documents\programming\cpp\Fruit-Factory\build\FruitFactory.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  lib/SDL2.lib lib/SDL2main.lib lib/SDL2_image.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

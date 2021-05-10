@@ -1,11 +1,11 @@
--States []
-	-MainMenuState []
-	-GameState []
-	-PauseState []
-
+-Scenes []
+	-Scene [x]
+	-MenuScene [] -- maybe
+	-GameScene []
+	-TestScene [x]
 -Core []
 	-WindowManager [x]
-	-StateManager []
+	-SceneManager [x]
 	-Input controller []
 		-Keyboard []
 		-Mouse []

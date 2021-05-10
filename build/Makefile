@@ -142,6 +142,78 @@ src\Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FruitFactory.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FruitFactory.dir\src\Game.cpp.s
 .PHONY : src\Game.cpp.s
 
+src\Scene.obj: src\Scene.cpp.obj
+.PHONY : src\Scene.obj
+
+# target to build an object file
+src\Scene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FruitFactory.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FruitFactory.dir\src\Scene.cpp.obj
+.PHONY : src\Scene.cpp.obj
+
+src\Scene.i: src\Scene.cpp.i
+.PHONY : src\Scene.i
+
+# target to preprocess a source file
+src\Scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FruitFactory.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FruitFactory.dir\src\Scene.cpp.i
+.PHONY : src\Scene.cpp.i
+
+src\Scene.s: src\Scene.cpp.s
+.PHONY : src\Scene.s
+
+# target to generate assembly for a file
+src\Scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FruitFactory.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FruitFactory.dir\src\Scene.cpp.s
+.PHONY : src\Scene.cpp.s
+
+src\SceneManager.obj: src\SceneManager.cpp.obj
+.PHONY : src\SceneManager.obj
+
+# target to build an object file
+src\SceneManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FruitFactory.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FruitFactory.dir\src\SceneManager.cpp.obj
+.PHONY : src\SceneManager.cpp.obj
+
+src\SceneManager.i: src\SceneManager.cpp.i
+.PHONY : src\SceneManager.i
+
+# target to preprocess a source file
+src\SceneManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FruitFactory.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FruitFactory.dir\src\SceneManager.cpp.i
+.PHONY : src\SceneManager.cpp.i
+
+src\SceneManager.s: src\SceneManager.cpp.s
+.PHONY : src\SceneManager.s
+
+# target to generate assembly for a file
+src\SceneManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FruitFactory.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FruitFactory.dir\src\SceneManager.cpp.s
+.PHONY : src\SceneManager.cpp.s
+
+src\TestScene.obj: src\TestScene.cpp.obj
+.PHONY : src\TestScene.obj
+
+# target to build an object file
+src\TestScene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FruitFactory.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FruitFactory.dir\src\TestScene.cpp.obj
+.PHONY : src\TestScene.cpp.obj
+
+src\TestScene.i: src\TestScene.cpp.i
+.PHONY : src\TestScene.i
+
+# target to preprocess a source file
+src\TestScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FruitFactory.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FruitFactory.dir\src\TestScene.cpp.i
+.PHONY : src\TestScene.cpp.i
+
+src\TestScene.s: src\TestScene.cpp.s
+.PHONY : src\TestScene.s
+
+# target to generate assembly for a file
+src\TestScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FruitFactory.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FruitFactory.dir\src\TestScene.cpp.s
+.PHONY : src\TestScene.cpp.s
+
 src\WindowManager.obj: src\WindowManager.cpp.obj
 .PHONY : src\WindowManager.obj
 
@@ -202,6 +274,15 @@ help:
 	@echo ... src/Game.obj
 	@echo ... src/Game.i
 	@echo ... src/Game.s
+	@echo ... src/Scene.obj
+	@echo ... src/Scene.i
+	@echo ... src/Scene.s
+	@echo ... src/SceneManager.obj
+	@echo ... src/SceneManager.i
+	@echo ... src/SceneManager.s
+	@echo ... src/TestScene.obj
+	@echo ... src/TestScene.i
+	@echo ... src/TestScene.s
 	@echo ... src/WindowManager.obj
 	@echo ... src/WindowManager.i
 	@echo ... src/WindowManager.s

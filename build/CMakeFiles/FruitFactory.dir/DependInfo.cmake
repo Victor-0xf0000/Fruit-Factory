@@ -9,6 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/Game.cpp" "CMakeFiles/FruitFactory.dir/src/Game.cpp.obj" "msvc" "CMakeFiles/FruitFactory.dir/src/Game.cpp.obj.d"
+  "C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/Scene.cpp" "CMakeFiles/FruitFactory.dir/src/Scene.cpp.obj" "msvc" "CMakeFiles/FruitFactory.dir/src/Scene.cpp.obj.d"
+  "C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/SceneManager.cpp" "CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.obj" "msvc" "CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.obj.d"
+  "C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/TestScene.cpp" "CMakeFiles/FruitFactory.dir/src/TestScene.cpp.obj" "msvc" "CMakeFiles/FruitFactory.dir/src/TestScene.cpp.obj.d"
   "C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/WindowManager.cpp" "CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.obj" "msvc" "CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.obj.d"
   "C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/main.cpp" "CMakeFiles/FruitFactory.dir/src/main.cpp.obj" "msvc" "CMakeFiles/FruitFactory.dir/src/main.cpp.obj.d"
   )
