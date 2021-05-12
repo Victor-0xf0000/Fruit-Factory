@@ -142,6 +142,30 @@ src\Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FruitFactory.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FruitFactory.dir\src\Game.cpp.s
 .PHONY : src\Game.cpp.s
 
+src\InputController.obj: src\InputController.cpp.obj
+.PHONY : src\InputController.obj
+
+# target to build an object file
+src\InputController.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FruitFactory.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj
+.PHONY : src\InputController.cpp.obj
+
+src\InputController.i: src\InputController.cpp.i
+.PHONY : src\InputController.i
+
+# target to preprocess a source file
+src\InputController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FruitFactory.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FruitFactory.dir\src\InputController.cpp.i
+.PHONY : src\InputController.cpp.i
+
+src\InputController.s: src\InputController.cpp.s
+.PHONY : src\InputController.s
+
+# target to generate assembly for a file
+src\InputController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FruitFactory.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FruitFactory.dir\src\InputController.cpp.s
+.PHONY : src\InputController.cpp.s
+
 src\Scene.obj: src\Scene.cpp.obj
 .PHONY : src\Scene.obj
 
@@ -274,6 +298,9 @@ help:
 	@echo ... src/Game.obj
 	@echo ... src/Game.i
 	@echo ... src/Game.s
+	@echo ... src/InputController.obj
+	@echo ... src/InputController.i
+	@echo ... src/InputController.s
 	@echo ... src/Scene.obj
 	@echo ... src/Scene.i
 	@echo ... src/Scene.s

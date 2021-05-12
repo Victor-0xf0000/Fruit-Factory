@@ -11,11 +11,12 @@ public:
 	TestScene();
 	virtual ~TestScene();
 
-	void inputHandler(const Uint8* state) override;
+	void inputHandler() override;
 	void update() override;
 	void render(SDL_Renderer* renderer) override;
 private:
 	int r, g, b;
+	int changeBackground;
 };
 
 #endif // TEST_SCENE_H

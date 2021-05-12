@@ -236,8 +236,241 @@ CMakeFiles\FruitFactory.dir\src\Game.cpp.obj: "C:\Program Files (x86)\Microsoft 
 CMakeFiles\FruitFactory.dir\src\Game.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cctype"
 CMakeFiles\FruitFactory.dir\src\Game.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\ctype.h"
 CMakeFiles\FruitFactory.dir\src\Game.cpp.obj: ..\src\include\Core\ErrorLog.h
+CMakeFiles\FruitFactory.dir\src\Game.cpp.obj: ..\src\include\Core\InputController.h
+CMakeFiles\FruitFactory.dir\src\Game.cpp.obj: ..\src\include\Core\InputType.h
+CMakeFiles\FruitFactory.dir\src\Game.cpp.obj: ..\src\include\Core\Math\Vector2.h
 CMakeFiles\FruitFactory.dir\src\Game.cpp.obj: ..\src\include\Scenes\TestScene.h
 CMakeFiles\FruitFactory.dir\src\Game.cpp.obj: ..\src\include\Core\Scene.h
+
+
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\InputController.cpp
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\Core\InputController.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\Core\InputType.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_main.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_stdinc.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_config.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_platform.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\winapifamily.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\winpackagefamily.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\sdkddkver.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\stddef.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vcruntime.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\sal.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\concurrencysal.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vadefs.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\stdarg.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_assert.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_atomic.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_audio.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_error.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_endian.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_mutex.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_thread.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\process.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_startup.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\math.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_math.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vcruntime_startup.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wprocess.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_rwops.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_clipboard.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_cpuinfo.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\intrin.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\intrin0.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\setjmp.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\immintrin.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\wmmintrin.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\nmmintrin.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\smmintrin.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\tmmintrin.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\pmmintrin.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\emmintrin.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xmmintrin.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\mmintrin.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\malloc.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_malloc.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\zmmintrin.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\ammintrin.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_events.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_video.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_pixels.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_rect.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_surface.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_blendmode.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_keyboard.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_keycode.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_scancode.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_mouse.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_joystick.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_gamecontroller.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_sensor.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_quit.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_gesture.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_touch.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_filesystem.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_haptic.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_hints.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_loadso.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_log.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_messagebox.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_metal.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_power.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_render.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_shape.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_system.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_timer.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_version.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_locale.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\SDL_misc.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\begin_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\SDL2\close_code.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\Core\Math\Vector2.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: ..\src\include\Core\ErrorLog.h
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\stdio.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wstdio.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_stdio_config.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\string"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\yvals_core.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xkeycheck.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\iosfwd"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\yvals.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\crtdbg.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vcruntime_new_debug.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vcruntime_new.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\crtdefs.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\use_ansi.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cstdio"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cstring"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\string.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_memory.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_memcpy_s.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\errno.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vcruntime_string.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wstring.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cwchar"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\wchar.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wconio.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wctype.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wdirect.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wio.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_share.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wstdlib.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wtime.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\sys\stat.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\sys\types.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstddef"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cstddef"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xtr1common"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cstdlib"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\math.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\stdlib.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_search.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\limits.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\initializer_list"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xmemory"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cstdint"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\stdint.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\limits"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cfloat"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\float.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\climits"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\isa_availability.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\new"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\exception"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\type_traits"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vcruntime_exception.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\eh.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_terminate.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xatomic.h"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xutility"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\utility"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cctype"
+CMakeFiles\FruitFactory.dir\src\InputController.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\ctype.h"
 
 
 CMakeFiles\FruitFactory.dir\src\Scene.cpp.obj: ..\src\Scene.cpp
@@ -869,6 +1102,9 @@ CMakeFiles\FruitFactory.dir\src\TestScene.cpp.obj: "C:\Program Files (x86)\Micro
 CMakeFiles\FruitFactory.dir\src\TestScene.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\utility"
 CMakeFiles\FruitFactory.dir\src\TestScene.cpp.obj: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\cctype"
 CMakeFiles\FruitFactory.dir\src\TestScene.cpp.obj: "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\ctype.h"
+CMakeFiles\FruitFactory.dir\src\TestScene.cpp.obj: ..\src\include\Core\InputController.h
+CMakeFiles\FruitFactory.dir\src\TestScene.cpp.obj: ..\src\include\Core\InputType.h
+CMakeFiles\FruitFactory.dir\src\TestScene.cpp.obj: ..\src\include\Core\Math\Vector2.h
 
 
 CMakeFiles\FruitFactory.dir\src\WindowManager.cpp.obj: ..\src\WindowManager.cpp
@@ -1334,6 +1570,8 @@ CMakeFiles\FruitFactory.dir\src\main.cpp.obj: ..\src\include\SDL2\close_code.h
 
 ..\src\include\SDL2\SDL_scancode.h:
 
+..\src\include\Core\InputController.h:
+
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\type_traits":
 
 ..\src\include\SDL2\SDL_render.h:
@@ -1514,9 +1752,15 @@ CMakeFiles\FruitFactory.dir\src\main.cpp.obj: ..\src\include\SDL2\close_code.h
 
 ..\src\include\Core\ErrorLog.h:
 
+..\src\include\Core\InputType.h:
+
+..\src\include\Core\Math\Vector2.h:
+
 ..\src\include\Scenes\TestScene.h:
 
 ..\src\include\Core\Scene.h:
+
+..\src\InputController.cpp:
 
 ..\src\Scene.cpp:
 

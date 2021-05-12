@@ -1,11 +1,13 @@
 #include <Scenes/TestScene.h>
 
 #include <Core/ErrorLog.h>
+#include <Core/InputController.h>
 
 #include <SDL2/SDL.h>
 
 TestScene::TestScene(): Scene()
 {
+	this->changeBackground = 0b00;
 	this->r = 9;
 	this->g = 4; 
 	this->b = 12;
@@ -16,23 +18,33 @@ TestScene::~TestScene()
 {
 }
 
-void TestScene::inputHandler(const Uint8* state)
+void TestScene::inputHandler()
 {
-	if (state[SDL_SCANCODE_SPACE])
+	if (InputController::getKey(Key::A) == KEY_PRESSED)
 	{
-		if (this->r == 10 && this->g == 90 && this->b == 123)
+		this->changeBackground = 0b01;		
+	}
+	else
+	{
+		if (this->changeBackground == 0b01)
 		{
-			this->r = 90;
-			this->g = 120;
-			this->b = 143;
-		}
-		else 
-		{
-			this->r = 10;
-			this->g = 90;
-			this->b = 123;
+			if (this->r == 10 && this->g == 90 && this->b == 123)
+			{
+				this->r = 90;
+				this->g = 120;
+				this->b = 143;
+			}
+			else 
+			{
+				this->r = 10;
+				this->g = 90;
+				this->b = 123;
+			}
+
+			this->changeBackground = 0b00;
 		}
 	}
+	
 }
 
 void TestScene::update()

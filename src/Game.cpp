@@ -3,6 +3,7 @@
 #include <Core/WindowManager.h>
 #include <Core/SceneManager.h>
 #include <Core/ErrorLog.h>
+#include <Core/InputController.h>
 
 #include <Scenes/TestScene.h>
 
@@ -65,14 +66,12 @@ void Game::inputHandler()
 		}
 	}
 	
-	const Uint8* state = SDL_GetKeyboardState(NULL);
-	if (state[SDL_SCANCODE_ESCAPE])
+	if (InputController::getKey(Key::KEY_ESCAPE) == KEY_PRESSED)
 	{
 		this->isRunning = false;
 	}
-
-	this->sceneManager->getCurrent()->inputHandler(state);
 	
+	this->sceneManager->getCurrent()->inputHandler();
 }
 
 void Game::update()

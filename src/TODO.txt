@@ -3,17 +3,22 @@
 	-MenuScene [] -- maybe
 	-GameScene []
 	-TestScene [x]
+
 -Core []
 	-WindowManager [x]
 	-SceneManager [x]
-	-Input controller []
-		-Keyboard []
-		-Mouse []
-	-Sprites []
+	-Input controller [x]
+		-Keyboard [x]
+		-Mouse [x] -- TODO: Middle button support :)
+	-Sprites [] -- class
+	-EntityManager []
+	-Camera [] -- maybe
 
 -Game []
+	-Sprites [] -- pixel arts
 	-Fruit box []
 	-inputs []
+	-outputs []
 	-Conveyor belt []
 	-Slicer Machine []
 	-Separator Machine []

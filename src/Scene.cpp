@@ -10,7 +10,7 @@ Scene::~Scene()
 
 }
 
-void Scene::inputHandler(const Uint8* state) {}
+void Scene::inputHandler() {}
 void Scene::update()       {}
 void Scene::render(SDL_Renderer* renderer)       {}
 

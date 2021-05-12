@@ -9,7 +9,7 @@ public:
 	Scene();
 	virtual ~Scene();
 	
-	virtual void inputHandler(const Uint8* state);
+	virtual void inputHandler();
 	virtual void update();
 	virtual void render(SDL_Renderer* renderer);
 protected:

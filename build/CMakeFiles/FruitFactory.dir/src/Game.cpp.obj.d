@@ -232,5 +232,8 @@ C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.2
 C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29910/include/cctype
 C:/Program Files (x86)/Windows Kits/10/include/10.0.19041.0/ucrt/ctype.h
 C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/include/Core/ErrorLog.h
+C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/include/Core/InputController.h
+C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/include/Core/InputType.h
+C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/include/Core/Math/Vector2.h
 C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/include/Scenes/TestScene.h
 C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/include/Core/Scene.h
