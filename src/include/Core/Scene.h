@@ -9,6 +9,8 @@ public:
 	Scene();
 	virtual ~Scene();
 	
+	virtual void loadData(struct Game* game);
+
 	virtual void inputHandler();
 	virtual void update();
 	virtual void render(SDL_Renderer* renderer);

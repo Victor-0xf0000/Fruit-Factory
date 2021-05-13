@@ -2,6 +2,9 @@
 #define GAME_H
 
 #include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
+
+#include <Core/Sprite.h>
 
 class Game
 {
@@ -10,6 +13,7 @@ public:
   virtual ~Game();
 
   void run();
+	SDL_Renderer* getRenderer();
 private:
   bool initialize();
 	bool loadData();
@@ -22,6 +26,8 @@ private:
 	struct SceneManager* sceneManager;
 
 	bool isRunning;
+
+	Sprite* sp;
 };
 
 #endif // GAME_H

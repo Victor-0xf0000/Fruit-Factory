@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/FruitFactory.dir/src/Scene.cpp.obj.d"
   "CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.obj"
   "CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.obj.d"
+  "CMakeFiles/FruitFactory.dir/src/Sprite.cpp.obj"
+  "CMakeFiles/FruitFactory.dir/src/Sprite.cpp.obj.d"
   "CMakeFiles/FruitFactory.dir/src/TestScene.cpp.obj"
   "CMakeFiles/FruitFactory.dir/src/TestScene.cpp.obj.d"
   "CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.obj"

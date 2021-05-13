@@ -214,6 +214,30 @@ src\SceneManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FruitFactory.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FruitFactory.dir\src\SceneManager.cpp.s
 .PHONY : src\SceneManager.cpp.s
 
+src\Sprite.obj: src\Sprite.cpp.obj
+.PHONY : src\Sprite.obj
+
+# target to build an object file
+src\Sprite.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FruitFactory.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FruitFactory.dir\src\Sprite.cpp.obj
+.PHONY : src\Sprite.cpp.obj
+
+src\Sprite.i: src\Sprite.cpp.i
+.PHONY : src\Sprite.i
+
+# target to preprocess a source file
+src\Sprite.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FruitFactory.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FruitFactory.dir\src\Sprite.cpp.i
+.PHONY : src\Sprite.cpp.i
+
+src\Sprite.s: src\Sprite.cpp.s
+.PHONY : src\Sprite.s
+
+# target to generate assembly for a file
+src\Sprite.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FruitFactory.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\FruitFactory.dir\src\Sprite.cpp.s
+.PHONY : src\Sprite.cpp.s
+
 src\TestScene.obj: src\TestScene.cpp.obj
 .PHONY : src\TestScene.obj
 
@@ -307,6 +331,9 @@ help:
 	@echo ... src/SceneManager.obj
 	@echo ... src/SceneManager.i
 	@echo ... src/SceneManager.s
+	@echo ... src/Sprite.obj
+	@echo ... src/Sprite.i
+	@echo ... src/Sprite.s
 	@echo ... src/TestScene.obj
 	@echo ... src/TestScene.i
 	@echo ... src/TestScene.s

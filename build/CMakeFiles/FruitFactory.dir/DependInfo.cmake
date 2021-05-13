@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/InputController.cpp" "CMakeFiles/FruitFactory.dir/src/InputController.cpp.obj" "msvc" "CMakeFiles/FruitFactory.dir/src/InputController.cpp.obj.d"
   "C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/Scene.cpp" "CMakeFiles/FruitFactory.dir/src/Scene.cpp.obj" "msvc" "CMakeFiles/FruitFactory.dir/src/Scene.cpp.obj.d"
   "C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/SceneManager.cpp" "CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.obj" "msvc" "CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.obj.d"
+  "C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/Sprite.cpp" "CMakeFiles/FruitFactory.dir/src/Sprite.cpp.obj" "msvc" "CMakeFiles/FruitFactory.dir/src/Sprite.cpp.obj.d"
   "C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/TestScene.cpp" "CMakeFiles/FruitFactory.dir/src/TestScene.cpp.obj" "msvc" "CMakeFiles/FruitFactory.dir/src/TestScene.cpp.obj.d"
   "C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/WindowManager.cpp" "CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.obj" "msvc" "CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.obj.d"
   "C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/main.cpp" "CMakeFiles/FruitFactory.dir/src/main.cpp.obj" "msvc" "CMakeFiles/FruitFactory.dir/src/main.cpp.obj.d"

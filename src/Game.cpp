@@ -15,6 +15,17 @@ Game::Game(): windowManager(nullptr),
 
 	this->sceneManager = new SceneManager();
 	this->isRunning = true;
+
+	this->sp = new Sprite();
+	
+	SpriteData* sd = new SpriteData();
+	
+	SDL_Surface* surf = IMG_Load("Data/Sprites/TestSprite.png");
+
+	sd->texture = SDL_CreateTextureFromSurface(this->windowManager->renderer, surf);
+	SDL_FreeSurface(surf);
+
+	this->sp->setSpriteData(sd);
 }
 
 Game::~Game()
@@ -43,14 +54,29 @@ bool Game::initialize()
 	if (!this->windowManager->initializeWindow()) return false; 
 	if (!this->windowManager->initializeRenderer()) return false;
 	
+	
+	if (IMG_Init(IMG_INIT_PNG) == 0)
+	{
+		SDL_Log("Unable to initialize SDL_image: %s", SDL_GetError());
+		return false;
+	}
+
 	this->sceneManager->createScene("Test scene\0", new TestScene());
 	this->sceneManager->selectScene("Test scene\0");
+
+	this->loadData();
 	return true;
 }
 
 bool Game::loadData()
 {
+	this->sceneManager->getCurrent()->loadData(this);
 	return true;
+}
+
+SDL_Renderer* Game::getRenderer()
+{
+	return this->windowManager->renderer;
 }
 
 void Game::inputHandler()
@@ -82,5 +108,6 @@ void Game::update()
 void Game::render()
 {
 	this->sceneManager->getCurrent()->render(this->windowManager->renderer);
+	
 
 }

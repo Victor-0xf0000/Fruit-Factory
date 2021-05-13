@@ -10,6 +10,7 @@ add_executable(FruitFactory "src/main.cpp"
 	"src/SceneManager.cpp"
 	"src/Scene.cpp"
 	"src/TestScene.cpp"
-	"src/InputController.cpp")
+	"src/InputController.cpp"
+	"src/Sprite.cpp")
 
 target_link_libraries(FruitFactory "lib/SDL2" "lib/SDL2main" "lib/SDL2_image")

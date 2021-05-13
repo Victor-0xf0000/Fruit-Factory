@@ -10,8 +10,10 @@
 	-Input controller [x]
 		-Keyboard [x]
 		-Mouse [x] -- TODO: Middle button support :)
-	-Sprites [] -- class
+	-Sprites [x] -- class
+	-Entity []
 	-EntityManager []
+	-AssetsManager []
 	-Camera [] -- maybe
 
 -Game []

@@ -161,3 +161,8 @@ C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/include/SDL2/begin_c
 C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/include/SDL2/close_code.h
 C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/include/SDL2/begin_code.h
 C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/include/SDL2/close_code.h
+C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/include/SDL2/SDL_image.h
+C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/include/SDL2/begin_code.h
+C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/include/SDL2/close_code.h
+C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/include/Core/Sprite.h
+C:/Users/Victor/Documents/programming/cpp/Fruit-Factory/src/include/Core/Math/Vector2.h

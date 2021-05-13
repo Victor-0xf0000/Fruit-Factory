@@ -2,8 +2,9 @@
 
 #include <Core/ErrorLog.h>
 #include <Core/InputController.h>
+#include <Game.h>
 
-#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
 
 TestScene::TestScene(): Scene()
 {
@@ -16,6 +17,25 @@ TestScene::TestScene(): Scene()
 
 TestScene::~TestScene()
 {
+}
+
+void TestScene::loadData(Game* game)
+{
+	this->sp = new Sprite();
+	
+	SpriteData* sd = new SpriteData();
+		
+	this->sp->setSize(16, 16);
+	this->sp->setPosition(100, 106);
+	this->sp->setScale(5);
+	
+	SDL_Surface* surf = IMG_Load("Data/Sprites/TestSprite.png");
+
+	sd->texture = SDL_CreateTextureFromSurface(game->getRenderer(), surf);
+	SDL_FreeSurface(surf);
+
+	this->sp->setSpriteData(sd);
+	
 }
 
 void TestScene::inputHandler()
@@ -56,6 +76,7 @@ void TestScene::render(SDL_Renderer* renderer)
 {
 	SDL_SetRenderDrawColor(renderer, this->r, this->g, this->b, 255);
 	SDL_RenderClear(renderer);
-
+	
+	this->sp->draw(renderer);
 	SDL_RenderPresent(renderer);
 }
