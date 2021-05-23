@@ -47,7 +47,8 @@ Vector2i Sprite::getPosition()
 
 void Sprite::setSpriteData(SpriteData* sd)
 {
-	this->spriteData = sd;
+	this->spriteData->texture = sd->texture;
+	this->spriteData->rect = sd->rect;
 }
 
 SpriteData* Sprite::getSpriteData()
@@ -78,17 +79,20 @@ int Sprite::getHeight()
 
 void Sprite::draw(SDL_Renderer* renderer)
 {
-	SDL_Rect rect;
-	rect.w = this->width * this->scale;
-	rect.h = this->height * this->scale;
-	rect.x = this->x;
-	rect.y = this->y;
+	if (this->spriteData->texture)
+	{
+		SDL_Rect rect;
+		rect.w = this->width * this->scale;
+		rect.h = this->height * this->scale;
+		rect.x = this->x;
+		rect.y = this->y;
 
-	SDL_RenderCopyEx(renderer,
-			this->spriteData->texture,
-			nullptr,
-			&rect,
-			0,
-			nullptr,
-			SDL_FLIP_NONE);
+		SDL_RenderCopyEx(renderer,
+				this->spriteData->texture,
+				nullptr,
+				&rect,
+				0,
+				nullptr,
+				SDL_FLIP_NONE);
+	}
 }

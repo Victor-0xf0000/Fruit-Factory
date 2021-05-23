@@ -2,6 +2,8 @@
 
 #include <Core/ErrorLog.h>
 #include <Core/InputController.h>
+#include <Core/Sprite.h>
+#include <Entities/Boxes/BananaBox.h>
 #include <Game.h>
 
 #include <SDL2/SDL_image.h>
@@ -24,18 +26,25 @@ void TestScene::loadData(Game* game)
 	this->sp = new Sprite();
 	
 	SpriteData* sd = new SpriteData();
-		
+
 	this->sp->setSize(16, 16);
 	this->sp->setPosition(100, 106);
 	this->sp->setScale(5);
 	
-	SDL_Surface* surf = IMG_Load("Data/Sprites/TestSprite.png");
+	SDL_Surface* surf = IMG_Load("./Data/Sprites/TestSprite.png");
+	
+	if (!surf)
+	{
+		LOG("Cannot load test sprite");
+	}
 
-	sd->texture = SDL_CreateTextureFromSurface(game->getRenderer(), surf);
+	SDL_Texture* texture = IMG_LoadTexture(game->getRenderer(), "./Data/Sprites/TestSprite.png");
+	sd->texture = texture;
 	SDL_FreeSurface(surf);
 
 	this->sp->setSpriteData(sd);
-	
+	this->entity = new BananaBox(this->sp);
+
 }
 
 void TestScene::inputHandler()
@@ -64,12 +73,13 @@ void TestScene::inputHandler()
 			this->changeBackground = 0b00;
 		}
 	}
+	this->entity->inputHandler();
 	
 }
 
 void TestScene::update()
 {
-
+	this->entity->update(0.f);
 }
 
 void TestScene::render(SDL_Renderer* renderer)
@@ -77,6 +87,6 @@ void TestScene::render(SDL_Renderer* renderer)
 	SDL_SetRenderDrawColor(renderer, this->r, this->g, this->b, 255);
 	SDL_RenderClear(renderer);
 	
-	this->sp->draw(renderer);
+	this->entity->render(renderer);
 	SDL_RenderPresent(renderer);
 }

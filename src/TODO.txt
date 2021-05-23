@@ -15,6 +15,9 @@
 	-EntityManager []
 	-AssetsManager []
 	-Camera [] -- maybe
+	-levels []
+	-level load []
+	-animations []
 
 -Game []
 	-Sprites [] -- pixel arts
@@ -31,4 +34,8 @@ OBSCURE AREA
 	-Sounds????? []
 -Game []
 	-Music????????????????????? []
+-Scripting []
+	-- OMG WILL THIS HAVE SCRIPTING? 
+	-- I DON'T KNOW!!!!!
+	-- BUT, IF IT WILL HAVE, IT WILL BE LUA!!!!!!!!!!!!!!!!!!!!!
 ////////////////////////

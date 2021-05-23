@@ -2,7 +2,6 @@
 #define TEST_SCENE_H
 
 #include <Core/Scene.h>
-#include <Core/Sprite.h>
 
 #include <SDL2/SDL.h>
 
@@ -21,7 +20,8 @@ public:
 private:
 	int r, g, b;
 	int changeBackground;
-	Sprite* sp;
+	class Sprite* sp;
+	class BananaBox* entity;
 };
 
 #endif // TEST_SCENE_H

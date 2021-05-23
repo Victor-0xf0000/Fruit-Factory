@@ -12,7 +12,7 @@ Scene::~Scene()
 
 }
 
-void Scene::loadData(Game* game) {};
+void Scene::loadData(Game* game) {}
 
 void Scene::inputHandler() {}
 void Scene::update()       {}
