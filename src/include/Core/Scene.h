@@ -3,6 +3,8 @@
 
 #include <SDL2/SDL.h>
 
+#include <Core/EntityManager.h>
+
 class Scene
 {
 public:
@@ -14,6 +16,7 @@ public:
 	virtual void inputHandler();
 	virtual void update();
 	virtual void render(SDL_Renderer* renderer);
+
 protected:
 
 };

@@ -20,8 +20,8 @@ public:
 private:
 	int r, g, b;
 	int changeBackground;
-	class Sprite* sp;
-	class BananaBox* entity;
+	EntityManager* entityManager;
+
 };
 
 #endif // TEST_SCENE_H

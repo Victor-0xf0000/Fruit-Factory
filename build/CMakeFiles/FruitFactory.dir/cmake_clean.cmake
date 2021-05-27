@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o"
   "CMakeFiles/FruitFactory.dir/src/Entity.cpp.o"
+  "CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o"
   "CMakeFiles/FruitFactory.dir/src/Game.cpp.o"
   "CMakeFiles/FruitFactory.dir/src/InputController.cpp.o"
   "CMakeFiles/FruitFactory.dir/src/Scene.cpp.o"

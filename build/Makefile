@@ -177,6 +177,33 @@ src/Entity.cpp.s:
 	$(MAKE) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/Entity.cpp.s
 .PHONY : src/Entity.cpp.s
 
+src/EntityManager.o: src/EntityManager.cpp.o
+
+.PHONY : src/EntityManager.o
+
+# target to build an object file
+src/EntityManager.cpp.o:
+	$(MAKE) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o
+.PHONY : src/EntityManager.cpp.o
+
+src/EntityManager.i: src/EntityManager.cpp.i
+
+.PHONY : src/EntityManager.i
+
+# target to preprocess a source file
+src/EntityManager.cpp.i:
+	$(MAKE) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.i
+.PHONY : src/EntityManager.cpp.i
+
+src/EntityManager.s: src/EntityManager.cpp.s
+
+.PHONY : src/EntityManager.s
+
+# target to generate assembly for a file
+src/EntityManager.cpp.s:
+	$(MAKE) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.s
+.PHONY : src/EntityManager.cpp.s
+
 src/Game.o: src/Game.cpp.o
 
 .PHONY : src/Game.o
@@ -408,6 +435,9 @@ help:
 	@echo "... src/Entity.o"
 	@echo "... src/Entity.i"
 	@echo "... src/Entity.s"
+	@echo "... src/EntityManager.o"
+	@echo "... src/EntityManager.i"
+	@echo "... src/EntityManager.s"
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"

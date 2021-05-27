@@ -11,8 +11,8 @@
 		-Keyboard [x]
 		-Mouse [x] -- TODO: Middle button support :)
 	-Sprites [x] -- class
-	-Entity []
-	-EntityManager []
+	-Entity [x]
+	-EntityManager [x]
 	-AssetsManager []
 	-Camera [] -- maybe
 	-levels []

@@ -64,6 +64,7 @@ bool Game::initialize()
 	this->sceneManager->createScene("Test scene\0", new TestScene());
 	this->sceneManager->selectScene("Test scene\0");
 
+
 	this->loadData();
 	return true;
 }

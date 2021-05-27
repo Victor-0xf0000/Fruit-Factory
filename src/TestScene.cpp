@@ -10,6 +10,7 @@
 
 TestScene::TestScene(): Scene()
 {
+	this->entityManager = new EntityManager();
 	this->changeBackground = 0b00;
 	this->r = 9;
 	this->g = 4; 
@@ -23,27 +24,26 @@ TestScene::~TestScene()
 
 void TestScene::loadData(Game* game)
 {
-	this->sp = new Sprite();
+	Sprite* sp;
+	BananaBox* entity;
+
+	sp = new Sprite();
 	
 	SpriteData* sd = new SpriteData();
 
-	this->sp->setSize(16, 16);
-	this->sp->setPosition(100, 106);
-	this->sp->setScale(5);
-	
-	SDL_Surface* surf = IMG_Load("./Data/Sprites/TestSprite.png");
-	
-	if (!surf)
-	{
-		LOG("Cannot load test sprite");
-	}
-
+	sp->setSize(16, 16);
+	sp->setPosition(100, 106);
+	sp->setScale(5);
+		
 	SDL_Texture* texture = IMG_LoadTexture(game->getRenderer(), "./Data/Sprites/TestSprite.png");
 	sd->texture = texture;
-	SDL_FreeSurface(surf);
+	sd->rect = NULL;
+	
+	sp->setSpriteData(sd);
 
-	this->sp->setSpriteData(sd);
-	this->entity = new BananaBox(this->sp);
+	entity = new BananaBox(sp);
+
+	this->entityManager->addEntity("banana\0", "global\0", entity);
 
 }
 
@@ -73,13 +73,13 @@ void TestScene::inputHandler()
 			this->changeBackground = 0b00;
 		}
 	}
-	this->entity->inputHandler();
+	//this->entity->inputHandler();
 	
 }
 
 void TestScene::update()
 {
-	this->entity->update(0.f);
+	//this->entity->update(0.f);
 }
 
 void TestScene::render(SDL_Renderer* renderer)
@@ -87,6 +87,6 @@ void TestScene::render(SDL_Renderer* renderer)
 	SDL_SetRenderDrawColor(renderer, this->r, this->g, this->b, 255);
 	SDL_RenderClear(renderer);
 	
-	this->entity->render(renderer);
+	this->entityManager->findEntity("banana\0", "global\0")->render(renderer);
 	SDL_RenderPresent(renderer);
 }

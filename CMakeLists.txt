@@ -16,7 +16,8 @@ add_executable(FruitFactory "src/main.cpp"
 	"src/InputController.cpp"
 	"src/Sprite.cpp"
 	"src/Entity.cpp"
-	"src/BananaBox.cpp")
+	"src/BananaBox.cpp"
+	"src/EntityManager.cpp")
 
 
 target_link_libraries(FruitFactory ${SDL2_LIBRARIES} ${SDL2_IMAGE_LIBRARIES})

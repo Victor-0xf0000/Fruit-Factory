@@ -112,6 +112,63 @@ CMakeFiles/FruitFactory.dir/src/Entity.cpp.o: ../src/include/SDL2/begin_code.h
 CMakeFiles/FruitFactory.dir/src/Entity.cpp.o: ../src/include/SDL2/close_code.h
 CMakeFiles/FruitFactory.dir/src/Entity.cpp.o: ../src/Entity.cpp
 
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/Core/Entity.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/Core/EntityManager.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/Core/ErrorLog.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/Core/Math/Vector2.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/Core/Sprite.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_assert.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_atomic.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_audio.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_blendmode.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_clipboard.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_config.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_cpuinfo.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_endian.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_error.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_events.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_filesystem.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_gamecontroller.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_gesture.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_haptic.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_hints.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_image.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_joystick.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_keyboard.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_keycode.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_loadso.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_locale.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_log.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_main.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_messagebox.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_metal.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_misc.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_mouse.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_mutex.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_pixels.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_platform.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_power.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_quit.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_rect.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_render.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_rwops.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_scancode.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_sensor.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_shape.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_stdinc.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_surface.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_system.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_thread.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_timer.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_touch.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_version.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/SDL_video.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/begin_code.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/include/SDL2/close_code.h
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/EntityManager.cpp
+
+CMakeFiles/FruitFactory.dir/src/Game.cpp.o: ../src/include/Core/EntityManager.h
 CMakeFiles/FruitFactory.dir/src/Game.cpp.o: ../src/include/Core/ErrorLog.h
 CMakeFiles/FruitFactory.dir/src/Game.cpp.o: ../src/include/Core/InputController.h
 CMakeFiles/FruitFactory.dir/src/Game.cpp.o: ../src/include/Core/InputType.h
@@ -227,6 +284,7 @@ CMakeFiles/FruitFactory.dir/src/InputController.cpp.o: ../src/include/SDL2/begin
 CMakeFiles/FruitFactory.dir/src/InputController.cpp.o: ../src/include/SDL2/close_code.h
 CMakeFiles/FruitFactory.dir/src/InputController.cpp.o: ../src/InputController.cpp
 
+CMakeFiles/FruitFactory.dir/src/Scene.cpp.o: ../src/include/Core/EntityManager.h
 CMakeFiles/FruitFactory.dir/src/Scene.cpp.o: ../src/include/Core/Math/Vector2.h
 CMakeFiles/FruitFactory.dir/src/Scene.cpp.o: ../src/include/Core/Scene.h
 CMakeFiles/FruitFactory.dir/src/Scene.cpp.o: ../src/include/Core/Sprite.h
@@ -282,6 +340,7 @@ CMakeFiles/FruitFactory.dir/src/Scene.cpp.o: ../src/include/SDL2/begin_code.h
 CMakeFiles/FruitFactory.dir/src/Scene.cpp.o: ../src/include/SDL2/close_code.h
 CMakeFiles/FruitFactory.dir/src/Scene.cpp.o: ../src/Scene.cpp
 
+CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o: ../src/include/Core/EntityManager.h
 CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o: ../src/include/Core/ErrorLog.h
 CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o: ../src/include/Core/Scene.h
 CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o: ../src/include/Core/SceneManager.h
@@ -390,6 +449,7 @@ CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o: ../src/include/SDL2/close_code.h
 CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o: ../src/Sprite.cpp
 
 CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o: ../src/include/Core/Entity.h
+CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o: ../src/include/Core/EntityManager.h
 CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o: ../src/include/Core/ErrorLog.h
 CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o: ../src/include/Core/InputController.h
 CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o: ../src/include/Core/InputType.h
