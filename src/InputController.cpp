@@ -8,6 +8,7 @@ KeyStatus InputController::getKey(const Key key)
 		return KEY_PRESSED;
 	else
 		return KEY_RELEASED;
+	
 }
 
 MouseStatus InputController::getMouse(const MouseButton button)
@@ -18,7 +19,7 @@ MouseStatus InputController::getMouse(const MouseButton button)
 	}
 	else
 		return BUTTON_RELEASED;
-	
+		
 }
 
 Vector2i InputController::getMousePosition()
