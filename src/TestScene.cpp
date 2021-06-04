@@ -24,27 +24,19 @@ TestScene::~TestScene()
 
 void TestScene::loadData(Game* game)
 {
-	Sprite* sp;
-	BananaBox* entity;
-
-	sp = new Sprite();
 	
 	SpriteData* sd = new SpriteData();
+	sd->ssx = 0;
+	sd->ssy = 0;
+	sd->width = 16;
+	sd->height = 16;
+	sd->scale = 5;
+	sd->x = 321;
+	sd->y = 432;
 
-	sp->setSize(16, 16);
-	sp->setPosition(100, 106);
-	sp->setScale(5);
-		
-	SDL_Texture* texture = IMG_LoadTexture(game->getRenderer(), "./Data/Sprites/TestSprite.png");
-	sd->texture = texture;
-	sd->rect = NULL;
-	
-	sp->setSpriteData(sd);
-
-	entity = new BananaBox(sp);
+	BananaBox* entity = new BananaBox(sd);
 
 	this->entityManager->addEntity("banana\0", "global\0", entity);
-
 }
 
 void TestScene::inputHandler()

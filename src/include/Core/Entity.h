@@ -7,7 +7,7 @@
 class Entity
 {
 public:
-    Entity(Sprite* spr);
+    Entity(SpriteData* spr);
     virtual ~Entity();
 
     virtual void render(SDL_Renderer* renderer);
@@ -18,10 +18,10 @@ public:
     int getY() const  {   return y;}
     void setX(int x) {   this->x = x;}
     void setY(int y) {   this->y = y;}
-    Sprite* getSpr() const {   return spr;}
+    SpriteData* getSpr() const {   return spr;}
     
 protected:
-    Sprite* spr;
+    SpriteData* spr;
     int x, y;
 };
 

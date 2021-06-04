@@ -13,7 +13,8 @@ add_executable(FruitFactory "src/main.cpp"
 "src/Sprite.cpp"
 "src/Entity.cpp"
 "src/BananaBox.cpp"
-"src/EntityManager.cpp")
+"src/EntityManager.cpp"
+"src/Renderer.cpp")
 
 add_compile_options("-Wall -Werror")
 

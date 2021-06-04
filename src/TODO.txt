@@ -13,6 +13,7 @@
 	-Sprites [x] -- class
 	-Entity [x]
 	-EntityManager [x]
+	-TODO: Make spriteData for render from an sprite sheet
 	-AssetsManager []
 	-Camera [] -- maybe
 	-levels []

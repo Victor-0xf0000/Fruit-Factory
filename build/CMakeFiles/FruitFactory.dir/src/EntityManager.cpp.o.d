@@ -172,7 +172,4 @@ CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_locale.h \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_misc.h \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/Sprite.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/Math/Vector2.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_image.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL.h \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/ErrorLog.h

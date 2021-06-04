@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/appletart/Documentos/Programming/C++/Fruit-Factory/src/EntityManager.cpp" "CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o" "gcc" "CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o.d"
   "/home/appletart/Documentos/Programming/C++/Fruit-Factory/src/Game.cpp" "CMakeFiles/FruitFactory.dir/src/Game.cpp.o" "gcc" "CMakeFiles/FruitFactory.dir/src/Game.cpp.o.d"
   "/home/appletart/Documentos/Programming/C++/Fruit-Factory/src/InputController.cpp" "CMakeFiles/FruitFactory.dir/src/InputController.cpp.o" "gcc" "CMakeFiles/FruitFactory.dir/src/InputController.cpp.o.d"
+  "/home/appletart/Documentos/Programming/C++/Fruit-Factory/src/Renderer.cpp" "CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o" "gcc" "CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o.d"
   "/home/appletart/Documentos/Programming/C++/Fruit-Factory/src/Scene.cpp" "CMakeFiles/FruitFactory.dir/src/Scene.cpp.o" "gcc" "CMakeFiles/FruitFactory.dir/src/Scene.cpp.o.d"
   "/home/appletart/Documentos/Programming/C++/Fruit-Factory/src/SceneManager.cpp" "CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o" "gcc" "CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o.d"
   "/home/appletart/Documentos/Programming/C++/Fruit-Factory/src/Sprite.cpp" "CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o" "gcc" "CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o.d"

@@ -173,5 +173,4 @@ CMakeFiles/FruitFactory.dir/src/Scene.cpp.o: \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Game.h \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_image.h \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/Sprite.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/Math/Vector2.h
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/Sprite.h

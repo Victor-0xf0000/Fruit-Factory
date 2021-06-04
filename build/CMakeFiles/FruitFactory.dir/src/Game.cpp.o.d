@@ -90,7 +90,6 @@ CMakeFiles/FruitFactory.dir/src/Game.cpp.o: \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_image.h \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL.h \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/Sprite.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/Math/Vector2.h \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/WindowManager.h \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/SceneManager.h \
  /usr/include/c++/11.1.0/unordered_map \
@@ -178,6 +177,8 @@ CMakeFiles/FruitFactory.dir/src/Game.cpp.o: \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/ErrorLog.h \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/InputController.h \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/InputType.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/Math/Vector2.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/Renderer.h \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Scenes/TestScene.h \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/Scene.h \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/EntityManager.h

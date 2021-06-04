@@ -6,7 +6,7 @@
 class BananaBox: public Entity
 {
 public:
-    BananaBox(class Sprite* spr);
+    BananaBox(class SpriteData* spr);
     ~BananaBox();
 
     void render(SDL_Renderer* renderer) override;

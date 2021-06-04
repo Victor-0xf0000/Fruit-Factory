@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/FruitFactory.dir/src/Game.cpp.o.d"
   "CMakeFiles/FruitFactory.dir/src/InputController.cpp.o"
   "CMakeFiles/FruitFactory.dir/src/InputController.cpp.o.d"
+  "CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o"
+  "CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o.d"
   "CMakeFiles/FruitFactory.dir/src/Scene.cpp.o"
   "CMakeFiles/FruitFactory.dir/src/Scene.cpp.o.d"
   "CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o"

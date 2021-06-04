@@ -1,7 +1,11 @@
 #include <Entities/Boxes/BananaBox.h>
 #include <Core/Sprite.h>
+#include <Core/Renderer.h>
+#include <Core/ErrorLog.h>
+#include <Game.h>
 
-BananaBox::BananaBox(Sprite* spr): Entity(spr)
+
+BananaBox::BananaBox(SpriteData* spr): Entity(spr)
 {
     this->setX(30);
     this->setY(30);
@@ -19,7 +23,7 @@ void BananaBox::update(const float dt)
 
 void BananaBox::render(SDL_Renderer* renderer)
 {
-    this->spr->draw(renderer);
+    Renderer::render(renderer, this->spr);
 }
 
 void BananaBox::inputHandler()

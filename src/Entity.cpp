@@ -1,7 +1,7 @@
 #include <Core/Entity.h>
 #include <Core/InputController.h>
 
-Entity::Entity(Sprite* spr)
+Entity::Entity(SpriteData* spr)
 {
     this->spr = spr;
 }

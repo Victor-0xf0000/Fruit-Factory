@@ -4,28 +4,20 @@
 #include <Core/SceneManager.h>
 #include <Core/ErrorLog.h>
 #include <Core/InputController.h>
+#include <Core/Renderer.h>
 
 #include <Scenes/TestScene.h>
+
 
 Game::Game(): windowManager(nullptr),
 	sceneManager(nullptr)
 {
 	this->windowManager = new WindowManager();
-	this->windowManager->title = "Fruit Factory :)\0";
+	this->windowManager->title = (char*) "Fruit Factory :)\0";
 
 	this->sceneManager = new SceneManager();
 	this->isRunning = true;
-
-	this->sp = new Sprite();
 	
-	SpriteData* sd = new SpriteData();
-	
-	SDL_Surface* surf = IMG_Load("Data/Sprites/TestSprite.png");
-
-	sd->texture = SDL_CreateTextureFromSurface(this->windowManager->renderer, surf);
-	SDL_FreeSurface(surf);
-
-	this->sp->setSpriteData(sd);
 }
 
 Game::~Game()
@@ -64,6 +56,8 @@ bool Game::initialize()
 	this->sceneManager->createScene("Test scene\0", new TestScene());
 	this->sceneManager->selectScene("Test scene\0");
 
+	if (!Renderer::loadSpriteSheet(this->windowManager->renderer, "./Data/Sprites/Spritesheet.png")) return false;
+
 
 	this->loadData();
 	return true;
@@ -72,6 +66,7 @@ bool Game::initialize()
 bool Game::loadData()
 {
 	this->sceneManager->getCurrent()->loadData(this);
+
 	return true;
 }
 
@@ -109,6 +104,4 @@ void Game::update()
 void Game::render()
 {
 	this->sceneManager->getCurrent()->render(this->windowManager->renderer);
-	
-
 }

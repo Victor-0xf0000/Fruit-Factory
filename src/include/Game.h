@@ -26,8 +26,6 @@ private:
 	struct SceneManager* sceneManager;
 
 	bool isRunning;
-
-	Sprite* sp;
 };
 
 #endif // GAME_H
