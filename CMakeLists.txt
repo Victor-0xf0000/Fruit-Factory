@@ -3,6 +3,7 @@ project(FruitFactory)
 
 include_directories("src/include")
 
+
 add_executable(FruitFactory "src/main.cpp" 
 "src/Game.cpp" 
 "src/WindowManager.cpp"
@@ -14,7 +15,8 @@ add_executable(FruitFactory "src/main.cpp"
 "src/Entity.cpp"
 "src/BananaBox.cpp"
 "src/EntityManager.cpp"
-"src/Renderer.cpp")
+"src/Renderer.cpp"
+"src/Level.cpp")
 
 add_compile_options("-Wall -Werror")
 

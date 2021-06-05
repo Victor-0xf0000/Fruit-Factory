@@ -18,10 +18,8 @@ public:
 	void update() override;
 	void render(SDL_Renderer* renderer) override;
 private:
-	int r, g, b;
-	int changeBackground;
 	EntityManager* entityManager;
-
+	SDL_Texture* background;
 };
 
 #endif // TEST_SCENE_H

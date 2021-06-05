@@ -10,24 +10,22 @@
 	-Input controller [x]
 		-Keyboard [x]
 		-Mouse [x] -- TODO: Middle button support :)
-	-Sprites [x] -- class
+	-Sprites [x]
 	-Entity [x]
 	-EntityManager [x]
-	-TODO: Make spriteData for render from an sprite sheet
-	-AssetsManager []
+	-AssetsManager [] -- Later?
 	-Camera [] -- maybe
-	-levels []
-	-level load []
-	-animations []
+	-animations [] -- Later?
 
 -Game []
+	-levels []
 	-Sprites [] -- pixel arts
-	-Fruit box []
 	-inputs []
-	-outputs []
 	-Conveyor belt []
+	-outputs []
 	-Slicer Machine []
 	-Separator Machine []
+	-level save and load []
 
 ////////////////////////
 OBSCURE AREA

@@ -249,6 +249,30 @@ src/InputController.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/InputController.cpp.s
 .PHONY : src/InputController.cpp.s
 
+src/Level.o: src/Level.cpp.o
+.PHONY : src/Level.o
+
+# target to build an object file
+src/Level.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/Level.cpp.o
+.PHONY : src/Level.cpp.o
+
+src/Level.i: src/Level.cpp.i
+.PHONY : src/Level.i
+
+# target to preprocess a source file
+src/Level.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/Level.cpp.i
+.PHONY : src/Level.cpp.i
+
+src/Level.s: src/Level.cpp.s
+.PHONY : src/Level.s
+
+# target to generate assembly for a file
+src/Level.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/Level.cpp.s
+.PHONY : src/Level.cpp.s
+
 src/Renderer.o: src/Renderer.cpp.o
 .PHONY : src/Renderer.o
 
@@ -441,6 +465,9 @@ help:
 	@echo "... src/InputController.o"
 	@echo "... src/InputController.i"
 	@echo "... src/InputController.s"
+	@echo "... src/Level.o"
+	@echo "... src/Level.i"
+	@echo "... src/Level.s"
 	@echo "... src/Renderer.o"
 	@echo "... src/Renderer.i"
 	@echo "... src/Renderer.s"
