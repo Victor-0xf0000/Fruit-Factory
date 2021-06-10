@@ -4,7 +4,6 @@
 struct SpriteData
 {
 	int width = 0, height = 0;
-	int x = 0, y = 0;
 	int ssx = 0, ssy = 0; // Sprite sheet x and y
 	int scale = 1;
 };

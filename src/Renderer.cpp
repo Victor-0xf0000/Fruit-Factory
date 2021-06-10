@@ -1,6 +1,7 @@
 #include <Core/Renderer.h>
 #include <Core/ErrorLog.h>
 #include <Core/Sprite.h>
+#include <Core/Entity.h>
 
 SDL_Texture* Renderer::spritesheet;
 
@@ -43,13 +44,12 @@ SDL_Texture* Renderer::loadSprite(SDL_Renderer* renderer, const char* path)
     return text;
 }
 
-void Renderer::render(SDL_Renderer* renderer, SpriteData* sprite)
+void Renderer::renderSingleEntity(SDL_Renderer* renderer, Entity* entity)
 {
-    // TODO: Move src rect and dst rect to SpriteData - maybe
-    SDL_Rect srcRect = {.x = sprite->ssx, .y = sprite->ssy, .w = sprite->width, .h = sprite->height};
-    SDL_Rect desRect = {.x = sprite->x, .y = sprite->y, .w = sprite->width * sprite->scale, .h = sprite->height * sprite->scale};
+    SpriteData sd = *entity->getSpr();
+    SDL_Rect srcRect = {.x = sd.ssx, .y = sd.ssy, .w = sd.width, .h = sd.height};
+    SDL_Rect desRect = {.x = entity->getX(), .y = entity->getY(), .w = sd.width * sd.scale, .h = sd.height * sd.scale};
 
-    // TODO: support angles
     SDL_RenderCopy(renderer, Renderer::spritesheet, &srcRect, &desRect);
 }
 

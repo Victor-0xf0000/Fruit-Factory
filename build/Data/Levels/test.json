@@ -1,5 +1,5 @@
 {
-    "input" : ["3x sliced apple", "3x sliced banana"],
+    "input" : ["3x sliced apple", "21x sliced banana"],
     "layer1": {
         "cupcake machine": {
             "position": [3, 1],

@@ -1,4 +1,5 @@
 #include <Level/Level.h>
+#include <Core/ErrorLog.h>
 #include <fstream>
 #include <iostream>
 #include <string.h>
@@ -20,6 +21,7 @@ Level::~Level()
 
 void Level::loadLevel(const char* path)
 {
+    LOG("Loading level...");
     std::string ln;
     std::ifstream file(path);
     int counter = 0;
@@ -35,17 +37,65 @@ void Level::loadLevel(const char* path)
         strcat(this->jsonLevel, "\0");
         strcat(this->jsonLevel, "\0");
     }
-    printf("Level:\n%s\n", this->jsonLevel);
 
     jsonDocument.Parse(this->jsonLevel);
 
-    // EXAMPLE: 
-    // if (d["layer1"].HasMember("cupcake machine"))
-    // {
-    //     printf("cupcake machine first input: %s\n", d["layer1"].GetObject()["cupcake machine"].GetObject()["input"].GetArray()[0].GetString());
-    // }
-    // else 
-    // {
-    //     printf("Here's position? :(\n");
-    // }
+    if (this->jsonDocument.HasMember("input"))
+    {
+        char* str = (char*) malloc(sizeof(char*) * 100);
+        strcpy(str, "\0");
+
+
+        std::vector<int> v; // numbers
+        for (int i = 0; i < this->jsonDocument["input"].GetArray().Size(); i++)
+        {
+            strcpy(str, this->jsonDocument["input"].GetArray()[i].GetString());
+            strcat(str, "\0");
+
+            // get quantity
+            int q = 0;
+            int mode = 0; // 0 = read number, 1 = read item
+            int cnt = 0; // for count the index of item
+            std::string s;
+
+
+            for (int c = 0; c < strlen(str); c++)
+            {
+                if (str[c] != ' ')
+                {
+                    if (mode == 1) // case the mode is read item
+                    {
+                        if (c == strlen(str))
+                        {
+                            printf("str: %s\n", s);
+                            s = "";
+                        }
+                        else
+                            printf("c: %c\n", str[c]);
+                    }
+                    if (mode == 0) // case the mode is read number
+                    {
+                        if (str[c] == 'x')
+                        {
+                            q = atoi(s.c_str());
+                            v.push_back(q);
+                            s = "";
+                            mode = 1;
+                        }
+                    }
+                   
+                    s += str[c];
+                }
+            }
+            // reset...
+            cnt = 0;
+            s = "\0";
+            mode = 0;
+            q = 0;
+
+        }
+        free(str);
+    }
+
+    LOG("Level load finished.");
 }

@@ -30,10 +30,10 @@ void TestScene::loadData(Game* game)
 	sd->width = 16;
 	sd->height = 16;
 	sd->scale = 5;
-	sd->x = 321;
-	sd->y = 432;
 
 	BananaBox* entity = new BananaBox(sd);
+	entity->setX(30);
+	entity->setY(30);
 
 	this->entityManager->addEntity("banana\0", "global\0", entity);
 

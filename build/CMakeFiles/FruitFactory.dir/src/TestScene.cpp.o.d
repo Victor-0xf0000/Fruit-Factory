@@ -182,4 +182,59 @@ CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o: \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Entities/Boxes/BananaBox.h \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/Entity.h \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Level/Level.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/document.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/reader.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/allocators.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/rapidjson.h \
+ /usr/include/c++/11.1.0/cstring /usr/include/string.h \
+ /usr/include/strings.h /usr/include/inttypes.h \
+ /usr/include/c++/11.1.0/cassert /usr/include/assert.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/stream.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/encodings.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/encodedstream.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/memorystream.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/meta.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/../rapidjson.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/stack.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/../allocators.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/swap.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/strtod.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/ieee754.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/biginteger.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/diyfp.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/pow10.h \
+ /usr/include/c++/11.1.0/limits \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/error/error.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/error/../rapidjson.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/strfunc.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/../stream.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/../rapidjson.h \
+ /usr/include/c++/11.1.0/iterator \
+ /usr/include/c++/11.1.0/bits/stream_iterator.h \
+ /usr/include/c++/11.1.0/bits/streambuf_iterator.h \
+ /usr/include/c++/11.1.0/streambuf \
+ /usr/include/c++/11.1.0/bits/ios_base.h \
+ /usr/include/c++/11.1.0/bits/locale_classes.h \
+ /usr/include/c++/11.1.0/bits/locale_classes.tcc \
+ /usr/include/c++/11.1.0/system_error \
+ /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/error_constants.h \
+ /usr/include/c++/11.1.0/stdexcept /usr/include/c++/11.1.0/exception \
+ /usr/include/c++/11.1.0/bits/exception_ptr.h \
+ /usr/include/c++/11.1.0/bits/cxxabi_init_exception.h \
+ /usr/include/c++/11.1.0/typeinfo \
+ /usr/include/c++/11.1.0/bits/nested_exception.h \
+ /usr/include/c++/11.1.0/bits/streambuf.tcc \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/writer.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/dtoa.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/itoa.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/itoa.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/stringbuffer.h \
+ /usr/include/c++/11.1.0/vector \
+ /usr/include/c++/11.1.0/bits/stl_uninitialized.h \
+ /usr/include/c++/11.1.0/bits/stl_vector.h \
+ /usr/include/c++/11.1.0/bits/stl_bvector.h \
+ /usr/include/c++/11.1.0/bits/vector.tcc /usr/include/c++/11.1.0/map \
+ /usr/include/c++/11.1.0/bits/stl_tree.h \
+ /usr/include/c++/11.1.0/bits/stl_map.h \
+ /usr/include/c++/11.1.0/bits/stl_multimap.h \
  /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Game.h

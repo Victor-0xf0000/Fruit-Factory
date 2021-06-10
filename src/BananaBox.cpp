@@ -23,7 +23,7 @@ void BananaBox::update(const float dt)
 
 void BananaBox::render(SDL_Renderer* renderer)
 {
-    Renderer::render(renderer, this->spr);
+    Renderer::renderSingleEntity(renderer, this);
 }
 
 void BananaBox::inputHandler()

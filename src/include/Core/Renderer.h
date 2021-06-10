@@ -6,8 +6,8 @@
 
 struct Renderer
 {
-    static void render(SDL_Renderer* renderer, class SpriteData* sprite);
     static void renderSingleSprite(SDL_Renderer* renderer, SDL_Texture* sprite, int x, int y, int width, int height);
+    static void renderSingleEntity(SDL_Renderer* renderer, class Entity* entity);
     static bool loadSpriteSheet(SDL_Renderer* renderer, const char* path);
     static SDL_Texture* loadSprite(SDL_Renderer* renderer, const char* path);
     static SDL_Texture* spritesheet;

@@ -161,4 +161,5 @@ CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o: \
  /usr/include/bits/types/error_t.h \
  /usr/include/c++/11.1.0/bits/charconv.h \
  /usr/include/c++/11.1.0/bits/basic_string.tcc \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/Sprite.h
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/Sprite.h \
+ /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/Entity.h
