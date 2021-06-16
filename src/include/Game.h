@@ -5,6 +5,7 @@
 #include <SDL2/SDL_image.h>
 
 #include <Core/Sprite.h>
+#include <Core/EntityManager.h>
 
 class Game
 {
@@ -14,6 +15,8 @@ public:
 
   void run();
 	SDL_Renderer* getRenderer();
+  
+  EntityManager* getEntityManager(); 
 private:
   bool initialize();
 	bool loadData();

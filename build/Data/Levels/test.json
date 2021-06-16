@@ -1,11 +1,8 @@
 {
-    "input" : ["3x sliced apple", "21x sliced banana"],
-    "layer1": {
-        "cupcake machine": {
-            "position": [3, 1],
-            "input": ["sliced banana", "mass"]
-        }
-    },
-    "layer2": {
-    }
+    "input": [[4, 1]], 
+    "entities": [
+        ["bananabox", "bananabox1", 1, 1],
+        ["bananabox", "bananabox2", 3, 4],
+        ["bananabox", "bananabox3", 5, 1]
+    ]
 }

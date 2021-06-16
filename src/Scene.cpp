@@ -18,3 +18,7 @@ void Scene::inputHandler() {}
 void Scene::update()       {}
 void Scene::render(SDL_Renderer* renderer)       {}
 
+EntityManager* Scene::getEntityManager()
+{
+    return this->entityManager;
+}

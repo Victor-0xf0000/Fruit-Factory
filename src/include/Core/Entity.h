@@ -14,11 +14,11 @@ public:
     virtual void update(const float dt);
     virtual void inputHandler();
 
-    int getX() const  {   return x;}
-    int getY() const  {   return y;}
-    void setX(int x) {   this->x = x;}
-    void setY(int y) {   this->y = y;}
-    SpriteData* getSpr() const {   return spr;}
+    virtual int getX() const  {   return x;}
+    virtual int getY() const  {   return y;}
+    virtual void setX(int x) {   this->x = x;}
+    virtual void setY(int y) {   this->y = y;}
+    virtual SpriteData* getSpr() const {   return spr;}
     
 protected:
     SpriteData* spr;

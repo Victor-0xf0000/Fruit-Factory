@@ -1,5 +1,7 @@
 #include <Level/Level.h>
 #include <Core/ErrorLog.h>
+#include <Entities/Boxes/BananaBox.h>
+#include <Game.h>
 #include <fstream>
 #include <iostream>
 #include <string.h>
@@ -7,7 +9,7 @@
 
 Level::Level()
 {
-    
+    this->inputItems = new std::unordered_map<int, int>();   
 
     this->jsonLevel = (char*) malloc(sizeof(char*) * 1000);
 
@@ -19,7 +21,7 @@ Level::~Level()
     delete this->jsonLevel;
 }
 
-void Level::loadLevel(const char* path)
+void Level::loadLevel(Game* game, const char* path)
 {
     LOG("Loading level...");
     std::string ln;
@@ -42,60 +44,37 @@ void Level::loadLevel(const char* path)
 
     if (this->jsonDocument.HasMember("input"))
     {
-        char* str = (char*) malloc(sizeof(char*) * 100);
-        strcpy(str, "\0");
-
-
-        std::vector<int> v; // numbers
         for (int i = 0; i < this->jsonDocument["input"].GetArray().Size(); i++)
         {
-            strcpy(str, this->jsonDocument["input"].GetArray()[i].GetString());
-            strcat(str, "\0");
-
-            // get quantity
-            int q = 0;
-            int mode = 0; // 0 = read number, 1 = read item
-            int cnt = 0; // for count the index of item
-            std::string s;
-
-
-            for (int c = 0; c < strlen(str); c++)
-            {
-                if (str[c] != ' ')
-                {
-                    if (mode == 1) // case the mode is read item
-                    {
-                        if (c == strlen(str))
-                        {
-                            printf("str: %s\n", s);
-                            s = "";
-                        }
-                        else
-                            printf("c: %c\n", str[c]);
-                    }
-                    if (mode == 0) // case the mode is read number
-                    {
-                        if (str[c] == 'x')
-                        {
-                            q = atoi(s.c_str());
-                            v.push_back(q);
-                            s = "";
-                            mode = 1;
-                        }
-                    }
-                   
-                    s += str[c];
-                }
-            }
-            // reset...
-            cnt = 0;
-            s = "\0";
-            mode = 0;
-            q = 0;
-
+            this->inputItems->insert(std::unordered_map<int, int>::value_type(
+                this->jsonDocument["input"].GetArray()[i].GetArray()[0].GetInt(),
+                this->jsonDocument["input"].GetArray()[i].GetArray()[0].GetInt()            
+            ));
         }
-        free(str);
     }
 
+    if (this->jsonDocument.HasMember("entities"))
+    {
+        for (int i = 0; i < this->jsonDocument["entities"].GetArray().Size(); i++)
+        {
+            std::string entityId = this->jsonDocument["entities"].GetArray()[i][0].GetString();
+            if (entityId == "bananabox")
+            {
+                int x = this->jsonDocument["entities"].GetArray()[i][2].GetInt();
+                int y = this->jsonDocument["entities"].GetArray()[i][3].GetInt();
+                SpriteData* sd = new SpriteData();
+                sd->ssx = 0;
+                sd->ssy = 0;
+                sd->width = 16;
+                sd->height = 16;
+                sd->scale = 4;
+                BananaBox* box = new BananaBox(sd);
+                box->setX(x);
+                box->setY(y);
+                game->getEntityManager()->addEntity(this->jsonDocument["entities"].GetArray()[i][1].GetString(),
+                 "global\0", box);
+            }
+        }
+    }
     LOG("Level load finished.");
 }

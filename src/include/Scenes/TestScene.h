@@ -17,8 +17,8 @@ public:
 	void inputHandler() override;
 	void update() override;
 	void render(SDL_Renderer* renderer) override;
+
 private:
-	EntityManager* entityManager;
 	SDL_Texture* background;
 };
 

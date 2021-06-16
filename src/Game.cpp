@@ -2,6 +2,7 @@
 
 #include <Core/WindowManager.h>
 #include <Core/SceneManager.h>
+#include <Core/EntityManager.h>
 #include <Core/ErrorLog.h>
 #include <Core/InputController.h>
 #include <Core/Renderer.h>
@@ -73,6 +74,11 @@ bool Game::loadData()
 SDL_Renderer* Game::getRenderer()
 {
 	return this->windowManager->renderer;
+}
+
+EntityManager* Game::getEntityManager()
+{
+	return this->sceneManager->getCurrent()->getEntityManager();
 }
 
 void Game::inputHandler()

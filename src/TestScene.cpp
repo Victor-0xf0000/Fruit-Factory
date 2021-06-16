@@ -19,39 +19,33 @@ TestScene::TestScene(): Scene()
 
 TestScene::~TestScene()
 {
+	
 }
 
 void TestScene::loadData(Game* game)
 {
-	
-	SpriteData* sd = new SpriteData();
-	sd->ssx = 0;
-	sd->ssy = 0;
-	sd->width = 16;
-	sd->height = 16;
-	sd->scale = 5;
-
-	BananaBox* entity = new BananaBox(sd);
-	entity->setX(30);
-	entity->setY(30);
-
-	this->entityManager->addEntity("banana\0", "global\0", entity);
 
 	this->background = Renderer::loadSprite(game->getRenderer(), "Data/Sprites/Background.png");
 
 	Level* lev = new Level();
-	lev->loadLevel("Data/Levels/test.json");
+	lev->loadLevel(game, "Data/Levels/test.json");
 
 }
 
 void TestScene::inputHandler()
 {
-	this->entityManager->findEntity("banana\0", "global\0")->inputHandler();
+	for (auto i : this->entityManager->getEntityGroup("global\0"))
+	{
+		i.second->inputHandler();
+	}
 }
 
 void TestScene::update()
 {
-	this->entityManager->findEntity("banana\0", "global\0")->update(0.f);
+	for (auto i : this->entityManager->getEntityGroup("global\0"))
+	{
+		i.second->update(0.f);
+	}
 }
 
 void TestScene::render(SDL_Renderer* renderer)
@@ -60,6 +54,9 @@ void TestScene::render(SDL_Renderer* renderer)
 	SDL_RenderClear(renderer);
 	
 	Renderer::renderSingleSprite(renderer, this->background, 0, 0, 900, 600);
-	this->entityManager->findEntity("banana\0", "global\0")->render(renderer);
+	for (auto i : this->entityManager->getEntityGroup("global\0"))
+	{
+		i.second->render(renderer);
+	}
 	SDL_RenderPresent(renderer);
 }

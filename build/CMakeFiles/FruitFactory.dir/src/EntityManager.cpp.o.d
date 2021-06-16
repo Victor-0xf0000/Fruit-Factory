@@ -1,7 +1,7 @@
 CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/EntityManager.cpp \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/EntityManager.cpp \
  /usr/include/stdc-predef.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/EntityManager.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/EntityManager.h \
  /usr/include/c++/11.1.0/unordered_map \
  /usr/include/c++/11.1.0/type_traits \
  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -117,59 +117,59 @@ CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: \
  /usr/include/bits/types/error_t.h \
  /usr/include/c++/11.1.0/bits/charconv.h \
  /usr/include/c++/11.1.0/bits/basic_string.tcc \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/Entity.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_main.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_stdinc.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_config.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_platform.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/begin_code.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/close_code.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/Entity.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_main.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_stdinc.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_config.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_platform.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/begin_code.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/close_code.h \
  /usr/include/c++/11.1.0/stdlib.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_assert.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_atomic.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_audio.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_error.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_endian.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_mutex.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_thread.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_rwops.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_clipboard.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_cpuinfo.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_assert.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_atomic.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_audio.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_error.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_endian.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_mutex.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_thread.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_rwops.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_clipboard.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_cpuinfo.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/mmintrin.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/xmmintrin.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/mm_malloc.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/emmintrin.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_events.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_video.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_pixels.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_rect.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_surface.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_blendmode.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_keyboard.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_keycode.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_scancode.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_mouse.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_joystick.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_gamecontroller.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_sensor.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_quit.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_gesture.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_touch.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_filesystem.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_haptic.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_hints.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_loadso.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_log.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_messagebox.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_metal.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_power.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_render.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_shape.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_system.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_timer.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_version.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_locale.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/SDL2/SDL_misc.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/Sprite.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/ErrorLog.h
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_events.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_video.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_pixels.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_rect.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_surface.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_blendmode.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_keyboard.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_keycode.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_scancode.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_mouse.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_joystick.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_gamecontroller.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_sensor.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_quit.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_gesture.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_touch.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_filesystem.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_haptic.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_hints.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_loadso.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_log.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_messagebox.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_metal.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_power.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_render.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_shape.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_system.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_timer.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_version.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_locale.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_misc.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/Sprite.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/ErrorLog.h

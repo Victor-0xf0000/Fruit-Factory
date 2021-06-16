@@ -1,11 +1,11 @@
 CMakeFiles/FruitFactory.dir/src/Level.cpp.o: \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/Level.cpp \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/Level.cpp \
  /usr/include/stdc-predef.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Level/Level.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/document.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/reader.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/allocators.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/rapidjson.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Level/Level.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/document.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/reader.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/allocators.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/rapidjson.h \
  /usr/include/c++/11.1.0/cstdlib \
  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -41,26 +41,26 @@ CMakeFiles/FruitFactory.dir/src/Level.cpp.o: \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-uintn.h /usr/include/inttypes.h \
  /usr/include/c++/11.1.0/cassert /usr/include/assert.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/stream.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/encodings.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/encodedstream.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/memorystream.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/meta.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/../rapidjson.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/stack.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/../allocators.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/swap.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/strtod.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/ieee754.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/biginteger.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/diyfp.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/pow10.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/stream.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/encodings.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/encodedstream.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/memorystream.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/internal/meta.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/internal/../rapidjson.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/internal/stack.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/internal/../allocators.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/internal/swap.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/internal/strtod.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/internal/ieee754.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/internal/biginteger.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/internal/diyfp.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/internal/pow10.h \
  /usr/include/c++/11.1.0/limits \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/error/error.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/error/../rapidjson.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/strfunc.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/../stream.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/../rapidjson.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/error/error.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/error/../rapidjson.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/internal/strfunc.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/internal/../stream.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/internal/../rapidjson.h \
  /usr/include/c++/11.1.0/new /usr/include/c++/11.1.0/bits/exception.h \
  /usr/include/c++/11.1.0/iterator \
  /usr/include/c++/11.1.0/bits/stl_iterator_base_types.h \
@@ -151,26 +151,87 @@ CMakeFiles/FruitFactory.dir/src/Level.cpp.o: \
  /usr/include/c++/11.1.0/bits/streambuf.tcc \
  /usr/include/c++/11.1.0/utility \
  /usr/include/c++/11.1.0/bits/stl_relops.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/writer.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/dtoa.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/itoa.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/internal/itoa.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/rapidjson/stringbuffer.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/writer.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/internal/dtoa.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/internal/itoa.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/internal/itoa.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/rapidjson/stringbuffer.h \
  /usr/include/c++/11.1.0/vector \
  /usr/include/c++/11.1.0/bits/stl_uninitialized.h \
  /usr/include/c++/11.1.0/bits/stl_vector.h \
  /usr/include/c++/11.1.0/bits/stl_bvector.h \
- /usr/include/c++/11.1.0/bits/vector.tcc /usr/include/c++/11.1.0/map \
- /usr/include/c++/11.1.0/bits/stl_tree.h \
+ /usr/include/c++/11.1.0/bits/vector.tcc \
+ /usr/include/c++/11.1.0/unordered_map \
  /usr/include/c++/11.1.0/ext/aligned_buffer.h \
- /usr/include/c++/11.1.0/bits/node_handle.h \
- /usr/include/c++/11.1.0/bits/stl_map.h /usr/include/c++/11.1.0/tuple \
- /usr/include/c++/11.1.0/array \
+ /usr/include/c++/11.1.0/bits/hashtable.h \
+ /usr/include/c++/11.1.0/bits/hashtable_policy.h \
+ /usr/include/c++/11.1.0/tuple /usr/include/c++/11.1.0/array \
  /usr/include/c++/11.1.0/bits/uses_allocator.h \
  /usr/include/c++/11.1.0/bits/invoke.h \
- /usr/include/c++/11.1.0/bits/stl_multimap.h \
+ /usr/include/c++/11.1.0/bits/node_handle.h \
+ /usr/include/c++/11.1.0/bits/unordered_map.h \
  /usr/include/c++/11.1.0/bits/erase_if.h \
- /home/appletart/Documentos/Programming/C++/Fruit-Factory/src/include/Core/ErrorLog.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/ErrorLog.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Entities/Boxes/BananaBox.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/Entity.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_main.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_stdinc.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_config.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_platform.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/begin_code.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/close_code.h \
+ /usr/include/c++/11.1.0/stdlib.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_assert.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_atomic.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_audio.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_error.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_endian.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_mutex.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_thread.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_rwops.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_clipboard.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_cpuinfo.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/mmintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/xmmintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/mm_malloc.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/emmintrin.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_events.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_video.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_pixels.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_rect.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_surface.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_blendmode.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_keyboard.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_keycode.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_scancode.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_mouse.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_joystick.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_gamecontroller.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_sensor.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_quit.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_gesture.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_touch.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_filesystem.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_haptic.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_hints.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_loadso.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_log.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_messagebox.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_metal.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_power.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_render.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_shape.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_system.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_timer.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_version.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_locale.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_misc.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/Sprite.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Game.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_image.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/EntityManager.h \
  /usr/include/c++/11.1.0/fstream /usr/include/c++/11.1.0/istream \
  /usr/include/c++/11.1.0/ios /usr/include/c++/11.1.0/bits/basic_ios.h \
  /usr/include/c++/11.1.0/bits/locale_facets.h \

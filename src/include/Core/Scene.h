@@ -17,8 +17,10 @@ public:
 	virtual void update();
 	virtual void render(SDL_Renderer* renderer);
 
-protected:
+	EntityManager* getEntityManager();
 
+protected:
+	EntityManager* entityManager;
 };
 
 #endif // SCENE_H
