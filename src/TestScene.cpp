@@ -12,6 +12,11 @@
 
 TestScene::TestScene(): Scene()
 {
+	this->canPutAnotherEntity = true;
+	this->saveButton = false;
+
+
+	this->lev = new Level();
 	this->entityManager = new EntityManager();
 	this->background = nullptr;
 	LOG("Hello from test scene :)");
@@ -19,32 +24,68 @@ TestScene::TestScene(): Scene()
 
 TestScene::~TestScene()
 {
-	
 }
 
 void TestScene::loadData(Game* game)
 {
 
 	this->background = Renderer::loadSprite(game->getRenderer(), "Data/Sprites/Background.png");
+	
+	this->lev->loadLevel(game, "Data/Levels/test.json");
 
-	Level* lev = new Level();
-	lev->loadLevel(game, "Data/Levels/test.json");
+}
 
+void TestScene::saveLevel()
+{
+	this->lev->saveEntities(this, "Data/Levels/test.json");
 }
 
 void TestScene::inputHandler()
 {
-	for (auto i : this->entityManager->getEntityGroup("global\0"))
+	if (InputController::getKey(Key::S) == KeyStatus::KEY_PRESSED && this->saveButton == false)
 	{
-		i.second->inputHandler();
+		this->saveButton = true;
+		this->saveLevel();
+	}
+
+	if (InputController::getMouse(MouseButton::BUTTON_LEFT) == MouseStatus::BUTTON_PRESSED && this->canPutAnotherEntity == true)
+	{
+		printf("A\n");
+		SpriteData sd = SpriteData();
+		sd.ssx = 0;
+		sd.ssy = 0;
+		sd.height = 16;
+		sd.width = 16;
+		sd.scale = 4;
+		BananaBox* bb = new BananaBox(sd);
+		bb->setX(InputController::getMousePosition().x / 100);
+		bb->setY(InputController::getMousePosition().y / 100);
+		this->entityManager->addEntity(bb);
+		this->canPutAnotherEntity = false;
+	}
+	
+	if (InputController::getKey(Key::C) == KeyStatus::KEY_PRESSED)
+	{
+		// TODO: Make the method be called at the end of C key pressed
+		this->entityManager->removeAllEntities();
+	}
+
+	if (InputController::getMouse(MouseButton::BUTTON_LEFT) == MouseStatus::BUTTON_RELEASED)
+	{
+		this->canPutAnotherEntity = true;
+	}
+
+	for (auto i : this->entityManager->getEntities())
+	{
+		i->inputHandler();
 	}
 }
 
 void TestScene::update()
 {
-	for (auto i : this->entityManager->getEntityGroup("global\0"))
+	for (auto i : this->entityManager->getEntities())
 	{
-		i.second->update(0.f);
+		i->update(0.f);
 	}
 }
 
@@ -54,9 +95,9 @@ void TestScene::render(SDL_Renderer* renderer)
 	SDL_RenderClear(renderer);
 	
 	Renderer::renderSingleSprite(renderer, this->background, 0, 0, 900, 600);
-	for (auto i : this->entityManager->getEntityGroup("global\0"))
+	for (auto i : this->entityManager->getEntities())
 	{
-		i.second->render(renderer);
+		i->render(renderer);
 	}
 	SDL_RenderPresent(renderer);
 }

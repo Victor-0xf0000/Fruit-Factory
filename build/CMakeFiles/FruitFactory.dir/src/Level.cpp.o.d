@@ -172,8 +172,7 @@ CMakeFiles/FruitFactory.dir/src/Level.cpp.o: \
  /usr/include/c++/11.1.0/bits/unordered_map.h \
  /usr/include/c++/11.1.0/bits/erase_if.h \
  /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/ErrorLog.h \
- /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Entities/Boxes/BananaBox.h \
- /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/Entity.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/Scene.h \
  /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL.h \
  /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_main.h \
  /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_stdinc.h \
@@ -227,11 +226,14 @@ CMakeFiles/FruitFactory.dir/src/Level.cpp.o: \
  /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_version.h \
  /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_locale.h \
  /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_misc.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/EntityManager.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Entities/Boxes/BananaBox.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/Entity.h \
  /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/Sprite.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Entities/EntityTypes.h \
  /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Game.h \
  /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_image.h \
  /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL.h \
- /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/EntityManager.h \
  /usr/include/c++/11.1.0/fstream /usr/include/c++/11.1.0/istream \
  /usr/include/c++/11.1.0/ios /usr/include/c++/11.1.0/bits/basic_ios.h \
  /usr/include/c++/11.1.0/bits/locale_facets.h \

@@ -46,7 +46,7 @@ SDL_Texture* Renderer::loadSprite(SDL_Renderer* renderer, const char* path)
 
 void Renderer::renderSingleEntity(SDL_Renderer* renderer, Entity* entity)
 {
-    SpriteData sd = *entity->getSpr();
+    SpriteData sd = entity->getSpr();
     SDL_Rect srcRect = {.x = sd.ssx, .y = sd.ssy, .w = sd.width, .h = sd.height};
     SDL_Rect desRect = {.x = entity->getX(), .y = entity->getY(), .w = sd.width * sd.scale, .h = sd.height * sd.scale};
 

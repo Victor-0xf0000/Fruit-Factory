@@ -3,11 +3,12 @@
 
 #include <SDL2/SDL.h>
 #include <Core/Sprite.h>
+#include <Entities/EntityTypes.h>
 
 class Entity
 {
 public:
-    Entity(SpriteData* spr);
+    Entity(SpriteData spr);
     virtual ~Entity();
 
     virtual void render(SDL_Renderer* renderer);
@@ -18,11 +19,13 @@ public:
     virtual int getY() const  {   return y;}
     virtual void setX(int x) {   this->x = x;}
     virtual void setY(int y) {   this->y = y;}
-    virtual SpriteData* getSpr() const {   return spr;}
+    virtual EntityType getType() {    return this->type;}
+    virtual SpriteData getSpr() const {   return spr;}
     
 protected:
-    SpriteData* spr;
+    SpriteData spr;
     int x, y;
+    EntityType type;
 };
 
 #endif // ENTITY_H

@@ -88,6 +88,7 @@ CMakeFiles/FruitFactory.dir/src/Entity.cpp.o: \
  /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_locale.h \
  /home/appletaart/deutsc/C++/Fruit-Factory/src/include/SDL2/SDL_misc.h \
  /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/Sprite.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Entities/EntityTypes.h \
  /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/InputController.h \
  /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/InputType.h \
  /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/Math/Vector2.h

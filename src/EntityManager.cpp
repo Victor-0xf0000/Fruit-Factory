@@ -1,13 +1,11 @@
 #include <Core/EntityManager.h>
 #include <Core/Entity.h>
 #include <Core/ErrorLog.h>
+#include <algorithm>
 
 EntityManager::EntityManager()
 {
-    this->entityGroups = new std::unordered_map<std::string, entityGroup*>();
-
-    // global is the default group
-    this->createGroup("global\0");
+    this->entities = new std::vector<Entity*>();
 }
 
 EntityManager::~EntityManager()
@@ -16,28 +14,26 @@ EntityManager::~EntityManager()
 }
 
 // Management functions
-void EntityManager::addEntity(const char* id, const char* group, Entity* entity)
+void EntityManager::addEntity(Entity* entity)
 {
-    this->entityGroups->at(group)->insert(std::unordered_map<std::string, Entity*>::value_type(id, entity));
+    this->entities->push_back(entity);
 }
 
-void EntityManager::removeEntity(const char* id, const char* group)
+void EntityManager::removeEntity(Entity* entity)
 {
-    this->entityGroups->at(group)->erase(id);
+    auto iter = std::find(this->entities->begin(), this->entities->end(), entity);
 }
 
-void EntityManager::createGroup(const char* name)
+void EntityManager::removeAllEntities()
 {
-    this->entityGroups->insert(std::unordered_map<std::string, entityGroup*>::value_type(name, new std::unordered_map<std::string, Entity*>));
-}
-
-Entity* EntityManager::findEntity(const char* id, const char* group)
-{
-    return this->entityGroups->at(group)->at(id);
+    while (!this->entities->empty())
+    {
+        this->entities->pop_back();
+    }
 }
 
 // Get entities
-std::unordered_map<std::string, Entity*> EntityManager::getEntityGroup(const char* group)
+std::vector<Entity*> EntityManager::getEntities()
 {
-    return *this->entityGroups->at(group);
+    return *this->entities;
 }

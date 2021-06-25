@@ -14,6 +14,7 @@ public:
     virtual ~Level();
 
     void loadLevel(class Game* game, const char* path);
+    void saveEntities(class Scene* scene, const char* path);
 
     std::unordered_map<int, int>* inputItems; // first int for quantity and second for item id
 private:

@@ -18,14 +18,19 @@
 	-animations [] -- Later?
 
 -Game []
-	-levels []
-	-Sprites [] -- pixel arts
+	-levels [x]
+		-level load [x]
+		-level save [x]
+	-Block place [x]
 	-inputs []
 	-Conveyor belt []
+	-Flyweight apply []
 	-outputs []
 	-Slicer Machine []
 	-Separator Machine []
-	-level save and load []
+
+-Temp
+	-Refactoring time!!
 
 ////////////////////////
 OBSCURE AREA

@@ -1,10 +1,8 @@
 #ifndef ENTITY_MANAGER_H
 #define ENTITY_MANAGER_H
 
-#include <unordered_map>
+#include <vector>
 #include <string>
-
-typedef std::unordered_map<std::string, class Entity*> entityGroup;
 
 
 class EntityManager
@@ -15,18 +13,17 @@ public:
     virtual ~EntityManager();
 
     // Management functions
-    void addEntity(const char* id, const char* group, class Entity* entity);
-    void removeEntity(const char* id, const char* group);
-    void createGroup(const char* name);
+    void addEntity(class Entity* entity);
+    void removeEntity(class Entity* entity);
+    void removeAllEntities();
 
-    class Entity* findEntity(const char* id, const char* group);
-
+    // class Entity* findEntity(int id);
     
     // Get entities
-    std::unordered_map<std::string, class Entity*> getEntityGroup(const char* group);
+    std::vector<class Entity*> getEntities();
 
 private:
-    std::unordered_map<std::string, entityGroup*>* entityGroups;
+    std::vector<class Entity*>* entities;
 };
 
 #endif // ENTITY_MANAGER_H

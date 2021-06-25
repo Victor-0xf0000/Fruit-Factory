@@ -162,4 +162,5 @@ CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o: \
  /usr/include/c++/11.1.0/bits/charconv.h \
  /usr/include/c++/11.1.0/bits/basic_string.tcc \
  /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/Sprite.h \
- /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/Entity.h
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/Entity.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Entities/EntityTypes.h

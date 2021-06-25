@@ -5,8 +5,9 @@
 #include <Game.h>
 
 
-BananaBox::BananaBox(SpriteData* spr): Entity(spr)
+BananaBox::BananaBox(SpriteData spr): Entity(spr)
 {
+    this->type = EntityType::bananaBox;
     this->setX(30);
     this->setY(30);
 }

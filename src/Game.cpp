@@ -104,7 +104,7 @@ void Game::inputHandler()
 
 void Game::update()
 {
-
+	this->sceneManager->getCurrent()->update();
 }
 
 void Game::render()

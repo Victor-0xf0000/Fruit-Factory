@@ -13,6 +13,7 @@ public:
 	virtual ~TestScene();
 	
 	void loadData(Game* game) override;
+	void saveLevel();
 
 	void inputHandler() override;
 	void update() override;
@@ -20,6 +21,10 @@ public:
 
 private:
 	SDL_Texture* background;
+	class Level* lev;
+
+	bool saveButton;
+	bool canPutAnotherEntity;
 };
 
 #endif // TEST_SCENE_H

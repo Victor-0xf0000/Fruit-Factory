@@ -24,7 +24,6 @@ MouseStatus InputController::getMouse(const MouseButton button)
 
 Vector2i InputController::getMousePosition()
 {
-	
 	int a = 0, b = 0;
 
 	SDL_GetMouseState(&a, &b);
