@@ -68,7 +68,7 @@ void Level::loadLevel(Game* game, const char* path)
                 sd.ssy = 0;
                 sd.width = 16;
                 sd.height = 16;
-                sd.scale = 4;
+                sd.scale = 3;
                 BananaBox* box = new BananaBox(sd);
                 box->setX(x);
                 box->setY(y);
@@ -112,8 +112,8 @@ void Level::saveEntities(Scene* scene, const char* path)
         rapidjson::Value entity(rapidjson::kArrayType);
         entity.PushBack(i->getType(), this->jsonDocument.GetAllocator()); // add type
         entity.PushBack(iEntity, this->jsonDocument.GetAllocator()); // add id (id is a string, but it's converted to int)
-        entity.PushBack(i->getX() / 100, this->jsonDocument.GetAllocator()); // add x
-        entity.PushBack(i->getY() / 100, this->jsonDocument.GetAllocator()); // add y
+        entity.PushBack(i->getX(), this->jsonDocument.GetAllocator()); // add x
+        entity.PushBack(i->getY(), this->jsonDocument.GetAllocator()); // add y
         this->jsonDocument["entities"].PushBack(entity, this->jsonDocument.GetAllocator());
         iEntity++;
     }

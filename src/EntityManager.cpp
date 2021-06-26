@@ -22,6 +22,9 @@ void EntityManager::addEntity(Entity* entity)
 void EntityManager::removeEntity(Entity* entity)
 {
     auto iter = std::find(this->entities->begin(), this->entities->end(), entity);
+    // Swap to end of vector and pop off (avoid erase copies)
+    std::iter_swap(iter, this->entities->end() - 1);
+    this->entities->pop_back();
 }
 
 void EntityManager::removeAllEntities()

@@ -3,6 +3,7 @@
 
 enum EntityType 
 {
+    air,
     bananaBox
 };
 

@@ -2,6 +2,7 @@
 #define TEST_SCENE_H
 
 #include <Core/Scene.h>
+#include <Entities/EntityTypes.h>
 
 #include <SDL2/SDL.h>
 
@@ -21,10 +22,13 @@ public:
 
 private:
 	SDL_Texture* background;
+	SDL_Texture* moldure;
 	class Level* lev;
 
-	bool saveButton;
-	bool canPutAnotherEntity;
+	int mode;
+	int blockId;
+
+	EntityType blockMap[11][11];
 };
 
 #endif // TEST_SCENE_H

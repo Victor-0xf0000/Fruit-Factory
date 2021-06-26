@@ -12,8 +12,17 @@ public:
     void render(SDL_Renderer* renderer) override;
     void update(const float dt) override;
     void inputHandler() override;
-    void setX(int x) override {this->x = x * 100 + 50;};
-    void setY(int y) override {this->y = y * 100 + 50;};
+    void setX(int x) override 
+    {
+        int hmgx = x / 48;
+        this->x = hmgx * 48;
+    }
+
+    void setY(int y) override 
+    {
+        int hmgy = y / 48;
+        this->y = hmgy * 48;
+    }
 private:
 
 };

@@ -185,4 +185,5 @@ CMakeFiles/FruitFactory.dir/src/Game.cpp.o: \
  /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/Math/Vector2.h \
  /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/Renderer.h \
  /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Scenes/TestScene.h \
- /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/Scene.h
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Core/Scene.h \
+ /home/appletaart/deutsc/C++/Fruit-Factory/src/include/Entities/EntityTypes.h

@@ -806,7 +806,8 @@ CMakeFiles/FruitFactory.dir/src/Game.cpp.o: ../src/Game.cpp \
   ../src/include/Core/Math/Vector2.h \
   ../src/include/Core/Renderer.h \
   ../src/include/Scenes/TestScene.h \
-  ../src/include/Core/Scene.h
+  ../src/include/Core/Scene.h \
+  ../src/include/Entities/EntityTypes.h
 
 CMakeFiles/FruitFactory.dir/src/InputController.cpp.o: ../src/InputController.cpp \
   /usr/include/stdc-predef.h \
@@ -2181,6 +2182,7 @@ CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o: ../src/TestScene.cpp \
   /usr/include/bits/types/error_t.h \
   /usr/include/c++/11.1.0/bits/charconv.h \
   /usr/include/c++/11.1.0/bits/basic_string.tcc \
+  ../src/include/Entities/EntityTypes.h \
   ../src/include/Core/ErrorLog.h \
   ../src/include/Core/InputController.h \
   ../src/include/Core/InputType.h \
@@ -2191,7 +2193,6 @@ CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o: ../src/TestScene.cpp \
   ../src/include/SDL2/SDL.h \
   ../src/include/Entities/Boxes/BananaBox.h \
   ../src/include/Core/Entity.h \
-  ../src/include/Entities/EntityTypes.h \
   ../src/include/Level/Level.h \
   ../src/include/rapidjson/document.h \
   ../src/include/rapidjson/reader.h \

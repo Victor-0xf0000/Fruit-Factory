@@ -55,7 +55,7 @@ void Renderer::renderSingleEntity(SDL_Renderer* renderer, Entity* entity)
 
 void Renderer::renderSingleSprite(SDL_Renderer* renderer, SDL_Texture* sprite, int x, int y, int width, int height)
 {
-    SDL_Rect srcRct = {.x = x, .y = x, .w = width, .h = height};
+    SDL_Rect dstRct = {.x = x, .y = y, .w = width, .h = height};
 
-    SDL_RenderCopy(renderer, sprite, nullptr, &srcRct);
+    SDL_RenderCopy(renderer, sprite, nullptr, &dstRct);
 }
