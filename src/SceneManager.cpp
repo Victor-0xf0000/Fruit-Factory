@@ -23,7 +23,7 @@ void SceneManager::destroyScene(const char* name)
 {
 	if (this->scenes->at(name))
 	{
-		fERROR("Cannot destroy scene, scene ", name, " is empty");
+		fERROR("Cannot find scene\n");
 		exit(0);
 	}
 	this->scenes->erase(name);
@@ -33,7 +33,7 @@ void SceneManager::selectScene(const char* name)
 {
 	if (this->scenes->empty())
 	{
-		fERROR("Cannot select scene, scenes is empty");
+		fERROR("Cannot select scene, scenes is empty\n");
 		exit(0);
 	}
 	this->current = name;
@@ -43,7 +43,7 @@ Scene* SceneManager::getCurrent()
 {
 	if (this->scenes->empty())
 	{
-		fERROR("Cannot get current scene, scenes is empty");
+		fERROR("Cannot get current scene, scenes is empty\n");
 		exit(0);
 	}
 	return this->scenes->at(this->current);

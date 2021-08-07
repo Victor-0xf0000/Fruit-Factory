@@ -9,9 +9,9 @@
 
 struct InputController
 {
-	static KeyStatus getKey(const Key key);
-	static MouseStatus getMouse(const MouseButton button);
+	static bool getKey(const Key key);
+	// NOTE: when add support to middle button, the return type of getMouse need be an enum
+	static bool getMouse(const MouseButton button);
 	static Vector2i getMousePosition();
-	
 };
 #endif // INPUT_CONTROLLER

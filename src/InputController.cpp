@@ -1,25 +1,15 @@
 #include <Core/InputController.h>
 #include <Core/ErrorLog.h>
 
-KeyStatus InputController::getKey(const Key key)
+bool InputController::getKey(const Key key)
 {
 	const Uint8* state = SDL_GetKeyboardState(NULL);
-	if (state[key])
-		return KEY_PRESSED;
-	else
-		return KEY_RELEASED;
-	
+	return state[key];
 }
 
-MouseStatus InputController::getMouse(const MouseButton button)
+bool InputController::getMouse(const MouseButton button)
 {
-	if (SDL_GetMouseState(NULL, NULL) & button)
-	{
-		return BUTTON_PRESSED;
-	}
-	else
-		return BUTTON_RELEASED;
-		
+	return SDL_GetMouseState(NULL, NULL) & button;
 }
 
 Vector2i InputController::getMousePosition()

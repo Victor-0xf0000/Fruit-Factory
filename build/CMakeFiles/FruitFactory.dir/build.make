@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/appletaart/deutsc/C++/Fruit-Factory
+CMAKE_SOURCE_DIR = /home/appletaart/nature/cc/Fruit-Factory
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/appletaart/deutsc/C++/Fruit-Factory/build
+CMAKE_BINARY_DIR = /home/appletaart/nature/cc/Fruit-Factory/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/FruitFactory.dir/depend.make
@@ -72,220 +72,348 @@ include CMakeFiles/FruitFactory.dir/flags.make
 CMakeFiles/FruitFactory.dir/src/main.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
 CMakeFiles/FruitFactory.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/FruitFactory.dir/src/main.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/deutsc/C++/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FruitFactory.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/main.cpp.o -MF CMakeFiles/FruitFactory.dir/src/main.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/main.cpp.o -c /home/appletaart/deutsc/C++/Fruit-Factory/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FruitFactory.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/main.cpp.o -MF CMakeFiles/FruitFactory.dir/src/main.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/main.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/main.cpp
 
 CMakeFiles/FruitFactory.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/deutsc/C++/Fruit-Factory/src/main.cpp > CMakeFiles/FruitFactory.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/main.cpp > CMakeFiles/FruitFactory.dir/src/main.cpp.i
 
 CMakeFiles/FruitFactory.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/deutsc/C++/Fruit-Factory/src/main.cpp -o CMakeFiles/FruitFactory.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/main.cpp -o CMakeFiles/FruitFactory.dir/src/main.cpp.s
 
 CMakeFiles/FruitFactory.dir/src/Game.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
 CMakeFiles/FruitFactory.dir/src/Game.cpp.o: ../src/Game.cpp
 CMakeFiles/FruitFactory.dir/src/Game.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/deutsc/C++/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FruitFactory.dir/src/Game.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/Game.cpp.o -MF CMakeFiles/FruitFactory.dir/src/Game.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/Game.cpp.o -c /home/appletaart/deutsc/C++/Fruit-Factory/src/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FruitFactory.dir/src/Game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/Game.cpp.o -MF CMakeFiles/FruitFactory.dir/src/Game.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/Game.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/Game.cpp
 
 CMakeFiles/FruitFactory.dir/src/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/deutsc/C++/Fruit-Factory/src/Game.cpp > CMakeFiles/FruitFactory.dir/src/Game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/Game.cpp > CMakeFiles/FruitFactory.dir/src/Game.cpp.i
 
 CMakeFiles/FruitFactory.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/deutsc/C++/Fruit-Factory/src/Game.cpp -o CMakeFiles/FruitFactory.dir/src/Game.cpp.s
-
-CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
-CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.o: ../src/WindowManager.cpp
-CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/deutsc/C++/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.o -MF CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.o -c /home/appletaart/deutsc/C++/Fruit-Factory/src/WindowManager.cpp
-
-CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/deutsc/C++/Fruit-Factory/src/WindowManager.cpp > CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.i
-
-CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/deutsc/C++/Fruit-Factory/src/WindowManager.cpp -o CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.s
-
-CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
-CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o: ../src/SceneManager.cpp
-CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/deutsc/C++/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o -MF CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o -c /home/appletaart/deutsc/C++/Fruit-Factory/src/SceneManager.cpp
-
-CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/deutsc/C++/Fruit-Factory/src/SceneManager.cpp > CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.i
-
-CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/deutsc/C++/Fruit-Factory/src/SceneManager.cpp -o CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.s
-
-CMakeFiles/FruitFactory.dir/src/Scene.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
-CMakeFiles/FruitFactory.dir/src/Scene.cpp.o: ../src/Scene.cpp
-CMakeFiles/FruitFactory.dir/src/Scene.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/deutsc/C++/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FruitFactory.dir/src/Scene.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/Scene.cpp.o -MF CMakeFiles/FruitFactory.dir/src/Scene.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/Scene.cpp.o -c /home/appletaart/deutsc/C++/Fruit-Factory/src/Scene.cpp
-
-CMakeFiles/FruitFactory.dir/src/Scene.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/Scene.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/deutsc/C++/Fruit-Factory/src/Scene.cpp > CMakeFiles/FruitFactory.dir/src/Scene.cpp.i
-
-CMakeFiles/FruitFactory.dir/src/Scene.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/Scene.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/deutsc/C++/Fruit-Factory/src/Scene.cpp -o CMakeFiles/FruitFactory.dir/src/Scene.cpp.s
-
-CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
-CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o: ../src/TestScene.cpp
-CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/deutsc/C++/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o -MF CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o -c /home/appletaart/deutsc/C++/Fruit-Factory/src/TestScene.cpp
-
-CMakeFiles/FruitFactory.dir/src/TestScene.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/TestScene.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/deutsc/C++/Fruit-Factory/src/TestScene.cpp > CMakeFiles/FruitFactory.dir/src/TestScene.cpp.i
-
-CMakeFiles/FruitFactory.dir/src/TestScene.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/TestScene.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/deutsc/C++/Fruit-Factory/src/TestScene.cpp -o CMakeFiles/FruitFactory.dir/src/TestScene.cpp.s
-
-CMakeFiles/FruitFactory.dir/src/InputController.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
-CMakeFiles/FruitFactory.dir/src/InputController.cpp.o: ../src/InputController.cpp
-CMakeFiles/FruitFactory.dir/src/InputController.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/deutsc/C++/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FruitFactory.dir/src/InputController.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/InputController.cpp.o -MF CMakeFiles/FruitFactory.dir/src/InputController.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/InputController.cpp.o -c /home/appletaart/deutsc/C++/Fruit-Factory/src/InputController.cpp
-
-CMakeFiles/FruitFactory.dir/src/InputController.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/InputController.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/deutsc/C++/Fruit-Factory/src/InputController.cpp > CMakeFiles/FruitFactory.dir/src/InputController.cpp.i
-
-CMakeFiles/FruitFactory.dir/src/InputController.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/InputController.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/deutsc/C++/Fruit-Factory/src/InputController.cpp -o CMakeFiles/FruitFactory.dir/src/InputController.cpp.s
-
-CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
-CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o: ../src/Sprite.cpp
-CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/deutsc/C++/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o -MF CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o -c /home/appletaart/deutsc/C++/Fruit-Factory/src/Sprite.cpp
-
-CMakeFiles/FruitFactory.dir/src/Sprite.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/Sprite.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/deutsc/C++/Fruit-Factory/src/Sprite.cpp > CMakeFiles/FruitFactory.dir/src/Sprite.cpp.i
-
-CMakeFiles/FruitFactory.dir/src/Sprite.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/Sprite.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/deutsc/C++/Fruit-Factory/src/Sprite.cpp -o CMakeFiles/FruitFactory.dir/src/Sprite.cpp.s
-
-CMakeFiles/FruitFactory.dir/src/Entity.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
-CMakeFiles/FruitFactory.dir/src/Entity.cpp.o: ../src/Entity.cpp
-CMakeFiles/FruitFactory.dir/src/Entity.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/deutsc/C++/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FruitFactory.dir/src/Entity.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/Entity.cpp.o -MF CMakeFiles/FruitFactory.dir/src/Entity.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/Entity.cpp.o -c /home/appletaart/deutsc/C++/Fruit-Factory/src/Entity.cpp
-
-CMakeFiles/FruitFactory.dir/src/Entity.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/Entity.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/deutsc/C++/Fruit-Factory/src/Entity.cpp > CMakeFiles/FruitFactory.dir/src/Entity.cpp.i
-
-CMakeFiles/FruitFactory.dir/src/Entity.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/Entity.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/deutsc/C++/Fruit-Factory/src/Entity.cpp -o CMakeFiles/FruitFactory.dir/src/Entity.cpp.s
-
-CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
-CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o: ../src/BananaBox.cpp
-CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/deutsc/C++/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o -MF CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o -c /home/appletaart/deutsc/C++/Fruit-Factory/src/BananaBox.cpp
-
-CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/deutsc/C++/Fruit-Factory/src/BananaBox.cpp > CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.i
-
-CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/deutsc/C++/Fruit-Factory/src/BananaBox.cpp -o CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.s
-
-CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
-CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/EntityManager.cpp
-CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/deutsc/C++/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o -MF CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o -c /home/appletaart/deutsc/C++/Fruit-Factory/src/EntityManager.cpp
-
-CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/deutsc/C++/Fruit-Factory/src/EntityManager.cpp > CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.i
-
-CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/deutsc/C++/Fruit-Factory/src/EntityManager.cpp -o CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/Game.cpp -o CMakeFiles/FruitFactory.dir/src/Game.cpp.s
 
 CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
 CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o: ../src/Renderer.cpp
 CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/deutsc/C++/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o -MF CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o -c /home/appletaart/deutsc/C++/Fruit-Factory/src/Renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o -MF CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/Renderer.cpp
 
 CMakeFiles/FruitFactory.dir/src/Renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/Renderer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/deutsc/C++/Fruit-Factory/src/Renderer.cpp > CMakeFiles/FruitFactory.dir/src/Renderer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/Renderer.cpp > CMakeFiles/FruitFactory.dir/src/Renderer.cpp.i
 
 CMakeFiles/FruitFactory.dir/src/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/Renderer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/deutsc/C++/Fruit-Factory/src/Renderer.cpp -o CMakeFiles/FruitFactory.dir/src/Renderer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/Renderer.cpp -o CMakeFiles/FruitFactory.dir/src/Renderer.cpp.s
 
 CMakeFiles/FruitFactory.dir/src/Level.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
 CMakeFiles/FruitFactory.dir/src/Level.cpp.o: ../src/Level.cpp
 CMakeFiles/FruitFactory.dir/src/Level.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/deutsc/C++/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/FruitFactory.dir/src/Level.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/Level.cpp.o -MF CMakeFiles/FruitFactory.dir/src/Level.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/Level.cpp.o -c /home/appletaart/deutsc/C++/Fruit-Factory/src/Level.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FruitFactory.dir/src/Level.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/Level.cpp.o -MF CMakeFiles/FruitFactory.dir/src/Level.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/Level.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/Level.cpp
 
 CMakeFiles/FruitFactory.dir/src/Level.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/Level.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/deutsc/C++/Fruit-Factory/src/Level.cpp > CMakeFiles/FruitFactory.dir/src/Level.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/Level.cpp > CMakeFiles/FruitFactory.dir/src/Level.cpp.i
 
 CMakeFiles/FruitFactory.dir/src/Level.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/Level.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/deutsc/C++/Fruit-Factory/src/Level.cpp -o CMakeFiles/FruitFactory.dir/src/Level.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/Level.cpp -o CMakeFiles/FruitFactory.dir/src/Level.cpp.s
+
+CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
+CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o: ../src/Sprite.cpp
+CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o -MF CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/Sprite.cpp
+
+CMakeFiles/FruitFactory.dir/src/Sprite.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/Sprite.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/Sprite.cpp > CMakeFiles/FruitFactory.dir/src/Sprite.cpp.i
+
+CMakeFiles/FruitFactory.dir/src/Sprite.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/Sprite.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/Sprite.cpp -o CMakeFiles/FruitFactory.dir/src/Sprite.cpp.s
+
+CMakeFiles/FruitFactory.dir/src/InputController.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
+CMakeFiles/FruitFactory.dir/src/InputController.cpp.o: ../src/InputController.cpp
+CMakeFiles/FruitFactory.dir/src/InputController.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FruitFactory.dir/src/InputController.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/InputController.cpp.o -MF CMakeFiles/FruitFactory.dir/src/InputController.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/InputController.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/InputController.cpp
+
+CMakeFiles/FruitFactory.dir/src/InputController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/InputController.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/InputController.cpp > CMakeFiles/FruitFactory.dir/src/InputController.cpp.i
+
+CMakeFiles/FruitFactory.dir/src/InputController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/InputController.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/InputController.cpp -o CMakeFiles/FruitFactory.dir/src/InputController.cpp.s
+
+CMakeFiles/FruitFactory.dir/src/MathHelper.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
+CMakeFiles/FruitFactory.dir/src/MathHelper.cpp.o: ../src/MathHelper.cpp
+CMakeFiles/FruitFactory.dir/src/MathHelper.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FruitFactory.dir/src/MathHelper.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/MathHelper.cpp.o -MF CMakeFiles/FruitFactory.dir/src/MathHelper.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/MathHelper.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/MathHelper.cpp
+
+CMakeFiles/FruitFactory.dir/src/MathHelper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/MathHelper.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/MathHelper.cpp > CMakeFiles/FruitFactory.dir/src/MathHelper.cpp.i
+
+CMakeFiles/FruitFactory.dir/src/MathHelper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/MathHelper.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/MathHelper.cpp -o CMakeFiles/FruitFactory.dir/src/MathHelper.cpp.s
+
+CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
+CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.o: ../src/WindowManager.cpp
+CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.o -MF CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/WindowManager.cpp
+
+CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/WindowManager.cpp > CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.i
+
+CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/WindowManager.cpp -o CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.s
+
+CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
+CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o: ../src/SceneManager.cpp
+CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o -MF CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/SceneManager.cpp
+
+CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/SceneManager.cpp > CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.i
+
+CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/SceneManager.cpp -o CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.s
+
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: ../src/EntityManager.cpp
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o -MF CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/EntityManager.cpp
+
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/EntityManager.cpp > CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.i
+
+CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/EntityManager.cpp -o CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.s
+
+CMakeFiles/FruitFactory.dir/src/Scene.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
+CMakeFiles/FruitFactory.dir/src/Scene.cpp.o: ../src/Scene.cpp
+CMakeFiles/FruitFactory.dir/src/Scene.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FruitFactory.dir/src/Scene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/Scene.cpp.o -MF CMakeFiles/FruitFactory.dir/src/Scene.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/Scene.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/Scene.cpp
+
+CMakeFiles/FruitFactory.dir/src/Scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/Scene.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/Scene.cpp > CMakeFiles/FruitFactory.dir/src/Scene.cpp.i
+
+CMakeFiles/FruitFactory.dir/src/Scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/Scene.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/Scene.cpp -o CMakeFiles/FruitFactory.dir/src/Scene.cpp.s
+
+CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
+CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o: ../src/TestScene.cpp
+CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o -MF CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/TestScene.cpp
+
+CMakeFiles/FruitFactory.dir/src/TestScene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/TestScene.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/TestScene.cpp > CMakeFiles/FruitFactory.dir/src/TestScene.cpp.i
+
+CMakeFiles/FruitFactory.dir/src/TestScene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/TestScene.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/TestScene.cpp -o CMakeFiles/FruitFactory.dir/src/TestScene.cpp.s
+
+CMakeFiles/FruitFactory.dir/src/Entity.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
+CMakeFiles/FruitFactory.dir/src/Entity.cpp.o: ../src/Entity.cpp
+CMakeFiles/FruitFactory.dir/src/Entity.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/FruitFactory.dir/src/Entity.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/Entity.cpp.o -MF CMakeFiles/FruitFactory.dir/src/Entity.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/Entity.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/Entity.cpp
+
+CMakeFiles/FruitFactory.dir/src/Entity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/Entity.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/Entity.cpp > CMakeFiles/FruitFactory.dir/src/Entity.cpp.i
+
+CMakeFiles/FruitFactory.dir/src/Entity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/Entity.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/Entity.cpp -o CMakeFiles/FruitFactory.dir/src/Entity.cpp.s
+
+CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
+CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o: ../src/BananaBox.cpp
+CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o -MF CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/BananaBox.cpp
+
+CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/BananaBox.cpp > CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.i
+
+CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/BananaBox.cpp -o CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.s
+
+CMakeFiles/FruitFactory.dir/src/InputBlock.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
+CMakeFiles/FruitFactory.dir/src/InputBlock.cpp.o: ../src/InputBlock.cpp
+CMakeFiles/FruitFactory.dir/src/InputBlock.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/FruitFactory.dir/src/InputBlock.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/InputBlock.cpp.o -MF CMakeFiles/FruitFactory.dir/src/InputBlock.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/InputBlock.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/InputBlock.cpp
+
+CMakeFiles/FruitFactory.dir/src/InputBlock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/InputBlock.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/InputBlock.cpp > CMakeFiles/FruitFactory.dir/src/InputBlock.cpp.i
+
+CMakeFiles/FruitFactory.dir/src/InputBlock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/InputBlock.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/InputBlock.cpp -o CMakeFiles/FruitFactory.dir/src/InputBlock.cpp.s
+
+CMakeFiles/FruitFactory.dir/src/UIComponent.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
+CMakeFiles/FruitFactory.dir/src/UIComponent.cpp.o: ../src/UIComponent.cpp
+CMakeFiles/FruitFactory.dir/src/UIComponent.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/FruitFactory.dir/src/UIComponent.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/UIComponent.cpp.o -MF CMakeFiles/FruitFactory.dir/src/UIComponent.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/UIComponent.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/UIComponent.cpp
+
+CMakeFiles/FruitFactory.dir/src/UIComponent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/UIComponent.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/UIComponent.cpp > CMakeFiles/FruitFactory.dir/src/UIComponent.cpp.i
+
+CMakeFiles/FruitFactory.dir/src/UIComponent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/UIComponent.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/UIComponent.cpp -o CMakeFiles/FruitFactory.dir/src/UIComponent.cpp.s
+
+CMakeFiles/FruitFactory.dir/src/UIMenu.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
+CMakeFiles/FruitFactory.dir/src/UIMenu.cpp.o: ../src/UIMenu.cpp
+CMakeFiles/FruitFactory.dir/src/UIMenu.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/FruitFactory.dir/src/UIMenu.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/UIMenu.cpp.o -MF CMakeFiles/FruitFactory.dir/src/UIMenu.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/UIMenu.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/UIMenu.cpp
+
+CMakeFiles/FruitFactory.dir/src/UIMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/UIMenu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/UIMenu.cpp > CMakeFiles/FruitFactory.dir/src/UIMenu.cpp.i
+
+CMakeFiles/FruitFactory.dir/src/UIMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/UIMenu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/UIMenu.cpp -o CMakeFiles/FruitFactory.dir/src/UIMenu.cpp.s
+
+CMakeFiles/FruitFactory.dir/src/UICButton.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
+CMakeFiles/FruitFactory.dir/src/UICButton.cpp.o: ../src/UICButton.cpp
+CMakeFiles/FruitFactory.dir/src/UICButton.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/FruitFactory.dir/src/UICButton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/UICButton.cpp.o -MF CMakeFiles/FruitFactory.dir/src/UICButton.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/UICButton.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/UICButton.cpp
+
+CMakeFiles/FruitFactory.dir/src/UICButton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/UICButton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/UICButton.cpp > CMakeFiles/FruitFactory.dir/src/UICButton.cpp.i
+
+CMakeFiles/FruitFactory.dir/src/UICButton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/UICButton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/UICButton.cpp -o CMakeFiles/FruitFactory.dir/src/UICButton.cpp.s
+
+CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
+CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.o: ../src/UIEntitySelector.cpp
+CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.o -MF CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/UIEntitySelector.cpp
+
+CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/UIEntitySelector.cpp > CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.i
+
+CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/UIEntitySelector.cpp -o CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.s
+
+CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
+CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.o: ../src/TileSystem.cpp
+CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.o -MF CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/TileSystem.cpp
+
+CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/TileSystem.cpp > CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.i
+
+CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/TileSystem.cpp -o CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.s
+
+CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
+CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.o: ../src/StorageTile.cpp
+CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.o -MF CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/StorageTile.cpp
+
+CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/StorageTile.cpp > CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.i
+
+CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/StorageTile.cpp -o CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.s
 
 # Object files for target FruitFactory
 FruitFactory_OBJECTS = \
 "CMakeFiles/FruitFactory.dir/src/main.cpp.o" \
 "CMakeFiles/FruitFactory.dir/src/Game.cpp.o" \
+"CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o" \
+"CMakeFiles/FruitFactory.dir/src/Level.cpp.o" \
+"CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o" \
+"CMakeFiles/FruitFactory.dir/src/InputController.cpp.o" \
+"CMakeFiles/FruitFactory.dir/src/MathHelper.cpp.o" \
 "CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.o" \
 "CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o" \
+"CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o" \
 "CMakeFiles/FruitFactory.dir/src/Scene.cpp.o" \
 "CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o" \
-"CMakeFiles/FruitFactory.dir/src/InputController.cpp.o" \
-"CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o" \
 "CMakeFiles/FruitFactory.dir/src/Entity.cpp.o" \
 "CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o" \
-"CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o" \
-"CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o" \
-"CMakeFiles/FruitFactory.dir/src/Level.cpp.o"
+"CMakeFiles/FruitFactory.dir/src/InputBlock.cpp.o" \
+"CMakeFiles/FruitFactory.dir/src/UIComponent.cpp.o" \
+"CMakeFiles/FruitFactory.dir/src/UIMenu.cpp.o" \
+"CMakeFiles/FruitFactory.dir/src/UICButton.cpp.o" \
+"CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.o" \
+"CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.o" \
+"CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.o"
 
 # External object files for target FruitFactory
 FruitFactory_EXTERNAL_OBJECTS =
 
 FruitFactory: CMakeFiles/FruitFactory.dir/src/main.cpp.o
 FruitFactory: CMakeFiles/FruitFactory.dir/src/Game.cpp.o
-FruitFactory: CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.o
-FruitFactory: CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o
-FruitFactory: CMakeFiles/FruitFactory.dir/src/Scene.cpp.o
-FruitFactory: CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o
-FruitFactory: CMakeFiles/FruitFactory.dir/src/InputController.cpp.o
-FruitFactory: CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o
-FruitFactory: CMakeFiles/FruitFactory.dir/src/Entity.cpp.o
-FruitFactory: CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o
-FruitFactory: CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o
 FruitFactory: CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o
 FruitFactory: CMakeFiles/FruitFactory.dir/src/Level.cpp.o
+FruitFactory: CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o
+FruitFactory: CMakeFiles/FruitFactory.dir/src/InputController.cpp.o
+FruitFactory: CMakeFiles/FruitFactory.dir/src/MathHelper.cpp.o
+FruitFactory: CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.o
+FruitFactory: CMakeFiles/FruitFactory.dir/src/SceneManager.cpp.o
+FruitFactory: CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o
+FruitFactory: CMakeFiles/FruitFactory.dir/src/Scene.cpp.o
+FruitFactory: CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o
+FruitFactory: CMakeFiles/FruitFactory.dir/src/Entity.cpp.o
+FruitFactory: CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o
+FruitFactory: CMakeFiles/FruitFactory.dir/src/InputBlock.cpp.o
+FruitFactory: CMakeFiles/FruitFactory.dir/src/UIComponent.cpp.o
+FruitFactory: CMakeFiles/FruitFactory.dir/src/UIMenu.cpp.o
+FruitFactory: CMakeFiles/FruitFactory.dir/src/UICButton.cpp.o
+FruitFactory: CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.o
+FruitFactory: CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.o
+FruitFactory: CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.o
 FruitFactory: CMakeFiles/FruitFactory.dir/build.make
 FruitFactory: CMakeFiles/FruitFactory.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/appletaart/deutsc/C++/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable FruitFactory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable FruitFactory"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FruitFactory.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -297,6 +425,6 @@ CMakeFiles/FruitFactory.dir/clean:
 .PHONY : CMakeFiles/FruitFactory.dir/clean
 
 CMakeFiles/FruitFactory.dir/depend:
-	cd /home/appletaart/deutsc/C++/Fruit-Factory/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/appletaart/deutsc/C++/Fruit-Factory /home/appletaart/deutsc/C++/Fruit-Factory /home/appletaart/deutsc/C++/Fruit-Factory/build /home/appletaart/deutsc/C++/Fruit-Factory/build /home/appletaart/deutsc/C++/Fruit-Factory/build/CMakeFiles/FruitFactory.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/appletaart/nature/cc/Fruit-Factory/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/appletaart/nature/cc/Fruit-Factory /home/appletaart/nature/cc/Fruit-Factory /home/appletaart/nature/cc/Fruit-Factory/build /home/appletaart/nature/cc/Fruit-Factory/build /home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles/FruitFactory.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/FruitFactory.dir/depend
 

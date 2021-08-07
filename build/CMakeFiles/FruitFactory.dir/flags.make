@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/appletaart/deutsc/C++/Fruit-Factory/src/include
+CXX_INCLUDES = -I/home/appletaart/nature/cc/Fruit-Factory/src/include
 
 CXX_FLAGS = 
 

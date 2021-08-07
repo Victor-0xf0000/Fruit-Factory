@@ -4,34 +4,43 @@
 #include <Core/InputController.h>
 #include <Core/Sprite.h>
 #include <Core/Renderer.h>
+#include <UI/UIComponents/UICButton.h>
+#include <UI/UIMenus/UIEntitySelector.h>
 #include <Entities/Boxes/BananaBox.h>
+#include <Entities/Blocks/InputBlock.h>
 #include <Level/Level.h>
+#include <Tiles/TileSystem.h>
+#include <Tiles/Tile.h>
 #include <Game.h>
 
 #include <SDL2/SDL_image.h>
+#include <SDL2/SDL_ttf.h>
 
 TestScene::TestScene(): Scene()
 {
-	for (int i = 0; i < 11; i++)
+	for (int x = 0; x < 11; x++)
 	{
-		for (int j = 0; j < 11; j++)
+		for (int y = 0; y < 11; y++)
 		{
-			this->blockMap[i][j] = EntityType::air;
+			this->blockMap[x + 11 * y] = EntityType::air;
 		}
 	}
-
 
 
 	this->lev = new Level();
 	this->entityManager = new EntityManager();
 
+	this->uiEntitySelector = new UIEntitySelector(600, 0, &this->blockId);
+   
+   this->tileSystem = new TileSystem(12, 12);
+
 	this->background = nullptr;
 	this->moldure = nullptr;
 
 	this->mode = 1; // block place
-	this->blockId = EntityType::bananaBox;
+	this->blockId = EntityType::air;
 
-	LOG("Hello from test scene :)");
+	fLOG("Hello from test scene :)");
 }
 
 TestScene::~TestScene()
@@ -40,105 +49,97 @@ TestScene::~TestScene()
 
 void TestScene::loadData(Game* game)
 {
+	Renderer::loadFont("Data/ARIAL.TTF");
 
 	this->background = Renderer::loadSprite(game->getRenderer(), "Data/Sprites/Background.png");
 	this->moldure = Renderer::loadSprite(game->getRenderer(), "Data/Sprites/Moldure.png");
 
 	this->lev->loadLevel(game, "Data/Levels/test.json");
+	// this->lev->loadBlockmap(&this->blockMap, "Data/Levels/test.json");
 
+	this->uiEntitySelector->addEntityOption(EntityType::bananaBox);
+	this->uiEntitySelector->addEntityOption(EntityType::inputBlock);
+
+	this->button = new UICButton(600, 0, "Save");	
 }
 
 void TestScene::saveLevel()
 {
 	this->lev->saveEntities(this, "Data/Levels/test.json");
+	// this->lev->saveBlockmap(&(this->blockMap), "Data/Levels/test.json");
 }
 
 void TestScene::inputHandler()
 {
-	if (InputController::getKey(Key::S) == KeyStatus::KEY_PRESSED)
+	if (InputController::getMouse(MouseButton::BUTTON_LEFT))
 	{
-		this->saveLevel();
-	}
+		this->uiEntitySelector->onMouseClick();
+      
+      // Is the mouse position square on the square grid?
+      if ((InputController::getMousePosition().x / 48 <
+            this->tileSystem->getWidth()) &&
+         InputController::getMousePosition().y / 48 <
+            this->tileSystem->getHeight())
+      {
+         Tile* tile = new Tile();
+         SpriteData sd;
+         
+         EntityType type = this->uiEntitySelector->getEntityType();
+         
+         // Texture for undefined
+         sd.ssx = 112;
+         sd.ssy = 0;
 
-	if (this->mode == 1)
-	{
-		if (InputController::getMouse(MouseButton::BUTTON_LEFT) == MouseStatus::BUTTON_PRESSED)
-		{
-			switch (this->blockId)
-			{
-				case EntityType::bananaBox:
-				{
-					int arrayX = (int) InputController::getMousePosition().x / 48;
-					int arrayY = (int) InputController::getMousePosition().y / 48;
+         if (type == EntityType::bananaBox)
+         {
+            sd.ssx = 0;
+            sd.ssy = 0;
+         }
+         else if (type == EntityType::inputBlock)
+         {
+            sd.ssx = 32;
+            sd.ssy = 0;
+         }
 
-					if (InputController::getMousePosition().y < 600 && 
-					InputController::getMousePosition().x < 552 &&
-					(this->blockMap[arrayX][arrayY] != EntityType::bananaBox))
-					{
-						this->blockMap[arrayX][arrayY] = EntityType::bananaBox;
+         sd.width = 16;
+         sd.height = 16;
+         sd.scale = 3;
+         tile->sd = sd;
+         tile->type = type;
+         this->tileSystem->addTile(tile, 
+               InputController::getMousePosition().x / 48,
+               InputController::getMousePosition().y / 48);  
+         tile->onCreate(this->tileSystem);
+      }
+   }
 
-						SpriteData sd = SpriteData();
-						sd.ssx = 0;
-						sd.ssy = 0;
-						sd.height = 16;
-						sd.width = 16;
-						sd.scale = 3;
-						BananaBox* bb = new BananaBox(sd);
-						bb->setX(InputController::getMousePosition().x);
-						bb->setY(InputController::getMousePosition().y);
-						this->entityManager->addEntity(bb);
-					}
-				}
-			}
-		}
-	}
+   if (InputController::getMouse(MouseButton::BUTTON_RIGHT))
+   {
+      // Is the mouse position square on the square grid?
+      if ((InputController::getMousePosition().x / 48 <
+            this->tileSystem->getWidth()) &&
+         InputController::getMousePosition().y / 48 <
+            this->tileSystem->getHeight())
+      {
+         this->tileSystem->getTile(
+               InputController::getMousePosition().x / 48,
+               InputController::getMousePosition().y / 48)->onDestroy(this->tileSystem);
+         Tile* tile = new Tile();
+         SpriteData sd;
+         sd.ssx = 0;
+         sd.ssy = 0;
 
-	else if (this->mode == 2)
-	{
-		if (InputController::getMouse(MouseButton::BUTTON_LEFT) == MouseStatus::BUTTON_PRESSED)
-		{
-			int x = InputController::getMousePosition().x;
-			int y = InputController::getMousePosition().y;
-			int arrayX = (int) x / 48;
-			int arrayY = (int) y / 48;
-
-			this->blockMap[arrayX][arrayY] = EntityType::air;
-
-			for (auto entity : this->entityManager->getEntities())
-			{
-				if ((x >= entity->getX() && x <= (entity->getX() + entity->getSpr().width * entity->getSpr().scale)) &&
-				(y >= entity->getY() && y <= (entity->getY() + entity->getSpr().height * entity->getSpr().scale)))
-				{
-					this->entityManager->removeEntity(entity);
-					break;
-				}
-			}
-		}
-	}
-	
-	if (InputController::getKey(Key::C) == KeyStatus::KEY_PRESSED)
-	{
-		// TODO: Make the method be called at the end of C key pressed
-		for (int i = 0; i < 11; i++)
-		{
-			for (int j = 0; j < 11; j++)
-			{
-				this->blockMap[i][j] = EntityType::air;
-			}
-		}
-		this->entityManager->removeAllEntities();
-	}
-
-	if (InputController::getKey(Key::P) == KeyStatus::KEY_PRESSED)
-	{
-		this->mode = 1;
-	}
-
-	else if (InputController::getKey(Key::D) == KeyStatus::KEY_PRESSED)
-	{
-		this->mode = 2;
-	}
-
+         sd.scale = 0;
+         sd.width = 0;
+         sd.height = 0;
+         tile->sd = sd;
+         tile->type = EntityType::air;
+         this->tileSystem->addTile(tile,
+               InputController::getMousePosition().x / 48,
+               InputController::getMousePosition().y / 48);
+      }
+      
+   }
 	for (auto i : this->entityManager->getEntities())
 	{
 		i->inputHandler();
@@ -147,6 +148,7 @@ void TestScene::inputHandler()
 
 void TestScene::update()
 {
+	this->uiEntitySelector->update();
 	for (auto i : this->entityManager->getEntities())
 	{
 		i->update(0.f);
@@ -164,7 +166,15 @@ void TestScene::render(SDL_Renderer* renderer)
 	{
 		i->render(renderer);
 	}
+   
+   for (auto i : *this->tileSystem->getTiles())
+   {
+      if (!i->type == EntityType::air)
+         Renderer::renderSpriteData(renderer, &i->sd, i->x, i->y);
+   } 
 
 	Renderer::renderSingleSprite(renderer, this->moldure, 0, 0, 600, 600);
+	// this->button->render(renderer);
+	this->uiEntitySelector->render(renderer);
 	SDL_RenderPresent(renderer);
 }

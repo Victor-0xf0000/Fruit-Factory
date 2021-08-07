@@ -115,8 +115,9 @@ CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o: ../src/BananaBox.cpp \
   ../src/include/Core/Sprite.h \
   ../src/include/Entities/EntityTypes.h \
   ../src/include/Core/Renderer.h \
-  ../src/include/SDL2/SDL_image.h \
+  ../src/include/SDL2/SDL_ttf.h \
   ../src/include/SDL2/SDL.h \
+  ../src/include/SDL2/SDL_image.h \
   ../src/include/Core/ErrorLog.h \
   /usr/include/stdio.h \
   /usr/include/bits/types/__fpos_t.h \
@@ -805,9 +806,128 @@ CMakeFiles/FruitFactory.dir/src/Game.cpp.o: ../src/Game.cpp \
   ../src/include/Core/InputType.h \
   ../src/include/Core/Math/Vector2.h \
   ../src/include/Core/Renderer.h \
+  ../src/include/SDL2/SDL_ttf.h \
   ../src/include/Scenes/TestScene.h \
   ../src/include/Core/Scene.h \
   ../src/include/Entities/EntityTypes.h
+
+CMakeFiles/FruitFactory.dir/src/InputBlock.cpp.o: ../src/InputBlock.cpp \
+  /usr/include/stdc-predef.h \
+  ../src/include/Entities/Blocks/InputBlock.h \
+  ../src/include/Core/Entity.h \
+  ../src/include/SDL2/SDL.h \
+  ../src/include/SDL2/SDL_main.h \
+  ../src/include/SDL2/SDL_stdinc.h \
+  ../src/include/SDL2/SDL_config.h \
+  ../src/include/SDL2/SDL_platform.h \
+  ../src/include/SDL2/begin_code.h \
+  ../src/include/SDL2/close_code.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  ../src/include/SDL2/SDL_assert.h \
+  ../src/include/SDL2/SDL_atomic.h \
+  ../src/include/SDL2/SDL_audio.h \
+  ../src/include/SDL2/SDL_error.h \
+  ../src/include/SDL2/SDL_endian.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  ../src/include/SDL2/SDL_mutex.h \
+  ../src/include/SDL2/SDL_thread.h \
+  ../src/include/SDL2/SDL_rwops.h \
+  ../src/include/SDL2/SDL_clipboard.h \
+  ../src/include/SDL2/SDL_cpuinfo.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/mm_malloc.h \
+  /usr/include/c++/11.1.0/stdlib.h \
+  /usr/include/c++/11.1.0/cstdlib \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/11.1.0/pstl/pstl_config.h \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/sys/types.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/11.1.0/bits/std_abs.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/emmintrin.h \
+  ../src/include/SDL2/SDL_events.h \
+  ../src/include/SDL2/SDL_video.h \
+  ../src/include/SDL2/SDL_pixels.h \
+  ../src/include/SDL2/SDL_rect.h \
+  ../src/include/SDL2/SDL_surface.h \
+  ../src/include/SDL2/SDL_blendmode.h \
+  ../src/include/SDL2/SDL_keyboard.h \
+  ../src/include/SDL2/SDL_keycode.h \
+  ../src/include/SDL2/SDL_scancode.h \
+  ../src/include/SDL2/SDL_mouse.h \
+  ../src/include/SDL2/SDL_joystick.h \
+  ../src/include/SDL2/SDL_gamecontroller.h \
+  ../src/include/SDL2/SDL_sensor.h \
+  ../src/include/SDL2/SDL_quit.h \
+  ../src/include/SDL2/SDL_gesture.h \
+  ../src/include/SDL2/SDL_touch.h \
+  ../src/include/SDL2/SDL_filesystem.h \
+  ../src/include/SDL2/SDL_haptic.h \
+  ../src/include/SDL2/SDL_hints.h \
+  ../src/include/SDL2/SDL_loadso.h \
+  ../src/include/SDL2/SDL_log.h \
+  ../src/include/SDL2/SDL_messagebox.h \
+  ../src/include/SDL2/SDL_metal.h \
+  ../src/include/SDL2/SDL_power.h \
+  ../src/include/SDL2/SDL_render.h \
+  ../src/include/SDL2/SDL_shape.h \
+  ../src/include/SDL2/SDL_system.h \
+  ../src/include/SDL2/SDL_timer.h \
+  ../src/include/SDL2/SDL_version.h \
+  ../src/include/SDL2/SDL_locale.h \
+  ../src/include/SDL2/SDL_misc.h \
+  ../src/include/Core/Sprite.h \
+  ../src/include/Entities/EntityTypes.h \
+  ../src/include/Core/Renderer.h \
+  ../src/include/SDL2/SDL_ttf.h \
+  ../src/include/SDL2/SDL.h \
+  ../src/include/SDL2/SDL_image.h
 
 CMakeFiles/FruitFactory.dir/src/InputController.cpp.o: ../src/InputController.cpp \
   /usr/include/stdc-predef.h \
@@ -1235,6 +1355,7 @@ CMakeFiles/FruitFactory.dir/src/Level.cpp.o: ../src/Level.cpp \
   /usr/include/c++/11.1.0/bits/node_handle.h \
   /usr/include/c++/11.1.0/bits/unordered_map.h \
   /usr/include/c++/11.1.0/bits/erase_if.h \
+  ../src/include/Entities/EntityTypes.h \
   ../src/include/Core/ErrorLog.h \
   ../src/include/Core/Scene.h \
   ../src/include/SDL2/SDL.h \
@@ -1294,7 +1415,6 @@ CMakeFiles/FruitFactory.dir/src/Level.cpp.o: ../src/Level.cpp \
   ../src/include/Entities/Boxes/BananaBox.h \
   ../src/include/Core/Entity.h \
   ../src/include/Core/Sprite.h \
-  ../src/include/Entities/EntityTypes.h \
   ../src/include/Game.h \
   ../src/include/SDL2/SDL_image.h \
   ../src/include/SDL2/SDL.h \
@@ -1318,6 +1438,10 @@ CMakeFiles/FruitFactory.dir/src/Level.cpp.o: ../src/Level.cpp \
   /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++io.h \
   /usr/include/c++/11.1.0/bits/fstream.tcc \
   /usr/include/c++/11.1.0/iostream
+
+CMakeFiles/FruitFactory.dir/src/MathHelper.cpp.o: ../src/MathHelper.cpp \
+  /usr/include/stdc-predef.h \
+  ../src/include/Core/Math/MathHelper.h
 
 CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o: ../src/Renderer.cpp \
   /usr/include/stdc-predef.h \
@@ -1429,8 +1553,9 @@ CMakeFiles/FruitFactory.dir/src/Renderer.cpp.o: ../src/Renderer.cpp \
   ../src/include/SDL2/SDL_version.h \
   ../src/include/SDL2/SDL_locale.h \
   ../src/include/SDL2/SDL_misc.h \
-  ../src/include/SDL2/SDL_image.h \
+  ../src/include/SDL2/SDL_ttf.h \
   ../src/include/SDL2/SDL.h \
+  ../src/include/SDL2/SDL_image.h \
   ../src/include/Core/ErrorLog.h \
   /usr/include/stdio.h \
   /usr/include/bits/types/__fpos_t.h \
@@ -1972,6 +2097,167 @@ CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o: ../src/Sprite.cpp \
   /usr/include/stdc-predef.h \
   ../src/include/Core/Sprite.h
 
+CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.o: ../src/StorageTile.cpp \
+  /usr/include/stdc-predef.h \
+  ../src/include/Tiles/logic/Storage/StorageTile.h \
+  ../src/include/Tiles/Tile.h \
+  ../src/include/Core/Sprite.h \
+  ../src/include/Entities/EntityTypes.h \
+  ../src/include/Core/ErrorLog.h \
+  /usr/include/stdio.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdarg.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/c++/11.1.0/string \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/11.1.0/pstl/pstl_config.h \
+  /usr/include/c++/11.1.0/bits/stringfwd.h \
+  /usr/include/c++/11.1.0/bits/memoryfwd.h \
+  /usr/include/c++/11.1.0/bits/char_traits.h \
+  /usr/include/c++/11.1.0/bits/stl_algobase.h \
+  /usr/include/c++/11.1.0/bits/functexcept.h \
+  /usr/include/c++/11.1.0/bits/exception_defines.h \
+  /usr/include/c++/11.1.0/bits/cpp_type_traits.h \
+  /usr/include/c++/11.1.0/ext/type_traits.h \
+  /usr/include/c++/11.1.0/ext/numeric_traits.h \
+  /usr/include/c++/11.1.0/bits/stl_pair.h \
+  /usr/include/c++/11.1.0/bits/move.h \
+  /usr/include/c++/11.1.0/type_traits \
+  /usr/include/c++/11.1.0/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11.1.0/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11.1.0/bits/concept_check.h \
+  /usr/include/c++/11.1.0/debug/assertions.h \
+  /usr/include/c++/11.1.0/bits/stl_iterator.h \
+  /usr/include/c++/11.1.0/bits/ptr_traits.h \
+  /usr/include/c++/11.1.0/debug/debug.h \
+  /usr/include/c++/11.1.0/bits/predefined_ops.h \
+  /usr/include/c++/11.1.0/bits/postypes.h \
+  /usr/include/c++/11.1.0/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/11.1.0/cstdint \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/11.1.0/bits/allocator.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/11.1.0/ext/new_allocator.h \
+  /usr/include/c++/11.1.0/new \
+  /usr/include/c++/11.1.0/bits/exception.h \
+  /usr/include/c++/11.1.0/bits/localefwd.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/11.1.0/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/11.1.0/iosfwd \
+  /usr/include/c++/11.1.0/cctype \
+  /usr/include/ctype.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/c++/11.1.0/bits/ostream_insert.h \
+  /usr/include/c++/11.1.0/bits/cxxabi_forced.h \
+  /usr/include/c++/11.1.0/bits/stl_function.h \
+  /usr/include/c++/11.1.0/backward/binders.h \
+  /usr/include/c++/11.1.0/bits/range_access.h \
+  /usr/include/c++/11.1.0/initializer_list \
+  /usr/include/c++/11.1.0/bits/basic_string.h \
+  /usr/include/c++/11.1.0/ext/atomicity.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/c++/11.1.0/ext/alloc_traits.h \
+  /usr/include/c++/11.1.0/bits/alloc_traits.h \
+  /usr/include/c++/11.1.0/bits/stl_construct.h \
+  /usr/include/c++/11.1.0/string_view \
+  /usr/include/c++/11.1.0/bits/functional_hash.h \
+  /usr/include/c++/11.1.0/bits/hash_bytes.h \
+  /usr/include/c++/11.1.0/bits/ranges_base.h \
+  /usr/include/c++/11.1.0/bits/string_view.tcc \
+  /usr/include/c++/11.1.0/ext/string_conversions.h \
+  /usr/include/c++/11.1.0/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/11.1.0/bits/std_abs.h \
+  /usr/include/c++/11.1.0/cstdio \
+  /usr/include/c++/11.1.0/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/11.1.0/bits/charconv.h \
+  /usr/include/c++/11.1.0/bits/basic_string.tcc \
+  ../src/include/Tiles/TileSystem.h \
+  /usr/include/c++/11.1.0/vector \
+  /usr/include/c++/11.1.0/bits/stl_uninitialized.h \
+  /usr/include/c++/11.1.0/bits/stl_vector.h \
+  /usr/include/c++/11.1.0/bits/stl_bvector.h \
+  /usr/include/c++/11.1.0/bits/vector.tcc
+
 CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o: ../src/TestScene.cpp \
   /usr/include/stdc-predef.h \
   ../src/include/Scenes/TestScene.h \
@@ -2189,10 +2475,16 @@ CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o: ../src/TestScene.cpp \
   ../src/include/Core/Math/Vector2.h \
   ../src/include/Core/Sprite.h \
   ../src/include/Core/Renderer.h \
-  ../src/include/SDL2/SDL_image.h \
+  ../src/include/SDL2/SDL_ttf.h \
   ../src/include/SDL2/SDL.h \
+  ../src/include/SDL2/SDL_image.h \
+  ../src/include/UI/UIComponents/UICButton.h \
+  ../src/include/UI/UIComponent.h \
+  ../src/include/UI/UIMenus/UIEntitySelector.h \
+  ../src/include/UI/UIMenu.h \
   ../src/include/Entities/Boxes/BananaBox.h \
   ../src/include/Core/Entity.h \
+  ../src/include/Entities/Blocks/InputBlock.h \
   ../src/include/Level/Level.h \
   ../src/include/rapidjson/document.h \
   ../src/include/rapidjson/reader.h \
@@ -2258,7 +2550,633 @@ CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o: ../src/TestScene.cpp \
   /usr/include/c++/11.1.0/bits/node_handle.h \
   /usr/include/c++/11.1.0/bits/unordered_map.h \
   /usr/include/c++/11.1.0/bits/erase_if.h \
+  ../src/include/Tiles/TileSystem.h \
+  ../src/include/Tiles/Tile.h \
   ../src/include/Game.h
+
+CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.o: ../src/TileSystem.cpp \
+  /usr/include/stdc-predef.h \
+  ../src/include/Tiles/TileSystem.h \
+  /usr/include/c++/11.1.0/vector \
+  /usr/include/c++/11.1.0/bits/stl_algobase.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/11.1.0/pstl/pstl_config.h \
+  /usr/include/c++/11.1.0/bits/functexcept.h \
+  /usr/include/c++/11.1.0/bits/exception_defines.h \
+  /usr/include/c++/11.1.0/bits/cpp_type_traits.h \
+  /usr/include/c++/11.1.0/ext/type_traits.h \
+  /usr/include/c++/11.1.0/ext/numeric_traits.h \
+  /usr/include/c++/11.1.0/bits/stl_pair.h \
+  /usr/include/c++/11.1.0/bits/move.h \
+  /usr/include/c++/11.1.0/type_traits \
+  /usr/include/c++/11.1.0/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11.1.0/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11.1.0/bits/concept_check.h \
+  /usr/include/c++/11.1.0/debug/assertions.h \
+  /usr/include/c++/11.1.0/bits/stl_iterator.h \
+  /usr/include/c++/11.1.0/bits/ptr_traits.h \
+  /usr/include/c++/11.1.0/debug/debug.h \
+  /usr/include/c++/11.1.0/bits/predefined_ops.h \
+  /usr/include/c++/11.1.0/bits/allocator.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/11.1.0/ext/new_allocator.h \
+  /usr/include/c++/11.1.0/new \
+  /usr/include/c++/11.1.0/bits/exception.h \
+  /usr/include/c++/11.1.0/bits/memoryfwd.h \
+  /usr/include/c++/11.1.0/bits/stl_construct.h \
+  /usr/include/c++/11.1.0/bits/stl_uninitialized.h \
+  /usr/include/c++/11.1.0/ext/alloc_traits.h \
+  /usr/include/c++/11.1.0/bits/alloc_traits.h \
+  /usr/include/c++/11.1.0/bits/stl_vector.h \
+  /usr/include/c++/11.1.0/initializer_list \
+  /usr/include/c++/11.1.0/bits/stl_bvector.h \
+  /usr/include/c++/11.1.0/bits/functional_hash.h \
+  /usr/include/c++/11.1.0/bits/hash_bytes.h \
+  /usr/include/c++/11.1.0/bits/range_access.h \
+  /usr/include/c++/11.1.0/bits/vector.tcc \
+  ../src/include/Tiles/Tile.h \
+  ../src/include/Core/Sprite.h \
+  ../src/include/Entities/EntityTypes.h
+
+CMakeFiles/FruitFactory.dir/src/UICButton.cpp.o: ../src/UICButton.cpp \
+  /usr/include/stdc-predef.h \
+  ../src/include/UI/UIComponents/UICButton.h \
+  ../src/include/UI/UIComponent.h \
+  ../src/include/SDL2/SDL.h \
+  ../src/include/SDL2/SDL_main.h \
+  ../src/include/SDL2/SDL_stdinc.h \
+  ../src/include/SDL2/SDL_config.h \
+  ../src/include/SDL2/SDL_platform.h \
+  ../src/include/SDL2/begin_code.h \
+  ../src/include/SDL2/close_code.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  ../src/include/SDL2/SDL_assert.h \
+  ../src/include/SDL2/SDL_atomic.h \
+  ../src/include/SDL2/SDL_audio.h \
+  ../src/include/SDL2/SDL_error.h \
+  ../src/include/SDL2/SDL_endian.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  ../src/include/SDL2/SDL_mutex.h \
+  ../src/include/SDL2/SDL_thread.h \
+  ../src/include/SDL2/SDL_rwops.h \
+  ../src/include/SDL2/SDL_clipboard.h \
+  ../src/include/SDL2/SDL_cpuinfo.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/mm_malloc.h \
+  /usr/include/c++/11.1.0/stdlib.h \
+  /usr/include/c++/11.1.0/cstdlib \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/11.1.0/pstl/pstl_config.h \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/sys/types.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/11.1.0/bits/std_abs.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/emmintrin.h \
+  ../src/include/SDL2/SDL_events.h \
+  ../src/include/SDL2/SDL_video.h \
+  ../src/include/SDL2/SDL_pixels.h \
+  ../src/include/SDL2/SDL_rect.h \
+  ../src/include/SDL2/SDL_surface.h \
+  ../src/include/SDL2/SDL_blendmode.h \
+  ../src/include/SDL2/SDL_keyboard.h \
+  ../src/include/SDL2/SDL_keycode.h \
+  ../src/include/SDL2/SDL_scancode.h \
+  ../src/include/SDL2/SDL_mouse.h \
+  ../src/include/SDL2/SDL_joystick.h \
+  ../src/include/SDL2/SDL_gamecontroller.h \
+  ../src/include/SDL2/SDL_sensor.h \
+  ../src/include/SDL2/SDL_quit.h \
+  ../src/include/SDL2/SDL_gesture.h \
+  ../src/include/SDL2/SDL_touch.h \
+  ../src/include/SDL2/SDL_filesystem.h \
+  ../src/include/SDL2/SDL_haptic.h \
+  ../src/include/SDL2/SDL_hints.h \
+  ../src/include/SDL2/SDL_loadso.h \
+  ../src/include/SDL2/SDL_log.h \
+  ../src/include/SDL2/SDL_messagebox.h \
+  ../src/include/SDL2/SDL_metal.h \
+  ../src/include/SDL2/SDL_power.h \
+  ../src/include/SDL2/SDL_render.h \
+  ../src/include/SDL2/SDL_shape.h \
+  ../src/include/SDL2/SDL_system.h \
+  ../src/include/SDL2/SDL_timer.h \
+  ../src/include/SDL2/SDL_version.h \
+  ../src/include/SDL2/SDL_locale.h \
+  ../src/include/SDL2/SDL_misc.h \
+  ../src/include/Core/Sprite.h \
+  ../src/include/Core/Renderer.h \
+  ../src/include/SDL2/SDL_ttf.h \
+  ../src/include/SDL2/SDL.h \
+  ../src/include/SDL2/SDL_image.h \
+  ../src/include/Core/InputController.h \
+  ../src/include/Core/InputType.h \
+  ../src/include/Core/Math/Vector2.h \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h
+
+CMakeFiles/FruitFactory.dir/src/UIComponent.cpp.o: ../src/UIComponent.cpp \
+  /usr/include/stdc-predef.h \
+  ../src/include/UI/UIComponent.h \
+  ../src/include/SDL2/SDL.h \
+  ../src/include/SDL2/SDL_main.h \
+  ../src/include/SDL2/SDL_stdinc.h \
+  ../src/include/SDL2/SDL_config.h \
+  ../src/include/SDL2/SDL_platform.h \
+  ../src/include/SDL2/begin_code.h \
+  ../src/include/SDL2/close_code.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  ../src/include/SDL2/SDL_assert.h \
+  ../src/include/SDL2/SDL_atomic.h \
+  ../src/include/SDL2/SDL_audio.h \
+  ../src/include/SDL2/SDL_error.h \
+  ../src/include/SDL2/SDL_endian.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  ../src/include/SDL2/SDL_mutex.h \
+  ../src/include/SDL2/SDL_thread.h \
+  ../src/include/SDL2/SDL_rwops.h \
+  ../src/include/SDL2/SDL_clipboard.h \
+  ../src/include/SDL2/SDL_cpuinfo.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/mm_malloc.h \
+  /usr/include/c++/11.1.0/stdlib.h \
+  /usr/include/c++/11.1.0/cstdlib \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/11.1.0/pstl/pstl_config.h \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/sys/types.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/11.1.0/bits/std_abs.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/emmintrin.h \
+  ../src/include/SDL2/SDL_events.h \
+  ../src/include/SDL2/SDL_video.h \
+  ../src/include/SDL2/SDL_pixels.h \
+  ../src/include/SDL2/SDL_rect.h \
+  ../src/include/SDL2/SDL_surface.h \
+  ../src/include/SDL2/SDL_blendmode.h \
+  ../src/include/SDL2/SDL_keyboard.h \
+  ../src/include/SDL2/SDL_keycode.h \
+  ../src/include/SDL2/SDL_scancode.h \
+  ../src/include/SDL2/SDL_mouse.h \
+  ../src/include/SDL2/SDL_joystick.h \
+  ../src/include/SDL2/SDL_gamecontroller.h \
+  ../src/include/SDL2/SDL_sensor.h \
+  ../src/include/SDL2/SDL_quit.h \
+  ../src/include/SDL2/SDL_gesture.h \
+  ../src/include/SDL2/SDL_touch.h \
+  ../src/include/SDL2/SDL_filesystem.h \
+  ../src/include/SDL2/SDL_haptic.h \
+  ../src/include/SDL2/SDL_hints.h \
+  ../src/include/SDL2/SDL_loadso.h \
+  ../src/include/SDL2/SDL_log.h \
+  ../src/include/SDL2/SDL_messagebox.h \
+  ../src/include/SDL2/SDL_metal.h \
+  ../src/include/SDL2/SDL_power.h \
+  ../src/include/SDL2/SDL_render.h \
+  ../src/include/SDL2/SDL_shape.h \
+  ../src/include/SDL2/SDL_system.h \
+  ../src/include/SDL2/SDL_timer.h \
+  ../src/include/SDL2/SDL_version.h \
+  ../src/include/SDL2/SDL_locale.h \
+  ../src/include/SDL2/SDL_misc.h
+
+CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.o: ../src/UIEntitySelector.cpp \
+  /usr/include/stdc-predef.h \
+  ../src/include/UI/UIMenus/UIEntitySelector.h \
+  ../src/include/UI/UIMenu.h \
+  ../src/include/SDL2/SDL.h \
+  ../src/include/SDL2/SDL_main.h \
+  ../src/include/SDL2/SDL_stdinc.h \
+  ../src/include/SDL2/SDL_config.h \
+  ../src/include/SDL2/SDL_platform.h \
+  ../src/include/SDL2/begin_code.h \
+  ../src/include/SDL2/close_code.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  ../src/include/SDL2/SDL_assert.h \
+  ../src/include/SDL2/SDL_atomic.h \
+  ../src/include/SDL2/SDL_audio.h \
+  ../src/include/SDL2/SDL_error.h \
+  ../src/include/SDL2/SDL_endian.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  ../src/include/SDL2/SDL_mutex.h \
+  ../src/include/SDL2/SDL_thread.h \
+  ../src/include/SDL2/SDL_rwops.h \
+  ../src/include/SDL2/SDL_clipboard.h \
+  ../src/include/SDL2/SDL_cpuinfo.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/mm_malloc.h \
+  /usr/include/c++/11.1.0/stdlib.h \
+  /usr/include/c++/11.1.0/cstdlib \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/11.1.0/pstl/pstl_config.h \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/sys/types.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/11.1.0/bits/std_abs.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/emmintrin.h \
+  ../src/include/SDL2/SDL_events.h \
+  ../src/include/SDL2/SDL_video.h \
+  ../src/include/SDL2/SDL_pixels.h \
+  ../src/include/SDL2/SDL_rect.h \
+  ../src/include/SDL2/SDL_surface.h \
+  ../src/include/SDL2/SDL_blendmode.h \
+  ../src/include/SDL2/SDL_keyboard.h \
+  ../src/include/SDL2/SDL_keycode.h \
+  ../src/include/SDL2/SDL_scancode.h \
+  ../src/include/SDL2/SDL_mouse.h \
+  ../src/include/SDL2/SDL_joystick.h \
+  ../src/include/SDL2/SDL_gamecontroller.h \
+  ../src/include/SDL2/SDL_sensor.h \
+  ../src/include/SDL2/SDL_quit.h \
+  ../src/include/SDL2/SDL_gesture.h \
+  ../src/include/SDL2/SDL_touch.h \
+  ../src/include/SDL2/SDL_filesystem.h \
+  ../src/include/SDL2/SDL_haptic.h \
+  ../src/include/SDL2/SDL_hints.h \
+  ../src/include/SDL2/SDL_loadso.h \
+  ../src/include/SDL2/SDL_log.h \
+  ../src/include/SDL2/SDL_messagebox.h \
+  ../src/include/SDL2/SDL_metal.h \
+  ../src/include/SDL2/SDL_power.h \
+  ../src/include/SDL2/SDL_render.h \
+  ../src/include/SDL2/SDL_shape.h \
+  ../src/include/SDL2/SDL_system.h \
+  ../src/include/SDL2/SDL_timer.h \
+  ../src/include/SDL2/SDL_version.h \
+  ../src/include/SDL2/SDL_locale.h \
+  ../src/include/SDL2/SDL_misc.h \
+  /usr/include/c++/11.1.0/vector \
+  /usr/include/c++/11.1.0/bits/stl_algobase.h \
+  /usr/include/c++/11.1.0/bits/functexcept.h \
+  /usr/include/c++/11.1.0/bits/exception_defines.h \
+  /usr/include/c++/11.1.0/bits/cpp_type_traits.h \
+  /usr/include/c++/11.1.0/ext/type_traits.h \
+  /usr/include/c++/11.1.0/ext/numeric_traits.h \
+  /usr/include/c++/11.1.0/bits/stl_pair.h \
+  /usr/include/c++/11.1.0/bits/move.h \
+  /usr/include/c++/11.1.0/type_traits \
+  /usr/include/c++/11.1.0/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11.1.0/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11.1.0/bits/concept_check.h \
+  /usr/include/c++/11.1.0/debug/assertions.h \
+  /usr/include/c++/11.1.0/bits/stl_iterator.h \
+  /usr/include/c++/11.1.0/bits/ptr_traits.h \
+  /usr/include/c++/11.1.0/debug/debug.h \
+  /usr/include/c++/11.1.0/bits/predefined_ops.h \
+  /usr/include/c++/11.1.0/bits/allocator.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/11.1.0/ext/new_allocator.h \
+  /usr/include/c++/11.1.0/new \
+  /usr/include/c++/11.1.0/bits/exception.h \
+  /usr/include/c++/11.1.0/bits/memoryfwd.h \
+  /usr/include/c++/11.1.0/bits/stl_construct.h \
+  /usr/include/c++/11.1.0/bits/stl_uninitialized.h \
+  /usr/include/c++/11.1.0/ext/alloc_traits.h \
+  /usr/include/c++/11.1.0/bits/alloc_traits.h \
+  /usr/include/c++/11.1.0/bits/stl_vector.h \
+  /usr/include/c++/11.1.0/initializer_list \
+  /usr/include/c++/11.1.0/bits/stl_bvector.h \
+  /usr/include/c++/11.1.0/bits/functional_hash.h \
+  /usr/include/c++/11.1.0/bits/hash_bytes.h \
+  /usr/include/c++/11.1.0/bits/range_access.h \
+  /usr/include/c++/11.1.0/bits/vector.tcc \
+  ../src/include/Entities/EntityTypes.h \
+  ../src/include/Core/InputController.h \
+  ../src/include/Core/InputType.h \
+  ../src/include/Core/Math/Vector2.h \
+  ../src/include/Core/Math/MathHelper.h \
+  ../src/include/Core/EntityManager.h \
+  /usr/include/c++/11.1.0/string \
+  /usr/include/c++/11.1.0/bits/stringfwd.h \
+  /usr/include/c++/11.1.0/bits/char_traits.h \
+  /usr/include/c++/11.1.0/bits/postypes.h \
+  /usr/include/c++/11.1.0/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/c++/11.1.0/cstdint \
+  /usr/include/c++/11.1.0/bits/localefwd.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/11.1.0/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/11.1.0/iosfwd \
+  /usr/include/c++/11.1.0/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/11.1.0/bits/ostream_insert.h \
+  /usr/include/c++/11.1.0/bits/cxxabi_forced.h \
+  /usr/include/c++/11.1.0/bits/stl_function.h \
+  /usr/include/c++/11.1.0/backward/binders.h \
+  /usr/include/c++/11.1.0/bits/basic_string.h \
+  /usr/include/c++/11.1.0/ext/atomicity.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/c++/11.1.0/string_view \
+  /usr/include/c++/11.1.0/bits/ranges_base.h \
+  /usr/include/c++/11.1.0/bits/string_view.tcc \
+  /usr/include/c++/11.1.0/ext/string_conversions.h \
+  /usr/include/c++/11.1.0/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/c++/11.1.0/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/11.1.0/bits/charconv.h \
+  /usr/include/c++/11.1.0/bits/basic_string.tcc \
+  ../src/include/Core/Sprite.h \
+  ../src/include/Core/Renderer.h \
+  ../src/include/SDL2/SDL_ttf.h \
+  ../src/include/SDL2/SDL.h \
+  ../src/include/SDL2/SDL_image.h
+
+CMakeFiles/FruitFactory.dir/src/UIMenu.cpp.o: ../src/UIMenu.cpp \
+  /usr/include/stdc-predef.h \
+  ../src/include/UI/UIMenu.h \
+  ../src/include/SDL2/SDL.h \
+  ../src/include/SDL2/SDL_main.h \
+  ../src/include/SDL2/SDL_stdinc.h \
+  ../src/include/SDL2/SDL_config.h \
+  ../src/include/SDL2/SDL_platform.h \
+  ../src/include/SDL2/begin_code.h \
+  ../src/include/SDL2/close_code.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  ../src/include/SDL2/SDL_assert.h \
+  ../src/include/SDL2/SDL_atomic.h \
+  ../src/include/SDL2/SDL_audio.h \
+  ../src/include/SDL2/SDL_error.h \
+  ../src/include/SDL2/SDL_endian.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  ../src/include/SDL2/SDL_mutex.h \
+  ../src/include/SDL2/SDL_thread.h \
+  ../src/include/SDL2/SDL_rwops.h \
+  ../src/include/SDL2/SDL_clipboard.h \
+  ../src/include/SDL2/SDL_cpuinfo.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/mm_malloc.h \
+  /usr/include/c++/11.1.0/stdlib.h \
+  /usr/include/c++/11.1.0/cstdlib \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/11.1.0/pstl/pstl_config.h \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/sys/types.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/11.1.0/bits/std_abs.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/emmintrin.h \
+  ../src/include/SDL2/SDL_events.h \
+  ../src/include/SDL2/SDL_video.h \
+  ../src/include/SDL2/SDL_pixels.h \
+  ../src/include/SDL2/SDL_rect.h \
+  ../src/include/SDL2/SDL_surface.h \
+  ../src/include/SDL2/SDL_blendmode.h \
+  ../src/include/SDL2/SDL_keyboard.h \
+  ../src/include/SDL2/SDL_keycode.h \
+  ../src/include/SDL2/SDL_scancode.h \
+  ../src/include/SDL2/SDL_mouse.h \
+  ../src/include/SDL2/SDL_joystick.h \
+  ../src/include/SDL2/SDL_gamecontroller.h \
+  ../src/include/SDL2/SDL_sensor.h \
+  ../src/include/SDL2/SDL_quit.h \
+  ../src/include/SDL2/SDL_gesture.h \
+  ../src/include/SDL2/SDL_touch.h \
+  ../src/include/SDL2/SDL_filesystem.h \
+  ../src/include/SDL2/SDL_haptic.h \
+  ../src/include/SDL2/SDL_hints.h \
+  ../src/include/SDL2/SDL_loadso.h \
+  ../src/include/SDL2/SDL_log.h \
+  ../src/include/SDL2/SDL_messagebox.h \
+  ../src/include/SDL2/SDL_metal.h \
+  ../src/include/SDL2/SDL_power.h \
+  ../src/include/SDL2/SDL_render.h \
+  ../src/include/SDL2/SDL_shape.h \
+  ../src/include/SDL2/SDL_system.h \
+  ../src/include/SDL2/SDL_timer.h \
+  ../src/include/SDL2/SDL_version.h \
+  ../src/include/SDL2/SDL_locale.h \
+  ../src/include/SDL2/SDL_misc.h
 
 CMakeFiles/FruitFactory.dir/src/WindowManager.cpp.o: ../src/WindowManager.cpp \
   /usr/include/stdc-predef.h \
@@ -2589,7 +3507,25 @@ CMakeFiles/FruitFactory.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../src/WindowManager.cpp:
 
+../src/UIMenu.cpp:
+
+../src/UICButton.cpp:
+
+../src/TileSystem.cpp:
+
+../src/include/UI/UIMenu.h:
+
+../src/include/UI/UIMenus/UIEntitySelector.h:
+
+../src/include/UI/UIComponent.h:
+
+../src/include/Tiles/Tile.h:
+
+../src/StorageTile.cpp:
+
 ../src/Renderer.cpp:
+
+../src/MathHelper.cpp:
 
 /usr/include/c++/11.1.0/bits/fstream.tcc:
 
@@ -2606,6 +3542,8 @@ CMakeFiles/FruitFactory.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/bits/wctype-wchar.h:
 
 /usr/include/c++/11.1.0/cwctype:
+
+../src/include/Core/Math/MathHelper.h:
 
 /usr/include/c++/11.1.0/bits/locale_facets.h:
 
@@ -2671,6 +3609,14 @@ CMakeFiles/FruitFactory.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/11.1.0/cstring:
 
+../src/include/Tiles/TileSystem.h:
+
+../src/include/rapidjson/allocators.h:
+
+../src/include/rapidjson/reader.h:
+
+../src/include/Tiles/logic/Storage/StorageTile.h:
+
 /usr/include/bits/types/__fpos64_t.h:
 
 /usr/include/bits/types/__mbstate_t.h:
@@ -2695,6 +3641,8 @@ CMakeFiles/FruitFactory.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../src/include/SDL2/SDL_version.h:
 
+../src/UIComponent.cpp:
+
 ../src/include/SDL2/SDL_timer.h:
 
 /usr/include/c++/11.1.0/bits/stl_construct.h:
@@ -2712,8 +3660,6 @@ CMakeFiles/FruitFactory.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/11.1.0/string:
 
 ../src/include/Core/Sprite.h:
-
-../src/include/rapidjson/reader.h:
 
 ../src/include/SDL2/SDL_gamecontroller.h:
 
@@ -2755,8 +3701,6 @@ CMakeFiles/FruitFactory.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/bits/thread-shared-types.h:
 
-../src/include/rapidjson/allocators.h:
-
 ../src/include/SDL2/SDL_hints.h:
 
 ../src/TestScene.cpp:
@@ -2784,6 +3728,8 @@ CMakeFiles/FruitFactory.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/bits/types/time_t.h:
 
 /usr/include/sys/types.h:
+
+../src/include/UI/UIComponents/UICButton.h:
 
 /usr/include/c++/11.1.0/bits/stream_iterator.h:
 
@@ -2814,6 +3760,8 @@ CMakeFiles/FruitFactory.dir/src/main.cpp.o: ../src/main.cpp \
 ../src/include/SDL2/SDL_assert.h:
 
 ../src/include/Core/Renderer.h:
+
+../src/InputBlock.cpp:
 
 /usr/include/stdio.h:
 
@@ -2957,10 +3905,6 @@ CMakeFiles/FruitFactory.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/11.1.0/bits/functexcept.h:
 
-/usr/include/c++/11.1.0/bits/stringfwd.h:
-
-../src/include/Entities/EntityTypes.h:
-
 /usr/include/ctype.h:
 
 ../src/include/SDL2/SDL_quit.h:
@@ -2989,9 +3933,15 @@ CMakeFiles/FruitFactory.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../src/include/Core/Entity.h:
 
+../src/include/Entities/EntityTypes.h:
+
+/usr/include/c++/11.1.0/bits/stringfwd.h:
+
 /usr/include/c++/11.1.0/bits/exception_defines.h:
 
 ../src/include/Core/Math/Vector2.h:
+
+../src/include/Entities/Blocks/InputBlock.h:
 
 /usr/include/c++/11.1.0/ext/numeric_traits.h:
 
@@ -3127,7 +4077,11 @@ CMakeFiles/FruitFactory.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/time.h:
 
+../src/include/SDL2/SDL_ttf.h:
+
 /usr/include/bits/types/struct_tm.h:
+
+../src/UIEntitySelector.cpp:
 
 ../src/include/rapidjson/document.h:
 

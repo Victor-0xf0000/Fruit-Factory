@@ -7,6 +7,8 @@
 #include <vector>
 #include <unordered_map>
 
+#include <Entities/EntityTypes.h>
+
 class Level
 {
 public:
@@ -14,7 +16,9 @@ public:
     virtual ~Level();
 
     void loadLevel(class Game* game, const char* path);
+    void loadBlockmap(EntityType* map[11 * 11], const char* path);
     void saveEntities(class Scene* scene, const char* path);
+    void saveBlockmap(EntityType* map[11 * 11], const char* path);
 
     std::unordered_map<int, int>* inputItems; // first int for quantity and second for item id
 private:

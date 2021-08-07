@@ -25,6 +25,8 @@ void EntityManager::removeEntity(Entity* entity)
     // Swap to end of vector and pop off (avoid erase copies)
     std::iter_swap(iter, this->entities->end() - 1);
     this->entities->pop_back();
+
+    delete entity;
 }
 
 void EntityManager::removeAllEntities()

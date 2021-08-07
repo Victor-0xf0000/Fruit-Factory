@@ -9,6 +9,7 @@
 
 #include <Scenes/TestScene.h>
 
+#include <SDL2/SDL_ttf.h>
 
 Game::Game(): windowManager(nullptr),
 	sceneManager(nullptr)
@@ -47,7 +48,8 @@ bool Game::initialize()
 	if (!this->windowManager->initializeWindow()) return false; 
 	if (!this->windowManager->initializeRenderer()) return false;
 	
-	
+	TTF_Init();
+
 	if (IMG_Init(IMG_INIT_PNG) == 0)
 	{
 		SDL_Log("Unable to initialize SDL_image: %s", SDL_GetError());
@@ -94,7 +96,7 @@ void Game::inputHandler()
 		}
 	}
 	
-	if (InputController::getKey(Key::KEY_ESCAPE) == KEY_PRESSED)
+	if (InputController::getKey(Key::KEY_ESCAPE))
 	{
 		this->isRunning = false;
 	}

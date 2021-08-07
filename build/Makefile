@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/appletaart/deutsc/C++/Fruit-Factory
+CMAKE_SOURCE_DIR = /home/appletaart/nature/cc/Fruit-Factory
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/appletaart/deutsc/C++/Fruit-Factory/build
+CMAKE_BINARY_DIR = /home/appletaart/nature/cc/Fruit-Factory/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/appletaart/deutsc/C++/Fruit-Factory/build/CMakeFiles /home/appletaart/deutsc/C++/Fruit-Factory/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles /home/appletaart/nature/cc/Fruit-Factory/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/appletaart/deutsc/C++/Fruit-Factory/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -225,6 +225,30 @@ src/Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
 
+src/InputBlock.o: src/InputBlock.cpp.o
+.PHONY : src/InputBlock.o
+
+# target to build an object file
+src/InputBlock.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/InputBlock.cpp.o
+.PHONY : src/InputBlock.cpp.o
+
+src/InputBlock.i: src/InputBlock.cpp.i
+.PHONY : src/InputBlock.i
+
+# target to preprocess a source file
+src/InputBlock.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/InputBlock.cpp.i
+.PHONY : src/InputBlock.cpp.i
+
+src/InputBlock.s: src/InputBlock.cpp.s
+.PHONY : src/InputBlock.s
+
+# target to generate assembly for a file
+src/InputBlock.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/InputBlock.cpp.s
+.PHONY : src/InputBlock.cpp.s
+
 src/InputController.o: src/InputController.cpp.o
 .PHONY : src/InputController.o
 
@@ -272,6 +296,30 @@ src/Level.s: src/Level.cpp.s
 src/Level.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/Level.cpp.s
 .PHONY : src/Level.cpp.s
+
+src/MathHelper.o: src/MathHelper.cpp.o
+.PHONY : src/MathHelper.o
+
+# target to build an object file
+src/MathHelper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/MathHelper.cpp.o
+.PHONY : src/MathHelper.cpp.o
+
+src/MathHelper.i: src/MathHelper.cpp.i
+.PHONY : src/MathHelper.i
+
+# target to preprocess a source file
+src/MathHelper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/MathHelper.cpp.i
+.PHONY : src/MathHelper.cpp.i
+
+src/MathHelper.s: src/MathHelper.cpp.s
+.PHONY : src/MathHelper.s
+
+# target to generate assembly for a file
+src/MathHelper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/MathHelper.cpp.s
+.PHONY : src/MathHelper.cpp.s
 
 src/Renderer.o: src/Renderer.cpp.o
 .PHONY : src/Renderer.o
@@ -369,6 +417,30 @@ src/Sprite.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/Sprite.cpp.s
 .PHONY : src/Sprite.cpp.s
 
+src/StorageTile.o: src/StorageTile.cpp.o
+.PHONY : src/StorageTile.o
+
+# target to build an object file
+src/StorageTile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.o
+.PHONY : src/StorageTile.cpp.o
+
+src/StorageTile.i: src/StorageTile.cpp.i
+.PHONY : src/StorageTile.i
+
+# target to preprocess a source file
+src/StorageTile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.i
+.PHONY : src/StorageTile.cpp.i
+
+src/StorageTile.s: src/StorageTile.cpp.s
+.PHONY : src/StorageTile.s
+
+# target to generate assembly for a file
+src/StorageTile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.s
+.PHONY : src/StorageTile.cpp.s
+
 src/TestScene.o: src/TestScene.cpp.o
 .PHONY : src/TestScene.o
 
@@ -392,6 +464,126 @@ src/TestScene.s: src/TestScene.cpp.s
 src/TestScene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/TestScene.cpp.s
 .PHONY : src/TestScene.cpp.s
+
+src/TileSystem.o: src/TileSystem.cpp.o
+.PHONY : src/TileSystem.o
+
+# target to build an object file
+src/TileSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.o
+.PHONY : src/TileSystem.cpp.o
+
+src/TileSystem.i: src/TileSystem.cpp.i
+.PHONY : src/TileSystem.i
+
+# target to preprocess a source file
+src/TileSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.i
+.PHONY : src/TileSystem.cpp.i
+
+src/TileSystem.s: src/TileSystem.cpp.s
+.PHONY : src/TileSystem.s
+
+# target to generate assembly for a file
+src/TileSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.s
+.PHONY : src/TileSystem.cpp.s
+
+src/UICButton.o: src/UICButton.cpp.o
+.PHONY : src/UICButton.o
+
+# target to build an object file
+src/UICButton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/UICButton.cpp.o
+.PHONY : src/UICButton.cpp.o
+
+src/UICButton.i: src/UICButton.cpp.i
+.PHONY : src/UICButton.i
+
+# target to preprocess a source file
+src/UICButton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/UICButton.cpp.i
+.PHONY : src/UICButton.cpp.i
+
+src/UICButton.s: src/UICButton.cpp.s
+.PHONY : src/UICButton.s
+
+# target to generate assembly for a file
+src/UICButton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/UICButton.cpp.s
+.PHONY : src/UICButton.cpp.s
+
+src/UIComponent.o: src/UIComponent.cpp.o
+.PHONY : src/UIComponent.o
+
+# target to build an object file
+src/UIComponent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/UIComponent.cpp.o
+.PHONY : src/UIComponent.cpp.o
+
+src/UIComponent.i: src/UIComponent.cpp.i
+.PHONY : src/UIComponent.i
+
+# target to preprocess a source file
+src/UIComponent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/UIComponent.cpp.i
+.PHONY : src/UIComponent.cpp.i
+
+src/UIComponent.s: src/UIComponent.cpp.s
+.PHONY : src/UIComponent.s
+
+# target to generate assembly for a file
+src/UIComponent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/UIComponent.cpp.s
+.PHONY : src/UIComponent.cpp.s
+
+src/UIEntitySelector.o: src/UIEntitySelector.cpp.o
+.PHONY : src/UIEntitySelector.o
+
+# target to build an object file
+src/UIEntitySelector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.o
+.PHONY : src/UIEntitySelector.cpp.o
+
+src/UIEntitySelector.i: src/UIEntitySelector.cpp.i
+.PHONY : src/UIEntitySelector.i
+
+# target to preprocess a source file
+src/UIEntitySelector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.i
+.PHONY : src/UIEntitySelector.cpp.i
+
+src/UIEntitySelector.s: src/UIEntitySelector.cpp.s
+.PHONY : src/UIEntitySelector.s
+
+# target to generate assembly for a file
+src/UIEntitySelector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.s
+.PHONY : src/UIEntitySelector.cpp.s
+
+src/UIMenu.o: src/UIMenu.cpp.o
+.PHONY : src/UIMenu.o
+
+# target to build an object file
+src/UIMenu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/UIMenu.cpp.o
+.PHONY : src/UIMenu.cpp.o
+
+src/UIMenu.i: src/UIMenu.cpp.i
+.PHONY : src/UIMenu.i
+
+# target to preprocess a source file
+src/UIMenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/UIMenu.cpp.i
+.PHONY : src/UIMenu.cpp.i
+
+src/UIMenu.s: src/UIMenu.cpp.s
+.PHONY : src/UIMenu.s
+
+# target to generate assembly for a file
+src/UIMenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/UIMenu.cpp.s
+.PHONY : src/UIMenu.cpp.s
 
 src/WindowManager.o: src/WindowManager.cpp.o
 .PHONY : src/WindowManager.o
@@ -462,12 +654,18 @@ help:
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"
+	@echo "... src/InputBlock.o"
+	@echo "... src/InputBlock.i"
+	@echo "... src/InputBlock.s"
 	@echo "... src/InputController.o"
 	@echo "... src/InputController.i"
 	@echo "... src/InputController.s"
 	@echo "... src/Level.o"
 	@echo "... src/Level.i"
 	@echo "... src/Level.s"
+	@echo "... src/MathHelper.o"
+	@echo "... src/MathHelper.i"
+	@echo "... src/MathHelper.s"
 	@echo "... src/Renderer.o"
 	@echo "... src/Renderer.i"
 	@echo "... src/Renderer.s"
@@ -480,9 +678,27 @@ help:
 	@echo "... src/Sprite.o"
 	@echo "... src/Sprite.i"
 	@echo "... src/Sprite.s"
+	@echo "... src/StorageTile.o"
+	@echo "... src/StorageTile.i"
+	@echo "... src/StorageTile.s"
 	@echo "... src/TestScene.o"
 	@echo "... src/TestScene.i"
 	@echo "... src/TestScene.s"
+	@echo "... src/TileSystem.o"
+	@echo "... src/TileSystem.i"
+	@echo "... src/TileSystem.s"
+	@echo "... src/UICButton.o"
+	@echo "... src/UICButton.i"
+	@echo "... src/UICButton.s"
+	@echo "... src/UIComponent.o"
+	@echo "... src/UIComponent.i"
+	@echo "... src/UIComponent.s"
+	@echo "... src/UIEntitySelector.o"
+	@echo "... src/UIEntitySelector.i"
+	@echo "... src/UIEntitySelector.s"
+	@echo "... src/UIMenu.o"
+	@echo "... src/UIMenu.i"
+	@echo "... src/UIMenu.s"
 	@echo "... src/WindowManager.o"
 	@echo "... src/WindowManager.i"
 	@echo "... src/WindowManager.s"

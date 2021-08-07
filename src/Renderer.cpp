@@ -3,7 +3,8 @@
 #include <Core/Sprite.h>
 #include <Core/Entity.h>
 
-SDL_Texture* Renderer::spritesheet;
+SDL_Texture* Renderer::spritesheet = nullptr;
+TTF_Font* Renderer::font = nullptr;
 
 bool Renderer::loadSpriteSheet(SDL_Renderer* renderer, const char* path)
 {
@@ -19,7 +20,8 @@ bool Renderer::loadSpriteSheet(SDL_Renderer* renderer, const char* path)
 
     if (!Renderer::spritesheet)
     {
-        fERROR("Cannot find ", path);
+        fERROR("Cannot find");
+        printf("%s\n", path);
         return false;
     }
     return true;
@@ -37,7 +39,8 @@ SDL_Texture* Renderer::loadSprite(SDL_Renderer* renderer, const char* path)
 
     if (!text)
     {
-        fERROR("Cannot find", path);
+        fERROR("Cannot find");
+        printf("%s\n", path);
         return nullptr;
     }
 
@@ -58,4 +61,37 @@ void Renderer::renderSingleSprite(SDL_Renderer* renderer, SDL_Texture* sprite, i
     SDL_Rect dstRct = {.x = x, .y = y, .w = width, .h = height};
 
     SDL_RenderCopy(renderer, sprite, nullptr, &dstRct);
+}
+
+void Renderer::renderSpriteData(SDL_Renderer* renderer, SpriteData* sd, int x, int y)
+{
+    SDL_Rect srcRect = {.x = sd->ssx, .y = sd->ssy, .w = sd->width, .h = sd->height};
+    SDL_Rect dstRect = {.x = x, .y = y, .w = sd->width * sd->scale, .h = sd->height * sd->scale};
+
+    SDL_RenderCopy(renderer, Renderer::spritesheet, &srcRect, &dstRect);
+}
+
+void Renderer::drawText(SDL_Renderer* renderer, const char* string, int x, int y)
+{
+    SDL_Color color = {.r = 5, .g = 3, .b = 9, .a = 255};
+    SDL_Surface* surfaceMessage = TTF_RenderText_Solid(Renderer::font, string, color);
+    SDL_Texture* message = SDL_CreateTextureFromSurface(renderer, surfaceMessage);
+
+    SDL_Rect src = {.x = 0, .y = 0, .w = surfaceMessage->w, .h = surfaceMessage->h};
+    SDL_Rect dst = {.x = x, .y = y, .w = src.w, .h = src.h};
+
+    SDL_RenderCopy(renderer, message, &src, &dst);
+    SDL_FreeSurface(surfaceMessage);
+}
+
+bool Renderer::loadFont(const char* path)
+{
+    Renderer::font = TTF_OpenFont(path, 24);
+    if (!Renderer::font)
+    {
+        printf("Cannot load font\n");
+        exit(0);
+    }
+
+    return true;
 }

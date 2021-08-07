@@ -4,7 +4,8 @@
 enum EntityType 
 {
     air,
-    bananaBox
+    bananaBox,
+    inputBlock
 };
 
 #endif // ENTITY_TYPES_H

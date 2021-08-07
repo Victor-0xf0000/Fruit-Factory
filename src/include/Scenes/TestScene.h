@@ -24,11 +24,15 @@ private:
 	SDL_Texture* background;
 	SDL_Texture* moldure;
 	class Level* lev;
+	class UICButton* button;
+	class UIEntitySelector* uiEntitySelector;
+
+   class TileSystem* tileSystem;
 
 	int mode;
-	int blockId;
+	enum EntityType blockId;
 
-	EntityType blockMap[11][11];
+	EntityType blockMap[11*11];
 };
 
 #endif // TEST_SCENE_H
