@@ -99,7 +99,7 @@ void TestScene::inputHandler(InputHandler* inputHandler_s, const float dt)
       {
         case EntityType::bananaBox:
           {
-            sd.ssx = 48;
+            sd.ssx = 0;
             break;
           }
         case EntityType::inputBlock:
