@@ -22,6 +22,8 @@ public:
 private:
    std::vector<struct Tile*> tiles;
    int width, height;
+
+   struct Tile* pseudoTile; // used to be returned in the place of nullptr
 };
 
 #endif // TILE_MAP_H

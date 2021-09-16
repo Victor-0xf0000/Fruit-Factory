@@ -12,104 +12,117 @@
 #include <SDL2/SDL_ttf.h>
 
 Game::Game(): windowManager(nullptr),
-	sceneManager(nullptr)
+  sceneManager(nullptr)
 {
-	this->windowManager = new WindowManager();
-	this->windowManager->title = (char*) "Fruit Factory :)\0";
+  this->windowManager = new WindowManager();
+  this->windowManager->title = (char*) "Fruit Factory :)\0";
 
-	this->sceneManager = new SceneManager();
-	this->isRunning = true;
-	
+  this->sceneManager = new SceneManager();
+  this->isRunning = true;
+
+  this->inputHandler_s = new InputHandler();
 }
 
 Game::~Game()
 {
-	this->windowManager->~WindowManager();
-	this->sceneManager->~SceneManager();
+  this->windowManager->~WindowManager();
+  this->sceneManager->~SceneManager();
 }
 
 void Game::run()
 {
-	if (!this->initialize()) 
-	{
-		SDL_Log("Cannot initialize the game");
-		return;
-	}
-	while (this->isRunning)
-	{
-		this->inputHandler();
-		this->update();
-		this->render();
-	}
+  if (!this->initialize()) 
+  {
+    SDL_Log("Cannot initialize the game");
+    return;
+  }
+  while (this->isRunning)
+  {
+    this->clock->tick();
+    this->inputHandler();
+    this->update();
+    this->render();
+  }
 }
 
 bool Game::initialize()
 {
-	if (!this->windowManager->initializeWindow()) return false; 
-	if (!this->windowManager->initializeRenderer()) return false;
-	
-	TTF_Init();
+  if (!this->windowManager->initializeWindow()) return false; 
+  if (!this->windowManager->initializeRenderer()) return false;
 
-	if (IMG_Init(IMG_INIT_PNG) == 0)
-	{
-		SDL_Log("Unable to initialize SDL_image: %s", SDL_GetError());
-		return false;
-	}
+  TTF_Init();
 
-	this->sceneManager->createScene("Test scene\0", new TestScene());
-	this->sceneManager->selectScene("Test scene\0");
+  if (IMG_Init(IMG_INIT_PNG) == 0)
+  {
+    SDL_Log("Unable to initialize SDL_image: %s", SDL_GetError());
+    return false;
+  }
 
-	if (!Renderer::loadSpriteSheet(this->windowManager->renderer, "./Data/Sprites/Spritesheet.png")) return false;
+  this->sceneManager->createScene("Test scene\0", new TestScene());
+  this->sceneManager->selectScene("Test scene\0");
 
+  if (!Renderer::loadSpriteSheet(this->windowManager->renderer, "./Data/Sprites/Spritesheet.png")) return false;
 
-	this->loadData();
-	return true;
+  this->clock = new Clock();
+
+  this->loadData();
+
+  if (!this->inputHandler_s->init())
+  {
+    printf("failed to initialize inputHandler\n");
+  }
+
+  return true;
 }
 
 bool Game::loadData()
 {
-	this->sceneManager->getCurrent()->loadData(this);
+  this->sceneManager->getCurrent()->loadData(this);
 
-	return true;
+  return true;
 }
 
 SDL_Renderer* Game::getRenderer()
 {
-	return this->windowManager->renderer;
+  return this->windowManager->renderer;
 }
 
 EntityManager* Game::getEntityManager()
 {
-	return this->sceneManager->getCurrent()->getEntityManager();
+  return this->sceneManager->getCurrent()->getEntityManager();
 }
 
 void Game::inputHandler()
 {
-	SDL_Event event;
-	while (SDL_PollEvent(&event))
-	{
-		switch (event.type)
-		{
-			case SDL_QUIT:
-				this->isRunning = false;
-				break;
-		}
-	}
-	
-	if (InputController::getKey(Key::KEY_ESCAPE))
-	{
-		this->isRunning = false;
-	}
-	
-	this->sceneManager->getCurrent()->inputHandler();
+  this->inputHandler_s->update();
+
+  SDL_Event event;
+
+  while (SDL_PollEvent(&event))
+  {
+    switch (event.type)
+    {
+      case SDL_QUIT:
+        this->isRunning = false;
+        break;
+    }
+  }
+  if (this->inputHandler_s->getState()
+      .keyboard.getKeyState(SDL_SCANCODE_ESCAPE) == KEY_PRESSED)
+  {
+    this->isRunning = false;
+  }
+  
+  this->sceneManager->getCurrent()->inputHandler(this->inputHandler_s,
+      this->clock->delta);
 }
 
 void Game::update()
 {
-	this->sceneManager->getCurrent()->update();
-}
+  this->sceneManager->getCurrent()->update(this->clock->delta);
 
+}
 void Game::render()
 {
-	this->sceneManager->getCurrent()->render(this->windowManager->renderer);
+  this->sceneManager->getCurrent()->render(this->windowManager->renderer);
 }

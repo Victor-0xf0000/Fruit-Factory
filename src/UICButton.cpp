@@ -24,12 +24,12 @@ UICButton::UICButton(int x, int y, const char* msg): UIComponent(ComponentType::
 UICButton::~UICButton()
 {}
 
-void UICButton::input()
+void UICButton::input(InputHandler* inputHandler_s)
 {
-    if (InputController::getMouse(MouseButton::BUTTON_LEFT))
+    if (inputHandler_s->getState().mouse.getMouse(MouseButton::BUTTON_LEFT))
     {
-        int x = InputController::getMousePosition().x;
-        int y = InputController::getMousePosition().y;
+        int x = inputHandler_s->getState().mouse.getMousePosition().x;
+        int y = inputHandler_s->getState().mouse.getMousePosition().y;
 
         if (x > this->x && x < this->x + this->sd->width * this->sd->scale &&
         y > this->y && y < this->y + this->sd->height * this->sd->scale)

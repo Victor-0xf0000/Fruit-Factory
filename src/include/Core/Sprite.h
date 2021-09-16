@@ -8,4 +8,12 @@ struct SpriteData
 	int scale = 1;
 };
 
+static SpriteData createSpriteData(int width, int height,
+      int ssx, int ssy, int scale)
+{
+   SpriteData sd = {.width = width, .height = height, .ssx = ssx, .ssy = ssy,
+   .scale = scale};
+   return sd;
+}
+
 #endif // SPRITE_H

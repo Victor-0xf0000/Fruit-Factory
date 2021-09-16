@@ -363,6 +363,34 @@ CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/StorageTile.cpp -o CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.s
 
+CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
+CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.o: ../src/ConveyorTile.cpp
+CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.o -MF CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/ConveyorTile.cpp
+
+CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/ConveyorTile.cpp > CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.i
+
+CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/ConveyorTile.cpp -o CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.s
+
+CMakeFiles/FruitFactory.dir/src/Tile.cpp.o: CMakeFiles/FruitFactory.dir/flags.make
+CMakeFiles/FruitFactory.dir/src/Tile.cpp.o: ../src/Tile.cpp
+CMakeFiles/FruitFactory.dir/src/Tile.cpp.o: CMakeFiles/FruitFactory.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/FruitFactory.dir/src/Tile.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FruitFactory.dir/src/Tile.cpp.o -MF CMakeFiles/FruitFactory.dir/src/Tile.cpp.o.d -o CMakeFiles/FruitFactory.dir/src/Tile.cpp.o -c /home/appletaart/nature/cc/Fruit-Factory/src/Tile.cpp
+
+CMakeFiles/FruitFactory.dir/src/Tile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FruitFactory.dir/src/Tile.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/appletaart/nature/cc/Fruit-Factory/src/Tile.cpp > CMakeFiles/FruitFactory.dir/src/Tile.cpp.i
+
+CMakeFiles/FruitFactory.dir/src/Tile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FruitFactory.dir/src/Tile.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/appletaart/nature/cc/Fruit-Factory/src/Tile.cpp -o CMakeFiles/FruitFactory.dir/src/Tile.cpp.s
+
 # Object files for target FruitFactory
 FruitFactory_OBJECTS = \
 "CMakeFiles/FruitFactory.dir/src/main.cpp.o" \
@@ -385,7 +413,9 @@ FruitFactory_OBJECTS = \
 "CMakeFiles/FruitFactory.dir/src/UICButton.cpp.o" \
 "CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.o" \
 "CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.o" \
-"CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.o"
+"CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.o" \
+"CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.o" \
+"CMakeFiles/FruitFactory.dir/src/Tile.cpp.o"
 
 # External object files for target FruitFactory
 FruitFactory_EXTERNAL_OBJECTS =
@@ -411,9 +441,11 @@ FruitFactory: CMakeFiles/FruitFactory.dir/src/UICButton.cpp.o
 FruitFactory: CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.o
 FruitFactory: CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.o
 FruitFactory: CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.o
+FruitFactory: CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.o
+FruitFactory: CMakeFiles/FruitFactory.dir/src/Tile.cpp.o
 FruitFactory: CMakeFiles/FruitFactory.dir/build.make
 FruitFactory: CMakeFiles/FruitFactory.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable FruitFactory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/appletaart/nature/cc/Fruit-Factory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable FruitFactory"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FruitFactory.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

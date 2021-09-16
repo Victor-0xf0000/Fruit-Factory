@@ -6,29 +6,32 @@
 
 #include <Core/Sprite.h>
 #include <Core/EntityManager.h>
+#include <Core/Clock.h>
 
 class Game
 {
 public:
-  Game();
-  virtual ~Game();
+   Game();
+   virtual ~Game();
 
-  void run();
-	SDL_Renderer* getRenderer();
-  
-  EntityManager* getEntityManager(); 
+   void run();
+   SDL_Renderer* getRenderer();
+
+   EntityManager* getEntityManager(); 
 private:
-  bool initialize();
-	bool loadData();
+   bool initialize();
+   bool loadData();
 
-  void inputHandler();
-  void update();
-  void render();
+   void inputHandler();
+   void update();
+   void render();
 
-	struct WindowManager* windowManager;
-	struct SceneManager* sceneManager;
+   struct WindowManager* windowManager;
+   struct SceneManager* sceneManager;
+   Clock* clock;
+   struct InputHandler* inputHandler_s;
 
-	bool isRunning;
+   bool isRunning;
 };
 
 #endif // GAME_H

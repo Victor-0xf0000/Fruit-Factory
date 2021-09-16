@@ -8,7 +8,7 @@ UIComponent::UIComponent(ComponentType type)
 UIComponent::~UIComponent()
 {}
 
-void UIComponent::input()
+void UIComponent::input(class InputHandler* inputHandler_s)
 {}
 
 void UIComponent::update()

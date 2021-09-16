@@ -243,4 +243,5 @@ CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o: \
  /usr/include/c++/11.1.0/bits/erase_if.h \
  /home/appletaart/nature/cc/Fruit-Factory/src/include/Tiles/TileSystem.h \
  /home/appletaart/nature/cc/Fruit-Factory/src/include/Tiles/Tile.h \
- /home/appletaart/nature/cc/Fruit-Factory/src/include/Game.h
+ /home/appletaart/nature/cc/Fruit-Factory/src/include/Game.h \
+ /home/appletaart/nature/cc/Fruit-Factory/src/include/Core/Clock.h

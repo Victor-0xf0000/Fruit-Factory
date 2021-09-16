@@ -166,4 +166,5 @@ CMakeFiles/FruitFactory.dir/src/Scene.cpp.o: \
  /home/appletaart/nature/cc/Fruit-Factory/src/include/Game.h \
  /home/appletaart/nature/cc/Fruit-Factory/src/include/SDL2/SDL_image.h \
  /home/appletaart/nature/cc/Fruit-Factory/src/include/SDL2/SDL.h \
- /home/appletaart/nature/cc/Fruit-Factory/src/include/Core/Sprite.h
+ /home/appletaart/nature/cc/Fruit-Factory/src/include/Core/Sprite.h \
+ /home/appletaart/nature/cc/Fruit-Factory/src/include/Core/Clock.h

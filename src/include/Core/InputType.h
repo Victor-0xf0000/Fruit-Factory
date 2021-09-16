@@ -5,43 +5,33 @@
 
 enum Key 
 {
-	A = SDL_SCANCODE_A,
-	B,
-	C,
-	D,
-	E,
-	F,
-	G,
-	H,
-	I,
-	J,
-	K,
-	L,
-	M,
-	N,
-	O,
-	P,
-	Q,
-	R,
-	S,
-	T,
-	U,
-	V,
-	W,
-	X,
-	Y,
-	Z,
-	KEY_0 = SDL_SCANCODE_0,
-	KEY_1 = SDL_SCANCODE_1,
-	KEY_2 = SDL_SCANCODE_2,
-	KEY_3 = SDL_SCANCODE_3,
-	KEY_4 = SDL_SCANCODE_4,
-	KEY_5 = SDL_SCANCODE_5,
-	KEY_6 = SDL_SCANCODE_6,
-	KEY_7 = SDL_SCANCODE_7,
-	KEY_8 = SDL_SCANCODE_8,
-	KEY_9 = SDL_SCANCODE_9,
-	KEY_ESCAPE = SDL_SCANCODE_ESCAPE
+	A = SDLK_a, 
+	B = SDLK_b,
+	C = SDLK_c,
+	D = SDLK_d,
+	E = SDLK_e,
+	F = SDLK_f,
+	G = SDLK_g,
+	H = SDLK_h,
+	I = SDLK_i,
+	J = SDLK_j,
+	K = SDLK_k,
+	L = SDLK_l,
+	M = SDLK_m,
+	N = SDLK_n,
+	O = SDLK_o,
+	P = SDLK_p,
+	Q = SDLK_q,
+	R = SDLK_r,
+	S = SDLK_s,
+	T = SDLK_t,
+	U = SDLK_u,
+	V = SDLK_v,
+	W = SDLK_w,
+	X = SDLK_x,
+	Y = SDLK_y,
+	Z = SDLK_z,
+	KEY_ESCAPE = SDLK_ESCAPE
 };
 
 
@@ -50,6 +40,14 @@ enum MouseButton
 	BUTTON_RIGHT = SDL_BUTTON_RMASK,
 	BUTTON_LEFT = SDL_BUTTON_LMASK,
 	BUTTON_MIDDLE = SDL_BUTTON_MMASK
+};
+
+enum keystate_t
+{
+   KEY_NONE = -1,
+   KEY_RELEASED,
+   KEY_PRESSED, 
+   KEY_HELD
 };
 
 #endif // INPUT_TYPE_H

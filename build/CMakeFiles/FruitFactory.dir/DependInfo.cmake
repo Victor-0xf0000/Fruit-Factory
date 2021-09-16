@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/appletaart/nature/cc/Fruit-Factory/src/BananaBox.cpp" "CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o" "gcc" "CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o.d"
+  "/home/appletaart/nature/cc/Fruit-Factory/src/ConveyorTile.cpp" "CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.o" "gcc" "CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.o.d"
   "/home/appletaart/nature/cc/Fruit-Factory/src/Entity.cpp" "CMakeFiles/FruitFactory.dir/src/Entity.cpp.o" "gcc" "CMakeFiles/FruitFactory.dir/src/Entity.cpp.o.d"
   "/home/appletaart/nature/cc/Fruit-Factory/src/EntityManager.cpp" "CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o" "gcc" "CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o.d"
   "/home/appletaart/nature/cc/Fruit-Factory/src/Game.cpp" "CMakeFiles/FruitFactory.dir/src/Game.cpp.o" "gcc" "CMakeFiles/FruitFactory.dir/src/Game.cpp.o.d"
@@ -22,6 +23,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/appletaart/nature/cc/Fruit-Factory/src/Sprite.cpp" "CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o" "gcc" "CMakeFiles/FruitFactory.dir/src/Sprite.cpp.o.d"
   "/home/appletaart/nature/cc/Fruit-Factory/src/StorageTile.cpp" "CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.o" "gcc" "CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.o.d"
   "/home/appletaart/nature/cc/Fruit-Factory/src/TestScene.cpp" "CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o" "gcc" "CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o.d"
+  "/home/appletaart/nature/cc/Fruit-Factory/src/Tile.cpp" "CMakeFiles/FruitFactory.dir/src/Tile.cpp.o" "gcc" "CMakeFiles/FruitFactory.dir/src/Tile.cpp.o.d"
   "/home/appletaart/nature/cc/Fruit-Factory/src/TileSystem.cpp" "CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.o" "gcc" "CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.o.d"
   "/home/appletaart/nature/cc/Fruit-Factory/src/UICButton.cpp" "CMakeFiles/FruitFactory.dir/src/UICButton.cpp.o" "gcc" "CMakeFiles/FruitFactory.dir/src/UICButton.cpp.o.d"
   "/home/appletaart/nature/cc/Fruit-Factory/src/UIComponent.cpp" "CMakeFiles/FruitFactory.dir/src/UIComponent.cpp.o" "gcc" "CMakeFiles/FruitFactory.dir/src/UIComponent.cpp.o.d"

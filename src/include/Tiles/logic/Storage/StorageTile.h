@@ -13,7 +13,7 @@ struct StorageTile: Tile
 
    void 
    updateNearbyEntities(class TileSystem* tileSystem) override;   
-   void nearbyUpdate(const float dt)
+   void nearbyUpdate(const float dt, class TileSystem* tileSystem)
    {
       fLOG("Tile updated by nearbyUpdate");
    }

@@ -9,7 +9,7 @@ public:
     UIMenu();
     virtual ~UIMenu();
 
-    virtual void onMouseClick();
+    virtual void onMouseClick(class InputHandler* inputHandler_s);
     virtual void update();
     virtual void render(SDL_Renderer* renderer);
 };

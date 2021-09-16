@@ -153,6 +153,30 @@ src/BananaBox.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.s
 .PHONY : src/BananaBox.cpp.s
 
+src/ConveyorTile.o: src/ConveyorTile.cpp.o
+.PHONY : src/ConveyorTile.o
+
+# target to build an object file
+src/ConveyorTile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.o
+.PHONY : src/ConveyorTile.cpp.o
+
+src/ConveyorTile.i: src/ConveyorTile.cpp.i
+.PHONY : src/ConveyorTile.i
+
+# target to preprocess a source file
+src/ConveyorTile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.i
+.PHONY : src/ConveyorTile.cpp.i
+
+src/ConveyorTile.s: src/ConveyorTile.cpp.s
+.PHONY : src/ConveyorTile.s
+
+# target to generate assembly for a file
+src/ConveyorTile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.s
+.PHONY : src/ConveyorTile.cpp.s
+
 src/Entity.o: src/Entity.cpp.o
 .PHONY : src/Entity.o
 
@@ -465,6 +489,30 @@ src/TestScene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/TestScene.cpp.s
 .PHONY : src/TestScene.cpp.s
 
+src/Tile.o: src/Tile.cpp.o
+.PHONY : src/Tile.o
+
+# target to build an object file
+src/Tile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/Tile.cpp.o
+.PHONY : src/Tile.cpp.o
+
+src/Tile.i: src/Tile.cpp.i
+.PHONY : src/Tile.i
+
+# target to preprocess a source file
+src/Tile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/Tile.cpp.i
+.PHONY : src/Tile.cpp.i
+
+src/Tile.s: src/Tile.cpp.s
+.PHONY : src/Tile.s
+
+# target to generate assembly for a file
+src/Tile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FruitFactory.dir/build.make CMakeFiles/FruitFactory.dir/src/Tile.cpp.s
+.PHONY : src/Tile.cpp.s
+
 src/TileSystem.o: src/TileSystem.cpp.o
 .PHONY : src/TileSystem.o
 
@@ -645,6 +693,9 @@ help:
 	@echo "... src/BananaBox.o"
 	@echo "... src/BananaBox.i"
 	@echo "... src/BananaBox.s"
+	@echo "... src/ConveyorTile.o"
+	@echo "... src/ConveyorTile.i"
+	@echo "... src/ConveyorTile.s"
 	@echo "... src/Entity.o"
 	@echo "... src/Entity.i"
 	@echo "... src/Entity.s"
@@ -684,6 +735,9 @@ help:
 	@echo "... src/TestScene.o"
 	@echo "... src/TestScene.i"
 	@echo "... src/TestScene.s"
+	@echo "... src/Tile.o"
+	@echo "... src/Tile.i"
+	@echo "... src/Tile.s"
 	@echo "... src/TileSystem.o"
 	@echo "... src/TileSystem.i"
 	@echo "... src/TileSystem.s"

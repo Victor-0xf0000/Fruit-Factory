@@ -10,7 +10,7 @@ public:
     UICButton(int x, int y, const char* msg);
     virtual ~UICButton();
 
-    void input() override;
+    void input(class InputHandler* inputHandler_s) override;
     void update() override;
     void render(SDL_Renderer* renderer) override; 
 

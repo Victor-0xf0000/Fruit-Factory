@@ -234,6 +234,7 @@ CMakeFiles/FruitFactory.dir/src/Level.cpp.o: \
  /home/appletaart/nature/cc/Fruit-Factory/src/include/Game.h \
  /home/appletaart/nature/cc/Fruit-Factory/src/include/SDL2/SDL_image.h \
  /home/appletaart/nature/cc/Fruit-Factory/src/include/SDL2/SDL.h \
+ /home/appletaart/nature/cc/Fruit-Factory/src/include/Core/Clock.h \
  /usr/include/c++/11.1.0/fstream /usr/include/c++/11.1.0/istream \
  /usr/include/c++/11.1.0/ios /usr/include/c++/11.1.0/bits/basic_ios.h \
  /usr/include/c++/11.1.0/bits/locale_facets.h \

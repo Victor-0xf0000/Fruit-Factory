@@ -3,9 +3,11 @@
 
 enum EntityType 
 {
-    air,
-    bananaBox,
-    inputBlock
+   air = 0,
+   bananaBox,
+   inputBlock,
+   conveyorTile,
+   pseudoTile
 };
 
 #endif // ENTITY_TYPES_H

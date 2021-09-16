@@ -13,8 +13,8 @@ public:
 	
 	virtual void loadData(struct Game* game);
 
-	virtual void inputHandler();
-	virtual void update();
+	virtual void inputHandler(struct InputHandler* inputHandler_s, const float dt);
+	virtual void update(const float dt);
 	virtual void render(SDL_Renderer* renderer);
 
 	EntityManager* getEntityManager();

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o"
   "CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o.d"
+  "CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.o"
+  "CMakeFiles/FruitFactory.dir/src/ConveyorTile.cpp.o.d"
   "CMakeFiles/FruitFactory.dir/src/Entity.cpp.o"
   "CMakeFiles/FruitFactory.dir/src/Entity.cpp.o.d"
   "CMakeFiles/FruitFactory.dir/src/EntityManager.cpp.o"
@@ -27,6 +29,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/FruitFactory.dir/src/StorageTile.cpp.o.d"
   "CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o"
   "CMakeFiles/FruitFactory.dir/src/TestScene.cpp.o.d"
+  "CMakeFiles/FruitFactory.dir/src/Tile.cpp.o"
+  "CMakeFiles/FruitFactory.dir/src/Tile.cpp.o.d"
   "CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.o"
   "CMakeFiles/FruitFactory.dir/src/TileSystem.cpp.o.d"
   "CMakeFiles/FruitFactory.dir/src/UICButton.cpp.o"

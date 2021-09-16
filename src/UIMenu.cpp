@@ -15,7 +15,7 @@ void UIMenu::update()
 
 }
 
-void UIMenu::onMouseClick()
+void UIMenu::onMouseClick(class InputHandler* inputHandler_s)
 {
     
 }

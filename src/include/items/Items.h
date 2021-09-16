@@ -1,8 +1,17 @@
 #ifndef ITEMS_H
 #define ITEMS_H
 
-static const unsigned ITEM_APPLE                    = 1;
-static const unsigned ITEM_CUTTED_APPLE   = 2;
-static const unsigned ITEM_BANANA                 = 3;    
-static const unsigned ITEM_CUTTED_BANANA = 4;
+enum ItemType
+{
+   ITEM_APPLE,
+   ITEM_CUTTED_APPLE,
+   ITEM_BANANA,
+   ITEM_CUTTED_BANANA
+};
+
+struct Item
+{
+   ItemType type;
+};
+
 #endif // ITEMS_H

@@ -9,30 +9,32 @@
 
 class TestScene: public Scene
 {
-public:
-	TestScene();
-	virtual ~TestScene();
-	
-	void loadData(Game* game) override;
-	void saveLevel();
+  public:
+    TestScene();
+    virtual ~TestScene();
 
-	void inputHandler() override;
-	void update() override;
-	void render(SDL_Renderer* renderer) override;
+    void loadData(Game* game) override;
+    void saveLevel();
 
-private:
-	SDL_Texture* background;
-	SDL_Texture* moldure;
-	class Level* lev;
-	class UICButton* button;
-	class UIEntitySelector* uiEntitySelector;
+    void inputHandler(struct InputHandler* inputHandler_s, const float dt) override;
+    void update(const float dt) override;
+    void render(SDL_Renderer* renderer) override;
 
-   class TileSystem* tileSystem;
+  private:
+    SDL_Texture* background;
+    SDL_Texture* moldure;
+    class Level* lev;
+    class UICButton* button;
+    class UIEntitySelector* uiEntitySelector;
 
-	int mode;
-	enum EntityType blockId;
+    class TileSystem* tileSystem;
 
-	EntityType blockMap[11*11];
+    // Block placement
+    int mode;
+    int rotation;
+    enum EntityType blockId;
+
+    EntityType blockMap[11*11];
 };
 
 #endif // TEST_SCENE_H

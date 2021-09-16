@@ -23,17 +23,16 @@ UIEntitySelector::~UIEntitySelector()
 
 }
 
-void UIEntitySelector::onMouseClick()
+void UIEntitySelector::onMouseClick(InputHandler* inputHandler_s)
 {
-    int x = InputController::getMousePosition().x;
-    int y = InputController::getMousePosition().y;
+    int x = inputHandler_s->getState().mouse.getMousePosition().x;
+    int y = inputHandler_s->getState().mouse.getMousePosition().y;
 
     for (int i = 0; i < this->entityOptions.size(); i++)
     {
         if (isPointOnBox(x, y, this->bsx + i * this->bw, this->bsy, this->bw, this->bh))
         {
             *this->type = this->entityOptions[i];
-            printf("bruh\n");
         }
     }
 }
@@ -76,6 +75,15 @@ void UIEntitySelector::addEntityOption(EntityType id)
             sd.width = 16;
             sd.scale = 3;
             break;
+        }
+        case EntityType::conveyorTile:
+        {
+           sd.ssx = 48;
+           sd.ssy = 0;
+           sd.height = 16;
+           sd.width = 16;
+           sd.scale = 3;
+           break;
         }
     }
 

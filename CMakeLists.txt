@@ -30,6 +30,8 @@ add_executable(FruitFactory "src/main.cpp"
 # Tiles
 "src/TileSystem.cpp"
 "src/StorageTile.cpp"
+"src/ConveyorTile.cpp"
+"src/Tile.cpp"
 )
 
 # target_compile_options(FruitFactory PRIVATE -Wall)

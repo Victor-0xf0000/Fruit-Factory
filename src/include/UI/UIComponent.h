@@ -14,7 +14,7 @@ public:
     UIComponent(ComponentType type);
     virtual ~UIComponent();
     
-    virtual void input();
+    virtual void input(class InputHandler* inputHandler_s);
     virtual void update();
     virtual void render(SDL_Renderer* renderer);
 protected:

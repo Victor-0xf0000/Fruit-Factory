@@ -160,4 +160,6 @@ CMakeFiles/FruitFactory.dir/src/InputController.cpp.o: \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/bits/types/error_t.h \
  /usr/include/c++/11.1.0/bits/charconv.h \
- /usr/include/c++/11.1.0/bits/basic_string.tcc
+ /usr/include/c++/11.1.0/bits/basic_string.tcc \
+ /usr/include/c++/11.1.0/cstring /usr/include/string.h \
+ /usr/include/strings.h

@@ -6,6 +6,7 @@ SceneManager::SceneManager()
 {
 	this->current = "";
 	this->scenes = new std::unordered_map<std::string, Scene*>(); // TODO: make it a stack
+
 }
 
 SceneManager::~SceneManager()

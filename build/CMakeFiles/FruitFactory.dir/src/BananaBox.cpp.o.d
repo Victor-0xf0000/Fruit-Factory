@@ -172,4 +172,5 @@ CMakeFiles/FruitFactory.dir/src/BananaBox.cpp.o: \
  /usr/include/c++/11.1.0/bits/stl_uninitialized.h \
  /usr/include/c++/11.1.0/bits/stl_vector.h \
  /usr/include/c++/11.1.0/bits/stl_bvector.h \
- /usr/include/c++/11.1.0/bits/vector.tcc
+ /usr/include/c++/11.1.0/bits/vector.tcc \
+ /home/appletaart/nature/cc/Fruit-Factory/src/include/Core/Clock.h
