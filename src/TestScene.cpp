@@ -16,7 +16,7 @@
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_ttf.h>
 
-TestScene::TestScene(): Scene()
+TestScene::TestScene(): Scene(), prevTile()
 {
   for (int x = 0; x < 11; x++)
   {
@@ -29,8 +29,6 @@ TestScene::TestScene(): Scene()
 
   this->lev = new Level();
   this->entityManager = new EntityManager();
-
-  this->uiEntitySelector = new UIEntitySelector(600, 0, &this->blockId);
 
   this->tileSystem = new TileSystem(12, 12);
 
@@ -57,12 +55,18 @@ void TestScene::loadData(Game* game)
 
   this->lev->loadLevel(game, "Data/Levels/test.json");
   // this->lev->loadBlockmap(&this->blockMap, "Data/Levels/test.json");
+  
+  this->uiEntitySelector = new UIEntitySelector(598, 0, &this->blockId, game);
 
   this->uiEntitySelector->addEntityOption(EntityType::bananaBox);
   this->uiEntitySelector->addEntityOption(EntityType::inputBlock);
   this->uiEntitySelector->addEntityOption(EntityType::conveyorTile);
 
   this->button = new UICButton(600, 0, "Save");	
+  this->prevTile.sd = createSpriteData(0, 0, 0, 0, 3);
+  this->prevTile.x = 300;
+  this->prevTile.y = 300;
+  this->prevTile.type = EntityType::air;
 }
 
 void TestScene::saveLevel()
@@ -76,9 +80,59 @@ void TestScene::inputHandler(InputHandler* inputHandler_s, const float dt)
   // To place tile 
   if (inputHandler_s->getState().mouse.getMouse(MouseButton::BUTTON_LEFT))
   {
-    // Calls the uitEntitySelector mouse callback
-    // TODO: make a mousePressed, mouseNone, mouseReleased and mouseHeld
     this->uiEntitySelector->onMouseClick(inputHandler_s);
+    
+    int ssx = 0, ssy = 0;
+    EntityType type = this->uiEntitySelector->getEntityType();
+
+    if (type != EntityType::air)
+    {
+      switch (type)
+      {
+        case EntityType::bananaBox:
+          {
+            ssy = 0;
+            ssx = 0;
+            break;
+          }
+        case EntityType::inputBlock:
+          {
+            ssy = 0;
+            ssx = 32;
+            break;
+          }
+        case EntityType::conveyorTile:
+          {
+            ssx = 48;
+            switch (this->rotation)
+            {
+              case 0:
+              ssy = 0;
+              break;
+
+              case 1:
+              ssy = 16;
+              break;
+
+              case 2:
+              ssy = 32;
+              break;
+
+              case 3:
+              ssy = 48;
+              break;
+            }
+
+            break;
+          }
+      }
+    }
+    this->prevTile.sd.ssx = ssx;
+    this->prevTile.sd.ssy = ssy;
+    this->prevTile.sd.width = 16;
+    this->prevTile.sd.height = 16;
+    this->prevTile.sd.scale = 3;
+    this->prevTile.type = type;
 
     // Is the mouse position square on the square grid?
     if ((inputHandler_s->getState().mouse.getMousePosition().x / 48 <
@@ -92,46 +146,8 @@ void TestScene::inputHandler(InputHandler* inputHandler_s, const float dt)
       EntityType type = this->uiEntitySelector->getEntityType();
 
       // Texture for undefined
-      sd.ssx = 112;
-      sd.ssy = 0;
-
-      switch (type)
-      {
-        case EntityType::bananaBox:
-          {
-            sd.ssx = 0;
-            break;
-          }
-        case EntityType::inputBlock:
-          {
-            sd.ssx = 32;
-            break;
-          }
-        case EntityType::conveyorTile:
-          {
-            sd.ssx = 48;
-            switch (this->rotation)
-            {
-              case 0:
-              sd.ssy = 0;
-              break;
-
-              case 1:
-              sd.ssy = 16;
-              break;
-
-              case 2:
-              sd.ssy = 32;
-              break;
-
-              case 3:
-              sd.ssy = 48;
-              break;
-            }
-
-            break;
-          }
-      }
+      sd.ssx = ssx;
+      sd.ssy = ssy;
 
       sd.width = 16;
       sd.height = 16;
@@ -184,12 +200,38 @@ void TestScene::inputHandler(InputHandler* inputHandler_s, const float dt)
   {
     this->rotation++;
     if (this->rotation == 4) this->rotation = 0;
+    
+    if (this->uiEntitySelector->getEntityType() == EntityType::conveyorTile)
+    {
+      switch (this->rotation)
+      {
+        case 0:
+          this->prevTile.sd.ssy = 0;
+          break;
+
+        case 1:
+          this->prevTile.sd.ssy = 16;
+          break;
+
+        case 2:
+          this->prevTile.sd.ssy = 32;
+          break;
+
+        case 3:
+          this->prevTile.sd.ssy = 48;
+          break;
+      }
+    }
   }
 
   for (auto i : this->entityManager->getEntities())
   {
     i->inputHandler();
   }
+
+  Vector2i pos = inputHandler_s->getState().mouse.getMousePosition();
+  this->prevTile.x = (pos.x / 48) * 48;
+  this->prevTile.y = (pos.y / 48) * 48;
 }
 
 void TestScene::update(const float dt)
@@ -215,11 +257,15 @@ void TestScene::render(SDL_Renderer* renderer)
     i->render(renderer);
   }
 
+  Renderer::renderTransparentSpriteData(renderer, &this->prevTile.sd, 
+      this->prevTile.x, this->prevTile.y);
+
   for (auto i : *this->tileSystem->getTiles())
   {
     if (!i->type == EntityType::air)
       Renderer::renderSpriteData(renderer, &i->sd, i->x, i->y);
   } 
+  
 
   Renderer::renderSingleSprite(renderer, this->moldure, 0, 0, 600, 600);
   // this->button->render(renderer);

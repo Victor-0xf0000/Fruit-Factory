@@ -3,6 +3,7 @@
 
 #include <Core/Scene.h>
 #include <Entities/EntityTypes.h>
+#include <Tiles/Tile.h>
 
 #include <SDL2/SDL.h>
 
@@ -33,6 +34,7 @@ class TestScene: public Scene
     int mode;
     int rotation;
     enum EntityType blockId;
+    Tile prevTile;
 
     EntityType blockMap[11*11];
 };

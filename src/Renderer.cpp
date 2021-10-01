@@ -4,6 +4,7 @@
 #include <Core/Entity.h>
 
 SDL_Texture* Renderer::spritesheet = nullptr;
+SDL_Texture* Renderer::alphaSpritesheet = nullptr;
 TTF_Font* Renderer::font = nullptr;
 
 bool Renderer::loadSpriteSheet(SDL_Renderer* renderer, const char* path)
@@ -24,6 +25,10 @@ bool Renderer::loadSpriteSheet(SDL_Renderer* renderer, const char* path)
         printf("%s\n", path);
         return false;
     }
+    
+    // if you do alphaSpritesheet = spritesheet, the spritesheet would be opace too
+    Renderer::alphaSpritesheet = IMG_LoadTexture(renderer, path);
+    SDL_SetTextureAlphaMod(Renderer::alphaSpritesheet, 190);
     return true;
 }
 
@@ -69,6 +74,15 @@ void Renderer::renderSpriteData(SDL_Renderer* renderer, SpriteData* sd, int x, i
     SDL_Rect dstRect = {.x = x, .y = y, .w = sd->width * sd->scale, .h = sd->height * sd->scale};
 
     SDL_RenderCopy(renderer, Renderer::spritesheet, &srcRect, &dstRect);
+}
+
+void Renderer::renderTransparentSpriteData(SDL_Renderer* renderer, SpriteData* sd, int x, int y)
+{
+
+    SDL_Rect srcRect = {.x = sd->ssx, .y = sd->ssy, .w = sd->width, .h = sd->height};
+    SDL_Rect dstRect = {.x = x, .y = y, .w = sd->width * sd->scale, .h = sd->height * sd->scale};
+
+    SDL_RenderCopy(renderer, Renderer::alphaSpritesheet, &srcRect, &dstRect);
 }
 
 void Renderer::drawText(SDL_Renderer* renderer, const char* string, int x, int y)

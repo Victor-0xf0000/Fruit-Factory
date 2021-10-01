@@ -8,13 +8,14 @@
 class UIEntitySelector : public UIMenu
 {
 public:
-  UIEntitySelector(int x, int y, EntityType* type);
+  UIEntitySelector(int x, int y, EntityType* type, class Game* game);
   virtual ~UIEntitySelector();
 
   void onMouseClick(class InputHandler* inputHandler_s) override;
   void update() override;
   void render(SDL_Renderer* renderer) override;
   void addEntityOption(EntityType id);
+
   EntityType getEntityType() const
   {
     return *this->type;
@@ -34,6 +35,10 @@ private:
   int bsy; // box start y
   int bw; // box width
   int bh; // box height
+  
+  // Background
+  SDL_Texture* background;
+  
 };
 
 #endif // UI_ENTITY_SELECTOR_H

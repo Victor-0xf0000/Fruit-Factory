@@ -173,4 +173,6 @@ CMakeFiles/FruitFactory.dir/src/UIEntitySelector.cpp.o: \
  /home/appletaart/nature/cc/Fruit-Factory/src/include/Core/Renderer.h \
  /home/appletaart/nature/cc/Fruit-Factory/src/include/SDL2/SDL_ttf.h \
  /home/appletaart/nature/cc/Fruit-Factory/src/include/SDL2/SDL.h \
- /home/appletaart/nature/cc/Fruit-Factory/src/include/SDL2/SDL_image.h
+ /home/appletaart/nature/cc/Fruit-Factory/src/include/SDL2/SDL_image.h \
+ /home/appletaart/nature/cc/Fruit-Factory/src/include/Game.h \
+ /home/appletaart/nature/cc/Fruit-Factory/src/include/Core/Clock.h

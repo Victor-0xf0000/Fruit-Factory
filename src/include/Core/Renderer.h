@@ -17,6 +17,9 @@ struct Renderer
     static void renderSpriteData(SDL_Renderer* renderer, 
           class SpriteData* sd, int x, int y);
     
+    static void renderTransparentSpriteData(SDL_Renderer* renderer,
+          class SpriteData* sd, int x, int y);
+
     static void drawText(SDL_Renderer* renderer, 
           const char* string, int x, int y);
 
@@ -28,6 +31,7 @@ struct Renderer
    
 
     static SDL_Texture* spritesheet;
+    static SDL_Texture* alphaSpritesheet;
     static TTF_Font* font;
 };
 

@@ -10,28 +10,29 @@
 
 class Game
 {
-public:
-   Game();
-   virtual ~Game();
+  public:
+    Game();
+    virtual ~Game();
 
-   void run();
-   SDL_Renderer* getRenderer();
+    void run();
+    SDL_Renderer* getRenderer();
 
-   EntityManager* getEntityManager(); 
-private:
-   bool initialize();
-   bool loadData();
+    EntityManager* getEntityManager(); 
+  private:
+    bool initialize();
+    bool loadData();
 
-   void inputHandler();
-   void update();
-   void render();
+    void inputHandler();
+    void update();
+    void render();
 
-   struct WindowManager* windowManager;
-   struct SceneManager* sceneManager;
-   Clock* clock;
-   struct InputHandler* inputHandler_s;
+    struct WindowManager* windowManager;
+    struct SceneManager* sceneManager;
+    Clock* clock;
+    struct InputHandler* inputHandler_s;
 
-   bool isRunning;
+
+    bool isRunning;
 };
 
 #endif // GAME_H
